@@ -1,0 +1,772 @@
+{
+    "Dried Long Grass": {
+        "Name": "Dried Long Grass",
+        "Type": "Material",
+        "Value": "2.5",
+        "Rarity": "10",
+        "Base Region": "Plains"
+    },
+    "Orange Vine": {
+        "Name": "Orange Vine",
+        "Type": "Material",
+        "Value": "5",
+        "Rarity": "4",
+        "Base Region": "Jungle"
+    },
+    "Vine": {
+        "Name": "Vine",
+        "Type": "Material",
+        "Value": "3",
+        "Rarity": "8",
+        "Base Region": "Jungle"
+    },
+    "Yellow Vine": {
+        "Name": "Yellow Vine",
+        "Type": "Plant",
+        "Value": "5",
+        "Rarity": "3",
+        "Base Region": "Jungle"
+    },
+    "Diamond": {
+        "Name": "Diamond",
+        "Type": "Material",
+        "Value": "700",
+        "Rarity": ".5",
+        "Base Region": "Mines"
+    },
+    "Platinum": {
+        "Name": "Platinum",
+        "Type": "Material",
+        "Value": "1050",
+        "Rarity": ".6",
+        "Base Region": "Mines"
+    },
+    "Amethyst": {
+        "Name": "Amethyst",
+        "Type": "Gem",
+        "Value": "100",
+        "Rarity": ".4",
+        "Base Region": "Mines"
+    },
+    "Gold": {
+        "Name": "Gold",
+        "Type": "Material",
+        "Value": "1000",
+        "Rarity": ".6",
+        "Base Region": "Mines"
+    },
+    "Silver": {
+        "Name": "Silver",
+        "Type": "Material",
+        "Value": "150",
+        "Rarity": ".8",
+        "Base Region": "Mines"
+    },
+    "Crystal": {
+        "Name": "Crystal",
+        "Type": "Material",
+        "Value": "70",
+        "Rarity": ".6",
+        "Base Region": "Mines"
+    },
+    "Grass": {
+        "Name": "Grass",
+        "Type": "Plant",
+        "Value": "1",
+        "Rarity": "10",
+        "Base Region": "Plains"
+    },
+    "Long Grass": {
+        "Name": "Long Grass",
+        "Type": "Plant",
+        "Value": "1.5",
+        "Rarity": "9",
+        "Base Region": "Plains"
+    },
+    "Steel": {
+        "Name": "Steel",
+        "Type": "Material",
+        "Value": "70",
+        "Rarity": "2",
+        "Base Region": "Mines"
+    },
+    "Iron": {
+        "Name": "Iron",
+        "Type": "Material",
+        "Value": "50",
+        "Rarity": "5",
+        "Base Region": "Mines"
+    },
+    "Cucumber": {
+        "Name": "Cucumber",
+        "Type": "Plant",
+        "Value": "15",
+        "Rarity": ".9",
+        "Base Region": "Plains"
+    },
+    "Potion of Minor Healing": {
+        "Name": "Potion of Minor Healing",
+        "Type": "Potion",
+        "Value": "700",
+        "Rarity": "1",
+        "Base Region": "Developed Area"
+    },
+    "Arrow": {
+        "Name": "Arrow",
+        "Type": "Ammo",
+        "Value": "20",
+        "Rarity": "5",
+        "Base Region": "Developed Area"
+    },
+    "Half Plate": {
+        "Name": "Half Plate",
+        "Type": "Armor",
+        "Value": "5000",
+        "Rarity": ".75",
+        "Base Region": "Developed Area"
+    },
+    "Cloak of Invisibility": {
+        "Name": "Cloak of Invisibility",
+        "Type": "Magic",
+        "Value": "15000",
+        "Rarity": ".01",
+        "Base Region": "Developed Area"
+    },
+    "Redvine": {
+        "Name": "Redvine",
+        "Type": "Material",
+        "Value": "100",
+        "Rarity": ".5",
+        "Base Region": "Jungle"
+    },
+    "Potion of Healing": {
+        "Name": "Potion of Minor Healing",
+        "Type": "Potion",
+        "Value": "1200",
+        "Rarity": ".5",
+        "Base Region": "Developed Area"
+    },
+    "Potion of Major Healing": {
+        "Name": "Potion of Major Healing",
+        "Type": "otion",
+        "Value": "1700",
+        "Rarity": ".4",
+        "Base Region": "Developed Area"
+    },
+    "Glass Flask": {
+        "Name": "Glass Flask",
+        "Type": "Potion",
+        "Value": "170",
+        "Rarity": ".8",
+        "Base Region": "Developed Area"
+    },
+    "Chain Mail": {
+        "Name": "Chain Mail",
+        "Type": "Armor",
+        "Value": "800",
+        "Rarity": ".6",
+        "Base Region": "Developed Area"
+    },
+    "Iron Sword (Rusty)": {
+        "Name": "Iron Sword (Rusty)",
+        "Type": "Weapon",
+        "Value": "500",
+        "Rarity": "1.1",
+        "Base Region": "Developed Area"
+    },
+    "Iron Sword (Good)": {
+        "Name": "Iron Sword (Good)",
+        "Type": "Weapon",
+        "Value": "900",
+        "Rarity": ".85",
+        "Base Region": "Developed Area"
+    },
+    "Spell Scroll of Fireball": {
+        "Name": "Spell Scroll of Fireball",
+        "Type": "Magic",
+        "Value": "4000",
+        "Rarity": ".2",
+        "Base Region": "Developed Area"
+    },
+    "Spell Scroll of Acid Arrow": {
+        "Name": "Spell Scroll of Acid Arrow",
+        "Type": "Magic",
+        "Value": "2000",
+        "Rarity": ".3",
+        "Base Region": "Developed Area"
+    },
+    "Spell Scroll of Alarm": {
+        "Name": "Spell Scroll of Alarm",
+        "Type": "Magic",
+        "Value": "600",
+        "Rarity": ".5",
+        "Base Region": "Developed Area"
+    },
+    "Spell Scroll of Animal Messenger": {
+        "Name": "Spell Scroll of Animal Messenger",
+        "Type": "Magic",
+        "Value": "1000",
+        "Rarity": ".3",
+        "Base Region": "Developed Area"
+    },
+    "Spell Scroll of Minor Illusion": {
+        "Name": "Spell Scroll of Minor Illusion",
+        "Type": "Magic",
+        "Value": "1000",
+        "Rarity": ".4",
+        "Base Region": "Developed Area"
+    },
+    "Spell Scroll of Poison Spray": {
+        "Name": "Spell Scroll of Poison Spray",
+        "Type": "Magic",
+        "Value": "1000",
+        "Rarity": ".4",
+        "Base Region": "Developed Area"
+    },
+    "Spell Scroll of Resistance": {
+        "Name": "Spell Scroll of Resistance",
+        "Type": "Magic",
+        "Value": "1000",
+        "Rarity": ".32",
+        "Base Region": "Developed Area"
+    },
+    "Spell Scroll of Thunderclap": {
+        "Name": "Spell Scroll of Thunderclap",
+        "Type": "Magic",
+        "Value": "2000",
+        "Rarity": ".34",
+        "Base Region": "Developed Area"
+    },
+    "Antitoxin": {
+        "Name": "Antitoxin",
+        "Type": "Potion",
+        "Value": "1000",
+        "Rarity": ".1",
+        "Base Region": "Jungle"
+    },
+    "Backpack": {
+        "Name": "Backpack",
+        "Type": "Equipment",
+        "Value": "300",
+        "Rarity": ".5",
+        "Base Region": "Developed Area"
+    },
+    "Bag of Holding": {
+        "Name": "Bag of Holding",
+        "Type": "Magic",
+        "Value": "5000",
+        "Rarity": ".05",
+        "Base Region": "Magic Lands"
+    },
+    "Bag of Tricks": {
+        "Name": "Bag of Tricks",
+        "Type": "Magic",
+        "Value": "3000",
+        "Rarity": ".001",
+        "Base Region": "Magic Lands"
+    },
+    "Battle Axe": {
+        "Name": "Battle Axe",
+        "Type": "Weapon",
+        "Value": "1000",
+        "Rarity": ".8",
+        "Base Region": "Anywhere"
+    },
+    "Battle Axe +1": {
+        "Name": "Battle Axe (Good)",
+        "Type": "Weapon",
+        "Value": "1500",
+        "Rarity": ".5",
+        "Base Region": "Anywhere"
+    },
+    "Beserker Axe": {
+        "Name": "Beserker Axe",
+        "Type": "Weapon",
+        "Value": "3000",
+        "Rarity": ".1",
+        "Base Region": "Anywhere"
+    },
+    "Blowgun": {
+        "Name": "Blowgun",
+        "Type": "Weapon",
+        "Value": "700",
+        "Rarity": "1",
+        "Base Region": "Jungle"
+    },
+    "Belt of Giant Strength": {
+        "Name": "Belt of Giant Strength",
+        "Type": "Equipment",
+        "Value": "6000",
+        "Rarity": ".001",
+        "Base Region": "Developed Area"
+    },
+    "Boots of Speed": {
+        "Name": "Boots of Speed",
+        "Type": "Equipment",
+        "Value": "5000",
+        "Rarity": ".003",
+        "Base Region": "Developed Area"
+    },
+    "Bracers of Defense": {
+        "Name": "Bracers of Defense",
+        "Type": "Equipment",
+        "Value": "5450",
+        "Rarity": ".002",
+        "Base Region": "Developed Area"
+    },
+    "Carpet of Flying": {
+        "Name": "Carpet of Flying",
+        "Type": "Equipment",
+        "Value": "15000",
+        "Rarity": ".0001",
+        "Base Region": "Developed Area"
+    },
+    "Chain Shirt +3": {
+        "Name": "Chain Shirt +3",
+        "Type": "Equipment",
+        "Value": "6000",
+        "Rarity": ".1",
+        "Base Region": "Developed Area"
+    },
+    "Cloak of Elvenkind": {
+        "Name": "Cloak of Elvenkind",
+        "Type": "Equipment",
+        "Value": "10000",
+        "Rarity": ".001",
+        "Base Region": "Developed Area"
+    },
+    "Deck of Illusions": {
+        "Name": "Deck of Illusions",
+        "Type": "Equipment",
+        "Value": "8000",
+        "Rarity": ".001",
+        "Base Region": "Developed Area"
+    },
+    "Dart": {
+        "Name": "Dart",
+        "Type": "Ammo",
+        "Value": "75",
+        "Rarity": "3",
+        "Base Region": "Anywhere"
+    },
+    "Dart +1": {
+        "Name": "Dart +1",
+        "Type": "Ammo",
+        "Value": "100",
+        "Rarity": ".7",
+        "Base Region": "Anywhere"
+    },
+    "Dart +2": {
+        "Name": "Dart +2",
+        "Type": "Ammo",
+        "Value": "150",
+        "Rarity": ".4",
+        "Base Region": "Anywhere"
+    },
+    "Dart +3": {
+        "Name": "Dart +3",
+        "Type": "Ammo",
+        "Value": "200",
+        "Rarity": ".2",
+        "Base Region": "Anywhere"
+    },
+    "Dungeoneer's Pack": {
+        "Name": "Dungeoneer's Pack",
+        "Type": "Equipment",
+        "Value": "2000",
+        "Rarity": ".5",
+        "Base Region": "Anywhere"
+    },
+    "Elven Chain": {
+        "Name": "Elven Chain",
+        "Type": "Equipment",
+        "Value": "700",
+        "Rarity": ".1",
+        "Base Region": "Anywhere"
+    },
+    "Explorer's Pack": {
+        "Name": "Explorer's Pack",
+        "Type": "Equipment",
+        "Value": "2000",
+        "Rarity": ".5",
+        "Base Region": "Anywhere"
+    },
+    "Blue Sapphire": {
+        "Name": "Blue Sapphire",
+        "Type": "Gem",
+        "Value": "1000",
+        "Rarity": ".2",
+        "Base Region": "Mines"
+    },
+    "Yellow Diamond": {
+        "Name": "Yellow Diamond",
+        "Type": "Gem",
+        "Value": "1000",
+        "Rarity": ".2",
+        "Base Region": "Mines"
+    },
+    "Red Corundum": {
+        "Name": "Red Corundum",
+        "Type": "Gem",
+        "Value": "1000",
+        "Rarity": ".2",
+        "Base Region": "Mines"
+    },
+    "Emerald": {
+        "Name": "Emerald",
+        "Type": "Gem",
+        "Value": "1000",
+        "Rarity": ".2",
+        "Base Region": "Mines"
+    },
+    "Flail": {
+        "Name": "Flail",
+        "Type": "Weapon",
+        "Value": "700",
+        "Rarity": ".8",
+        "Base Region": "Anywhere"
+    },
+    "Glaive": {
+        "Name": "Glaive",
+        "Type": "Weapon",
+        "Value": "800",
+        "Rarity": ".6",
+        "Base Region": "Anywhere"
+    },
+    "Greataxe": {
+        "Name": "Greataxe",
+        "Type": "Weapon",
+        "Value": "1200",
+        "Rarity": ".4",
+        "Base Region": "Anywhere"
+    },
+    "Greatsword": {
+        "Name": "Greatsword",
+        "Type": "Weapon",
+        "Value": "1500",
+        "Rarity": ".5",
+        "Base Region": "Developed Area"
+    },
+    "Halberd": {
+        "Name": "Halberd",
+        "Type": "Weapon",
+        "Value": "1500",
+        "Rarity": ".5",
+        "Base Region": "Developed Area"
+    },
+    "Club": {
+        "Name": "Club",
+        "Type": "Weapon",
+        "Value": "600",
+        "Rarity": "1",
+        "Base Region": "Anywhere"
+    },
+    "Club +1": {
+        "Name": "Club +1",
+        "Type": "Weapon",
+        "Value": "800",
+        "Rarity": ".7",
+        "Base Region": "Anywhere"
+    },
+    "Club +2": {
+        "Name": "Club +2",
+        "Type": "Weapon",
+        "Value": "1500",
+        "Rarity": ".3",
+        "Base Region": "Anywhere"
+    },
+    "Crossbow": {
+        "Name": "Crossbow",
+        "Type": "Weapon",
+        "Value": "900",
+        "Rarity": ".9",
+        "Base Region": "Developed Area"
+    },
+    "Crossbow Bolt": {
+        "Name": "Crossbow Bolt",
+        "Type": "Ammo",
+        "Value": "80",
+        "Rarity": "1.1",
+        "Base Region": "Developed Area"
+    },
+    "Dagger": {
+        "Name": "Dagger",
+        "Type": "Weapon",
+        "Value": "500",
+        "Rarity": "5",
+        "Base Region": "Developed Area"
+    },
+    "Deck of Many Things": {
+        "Name": "Deck of Many Things",
+        "Type": "Magic",
+        "Value": "10000",
+        "Rarity": ".0001",
+        "Base Region": "Developed Area"
+    },
+    "Wand": {
+        "Name": "Wand",
+        "Type": "Magic",
+        "Value": "600",
+        "Rarity": "1",
+        "Base Region": "Developed Area"
+    },
+    "War Pick": {
+        "Name": "War Pick",
+        "Type": "Weapon",
+        "Value": "600",
+        "Rarity": ".9",
+        "Base Region": "Anywhere"
+    },
+    "Vicious Battleaxe": {
+        "Name": "Vicious Battleaxe",
+        "Type": "Weapon",
+        "Value": "3000",
+        "Rarity": ".1",
+        "Base Region": "Anywhere"
+    },
+    "Vicious Lance": {
+        "Name": "Vicious Lance",
+        "Type": "Weapon",
+        "Value": "3000",
+        "Rarity": ".1",
+        "Base Region": "Anywhere"
+    },
+    "Vicious Club": {
+        "Name": "Vicious Club",
+        "Type": "Weapon",
+        "Value": "2000",
+        "Rarity": ".1",
+        "Base Region": "Anywhere"
+    },
+    "Vicious Morningstar": {
+        "Name": "Vicious Morningstar",
+        "Type": "Weapon",
+        "Value": "4000",
+        "Rarity": ".1",
+        "Base Region": "Anywhere"
+    },
+    "Vial": {
+        "Name": "Vial",
+        "Type": "Potions",
+        "Value": "100",
+        "Rarity": ".5",
+        "Base Region": "Anywhere"
+    },
+    "Torch": {
+        "Name": "Torch",
+        "Type": "Misc",
+        "Value": "100",
+        "Rarity": ".7",
+        "Base Region": "Anywhere"
+    },
+    "Tinker's Tools": {
+        "Name": "Tinker's Tools",
+        "Type": "Equipment",
+        "Value": "300",
+        "Rarity": ".9",
+        "Base Region": "Anywhere"
+    },
+    "Thieves's Tools": {
+        "Name": "Thieves's Tools",
+        "Type": "Equipment",
+        "Value": "300",
+        "Rarity": ".9",
+        "Base Region": "Anywhere"
+    },
+    "Split Armor": {
+        "Name": "Split Armor",
+        "Type": "Armor",
+        "Value": "4000",
+        "Rarity": ".8",
+        "Base Region": "Developed Area"
+    },
+    "Smith's Tools": {
+        "Name": "Smith's Tools",
+        "Type": "Equipment",
+        "Value": "300",
+        "Rarity": ".9",
+        "Base Region": "Anywhere"
+    },
+    "Sledge Hammer": {
+        "Name": "Sledge Hammer",
+        "Type": "Weapon",
+        "Value": "1000",
+        "Rarity": ".9",
+        "Base Region": "Anywhere"
+    },
+    "Sickle": {
+        "Name": "Sickle",
+        "Type": "Weapon",
+        "Value": "1000",
+        "Rarity": ".9",
+        "Base Region": "Anywhere"
+    },
+    "Shortbow": {
+        "Name": "Shortbow",
+        "Type": "Weapon",
+        "Value": "700",
+        "Rarity": ".9",
+        "Base Region": "Plains"
+    },
+    "Shield": {
+        "Name": "Shield",
+        "Type": "Armor",
+        "Value": "800",
+        "Rarity": "1",
+        "Base Region": "Anywhere"
+    },
+    "Shield of Missile Attraction": {
+        "Name": "Shield of Missile Attraction",
+        "Type": "Armor",
+        "Value": "6000",
+        "Rarity": ".4",
+        "Base Region": "Magic Land"
+    },
+    "Quiver": {
+        "Name": "Quiver",
+        "Type": "Equipment",
+        "Value": "600",
+        "Rarity": ".9",
+        "Base Region": "Plains"
+    },
+    "Portable Hole": {
+        "Name": "Portable Hole",
+        "Type": "Magic",
+        "Value": "7000",
+        "Rarity": ".1",
+        "Base Region": "Magic Lands"
+    },
+    "Nail": {
+        "Name": "Nail",
+        "Type": "Material",
+        "Value": "20",
+        "Rarity": "7",
+        "Base Region": "Anywhere"
+    },
+    "Potion of Flying": {
+        "Name": "Potion of Flying",
+        "Type": "Potion",
+        "Value": "1000",
+        "Rarity": ".5",
+        "Base Region": "Magic Lands"
+    },
+    "Plate Armor": {
+        "Name": "Plate Armor",
+        "Type": "Armor",
+        "Value": "3000",
+        "Rarity": ".5",
+        "Base Region": "Developed Area"
+    },
+    "Plate Armor of Etherealness": {
+        "Name": "Plate Armor of Etherealness",
+        "Type": "Armor",
+        "Value": "15000",
+        "Rarity": ".01",
+        "Base Region": "Magic Lands"
+    },
+    "Plate Armor +2": {
+        "Name": "Plate Armor +2",
+        "Type": "Armor",
+        "Value": "10000",
+        "Rarity": ".1",
+        "Base Region": "Developed Area"
+    },
+    "Pike": {
+        "Name": "Pike",
+        "Type": "Weapon",
+        "Value": "700",
+        "Rarity": ".8",
+        "Base Region": "Anywhere"
+    },
+    "Paper": {
+        "Name": "Paper",
+        "Type": "Material",
+        "Value": "30",
+        "Rarity": "5",
+        "Base Region": "Anywhere"
+    },
+    "Padded Armor": {
+        "Name": "Padded Armor",
+        "Type": "Armor",
+        "Value": "1000",
+        "Rarity": "1",
+        "Base Region": "Plains"
+    },
+    "Oil": {
+        "Name": "Oil",
+        "Type": "Materials",
+        "Value": "50",
+        "Rarity": "1",
+        "Base Region": "Anywhere"
+    },
+    "Oathbow": {
+        "Name": "Oathbow",
+        "Type": "Weapon",
+        "Value": "6000",
+        "Rarity": ".1",
+        "Base Region": "Magic Lands"
+    },
+    "Mithral": {
+        "Name": "Mithral",
+        "Type": "Material",
+        "Value": "1000",
+        "Rarity": ".6",
+        "Base Region": "Mines"
+    },
+    "Mason's Tools": {
+        "Name": "Mason's Tools",
+        "Type": "Equipment",
+        "Value": "1000",
+        "Rarity": ".9",
+        "Base Region": "Mines"
+    },
+    "Shortsword": {
+        "Name": "Shortsword",
+        "Type": "Weapon",
+        "Value": "600",
+        "Rarity": "1",
+        "Base Region": "Anywhere"
+    },
+    "Shortsword +1": {
+        "Name": "Shortsword +1",
+        "Type": "Weapon",
+        "Value": "1000",
+        "Rarity": ".5",
+        "Base Region": "Anywhere"
+    },
+    "Shortsword +2": {
+        "Name": "Shortsword +2",
+        "Type": "Weapon",
+        "Value": "1500",
+        "Rarity": ".3",
+        "Base Region": "Developed Area"
+    },
+    "Longbow": {
+        "Name": "Longbow",
+        "Type": "Weapon",
+        "Value": "700",
+        "Rarity": ".9",
+        "Base Region": "Plains"
+    },
+    "Lock": {
+        "Name": "Lock",
+        "Type": "Misc",
+        "Value": "100",
+        "Rarity": ".9",
+        "Base Region": "Anywhere"
+    },
+    "Javelin of Lightning": {
+        "Name": "Javelin of Lightning",
+        "Type": "Weapon",
+        "Value": "1500",
+        "Rarity": ".6",
+        "Base Region": "Magic Area"
+    },
+    "Mithral Plate Armor": {
+        "Name": "Mithral Plate Armor",
+        "Type": "Armor",
+        "Value": "2000",
+        "Rarity": ".6",
+        "Base Region": "Developed Area"
+    }
+}

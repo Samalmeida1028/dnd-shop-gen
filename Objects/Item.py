@@ -31,12 +31,12 @@ class ItemManager:
         self.itemRegions = []
         self.itemList = {}
         try:
-            with open("Resources/save_data/items.txt", "x") as file:
+            with open("../Resources/save_data/items.txt", "x") as file:
                 file.write(temp)
                 file.close()
         except FileExistsError:
             try:
-                with open("Resources/save_data/items.txt") as file: # loads the json file into a dictionary
+                with open("../Resources/save_data/items.txt") as file: # loads the json file into a dictionary
                     self.itemList = json.load(file)
             except json.decoder.JSONDecodeError:
                 self.itemList = {}
@@ -72,7 +72,7 @@ class ItemManager:
         return item
 
     def saveItems(self): # saves the items to the txt file
-        open('Resources/save_data/items.txt', 'w').close()
-        file = open("Resources/save_data/items.txt", "r+")
+        open('../Resources/save_data/items.txt', 'w').close()
+        file = open("../Resources/save_data/items.txt", "r+")
         json.dump(self.itemList, file, indent=4)
         file.close()

@@ -1,8 +1,7 @@
-import random
 import string
 
-from Shop import *
-from TypeAndRegionManager import *
+from Objects.Shop import *
+from Objects.TypeAndRegionManager import *
 
 
 def main():
@@ -17,9 +16,9 @@ def main():
     nicknames = []
     types.saveTypes()
     regions.saveRegions()
-    adjectiveFile = open("Resources/names/adjectives.txt", "r")  # opens the list of adjectives for names
-    nicknameFile = open("Resources/names/nicknames.txt", "r")  # opens the list of nicknames for names
-    nounFile = open("Resources/names/nouns.txt", "r")  # opens the list of nouns for the names
+    adjectiveFile = open("../Resources/names/adjectives.txt", "r")  # opens the list of adjectives for names
+    nicknameFile = open("../Resources/names/nicknames.txt", "r")  # opens the list of nicknames for names
+    nounFile = open("../Resources/names/nouns.txt", "r")  # opens the list of nouns for the names
     # splits all the files into arrays for random name
     for l in adjectiveFile:
         adjectives = l.split(',')

@@ -1,4 +1,4 @@
-from TypeAndRegionManager import *
+from Objects.TypeAndRegionManager import *
 
 #just used to add new items to the item list
 

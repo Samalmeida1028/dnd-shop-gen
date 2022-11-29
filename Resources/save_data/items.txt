@@ -706,7 +706,7 @@
         "Rarity": ".1",
         "Base Region": "Magic Lands"
     },
-    "Mithral": {
+    "Mithril": {
         "Name": "Mithral",
         "Type": "Material",
         "Value": "1000",

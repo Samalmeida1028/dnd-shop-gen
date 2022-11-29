@@ -1,4 +1,4 @@
-from Item import *
+from Objects.Item import *
 
 
 class TypeManager:
@@ -9,13 +9,13 @@ class TypeManager:
         self.shopTypes = shop.getShopTypes()  # gets all the shop Types
         self.typeManager = {}  # this is to manage the save file for the supported item Types for each shop
         try:
-            with open("Resources/save_data/types.txt", "x") as file:
+            with open("../Resources/save_data/types.txt", "x") as file:
                 file.write("")
                 file.close()
             self.typeList = {}
         except FileExistsError:
             try:
-                with open("Resources/save_data/types.txt") as file:
+                with open("../Resources/save_data/types.txt") as file:
                     self.typeList = json.load(file)
             except json.decoder.JSONDecodeError:
                 self.typeList = {}
@@ -51,7 +51,7 @@ class TypeManager:
         self.addItemType(key, value)
 
     def saveTypes(self):  # saves the types for each shop to the save text file
-        file = open("Resources/save_data/types.txt", "r+")
+        file = open("../Resources/save_data/types.txt", "r+")
         json.dump(self.typeManager, file, indent=4)
         file.close()
 
@@ -60,16 +60,15 @@ class RegionManager:
     def __init__(self, shop, item):
         self.itemRegions = item.getItemRegions()  # gets all the item regions
         self.shopRegions = shop.getShopRegions()  # gets all the shop regions
-        print(self.shopRegions)
         self.regionManager = {}  # this is to manage the save file for the supported item regions for each shop
         try:
-            with open("Resources/save_data/regions.txt", "x") as file:
+            with open("../Resources/save_data/regions.txt", "x") as file:
                 file.write("")
                 file.close()
             self.regionList = {}
         except FileExistsError:
             try:
-                with open("Resources/save_data/regions.txt") as file:
+                with open("../Resources/save_data/regions.txt") as file:
                     self.regionList = json.load(file)
             except json.decoder.JSONDecodeError:
                 self.regionList = {}
@@ -92,7 +91,7 @@ class RegionManager:
 
     def addNewShopRegion(self, key):
         if key not in self.regionManager:
-            self.regionManager.update({key: ""})
+            self.regionManager.update({key: "[]"})
 
     def removeItemRegion(self, key, value):  # removes an item region from a given shop region
         temp = []
@@ -105,11 +104,10 @@ class RegionManager:
 
     def addNewShopItemRegion(self, key, value): # adds a new shop region and a new item region to the shop region
         if (key not in self.regionManager):
-            print(key)
             self.regionManager.update({key: ""})
         self.addItemRegion(key, value)
 
     def saveRegions(self):  # saves the regions for each shop to the save text file
-        file = open("Resources/save_data/regions.txt", "r+")
+        file = open("../Resources/save_data/regions.txt", "r+")
         json.dump(self.regionManager, file, indent=4)
         file.close()

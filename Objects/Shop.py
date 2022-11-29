@@ -1,5 +1,5 @@
 import json
-from Item import ItemManager
+from Objects.Item import ItemManager
 import random
 
 #
@@ -58,14 +58,14 @@ class ShopManager:
         temp = ""
         self.shopList = {}
         try:
-            with open("Resources/save_data/shops.txt",
+            with open("../Resources/save_data/shops.txt",
                       "x") as file:  # sees if the file already exists, if it doesn't create the file
                 file.write(temp)
                 file.close()
         except FileExistsError:
             try:
                 with open(  # if the file does exist then load the file contents to the shopList
-                        "Resources/save_data/shops.txt") as file:
+                        "../Resources/save_data/shops.txt") as file:
                     self.shopList = json.load(file)
             except json.decoder.JSONDecodeError as e:  # if the file is in incorrect json, then don't load it
                 print(e)
@@ -80,8 +80,8 @@ class ShopManager:
         self.shopList[name] = json.loads(shop.str())  # loads the shop to the json string
 
     def saveShops(self):  # saves all the shops into a json file
-        open('Resources/save_data/shops.txt', 'w').close()
-        file = open("Resources/save_data/shops.txt", "r+")
+        open('../Resources/save_data/shops.txt', 'w').close()
+        file = open("../Resources/save_data/shops.txt", "r+")
         json.dump(self.shopList, file, indent=4)
         file.close()
 
@@ -96,7 +96,6 @@ class ShopManager:
         types = {}
         temp = []
         for key in self.shopList:
-            print(self.shopList[key]["Type"])
             if self.shopList[key]["Type"] not in temp:
                 temp.append(self.shopList[key]["Type"])
         types.update({'Shop Types': temp})
@@ -164,8 +163,8 @@ class ShopManager:
         self.shopList[shopName]["Items"][item]["Amount"] = amount
 
     def decreaseShopGoldAmount(self, shopName, gold):
-        amount = int(self.shopList[shopName]["GoldAmount"])
-        amount -= int(gold)
+        amount = int(float(self.shopList[shopName]["GoldAmount"]))
+        amount -= round(gold)
         if(amount < 0):
             amount = 0
         self.shopList[shopName]["GoldAmount"] = amount
@@ -176,11 +175,25 @@ class ShopManager:
     def printShopItems(self,shop):
         printedShop = self.shopList[shop]
         for k in printedShop["Items"]:
-            print("%s : %s, Cost : %s gp" %(k,str(self.shopList[shop]["Items"][k]["Amount"]),str(self.shopList[shop]["Items"][k]["Cost"]/100)))
+            cost = float(self.shopList[shop]["Items"][k]["Cost"])/100
+            if(cost < 1):
+                cost *= 10
+                if(cost > 1):
+                    cost = str(int(cost)) + " sp"
+                else:
+                    cost *= 10
+                    cost = str(int(cost)) + " cp"
+            else:
+                cost = str(int(cost)) + " gp"
+            print("%s : %s, Cost : %s" %(k,str(self.shopList[shop]["Items"][k]["Amount"]),cost))
 
     def printShop(self, shopName):
         shop = self.shopList[shopName]
         print("Shop name is: ", shop["Name"])
         print("Shop type is: ", shop["Type"])
-        print("Shop currently has %s gold" % shop["GoldAmount"]/100)
+        print()
+        print("Shop currently has %s gold" % int(float(shop["GoldAmount"])/100))
+        print()
+        print("||||||||||||||||||||||||||||||||||||||||||||||||")
+        print("||||||||||||||||||||ITEMS|||||||||||||||||||||||")
         self.printShopItems(shop["Name"])

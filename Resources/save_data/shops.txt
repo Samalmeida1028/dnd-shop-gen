@@ -985,10 +985,6 @@
                 "Cost": 651.0,
                 "Amount": 1
             },
-            "Potion of Healing": {
-                "Cost": 5409.0,
-                "Amount": 2
-            },
             "Lock": {
                 "Cost": 348.0,
                 "Amount": 6

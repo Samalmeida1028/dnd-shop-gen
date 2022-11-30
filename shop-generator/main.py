@@ -26,7 +26,7 @@ for l in nicknameFile:
 
 printShop = ['print', 'show']
 printShopList = ['all', 'shops']
-printShopCity = ["shops in city"]
+printShopIn = ["shops in"]
 enterShop = ['enter', 'visit', 'e', 'v']
 buyItem = ['-', 'buy']
 sellItem = ['+', 'sell']
@@ -54,9 +54,10 @@ def splitInput(inp):
 
 def runCommands(argv):
     if argv[0] in printShopList:
+        printAllShops()
         pass
     elif argv[0] in printShopCity:
-        printShopinCity(argv[1])
+        printShopsIn(argv[1])
     elif argv[0] in printShop:
         pass
     elif argv[0] in enterShop:
@@ -336,9 +337,16 @@ def generateName():
     return shopName
 
 
-def printShopinCity(city):
-    shopsinCity = list(shops.getShopByCity(city).keys())
-    print(shopsinCity)
+def printShopsIn(city):
+    allRegions = list(shops.getShopRegions())
+    shopsIn = list(shops.getShopByCity(city).keys())
+    if city in allRegions:
+        shopsIn = list(shops.getShopByRegion(city))
+    print(shopsIn)
 
+def printAllShops():
+    shopsToPrint = list(shops.shopList.keys())
+    for k in shopsToPrint:
+        print(k)
 if __name__ == '__main__':
     main()

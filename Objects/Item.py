@@ -67,7 +67,6 @@ class ItemManager:
         return item;
 
     def getItemName(self,name): #gets an item if given a name
-        print(name)
         item = Item(name, self.itemList[name]["Base Region"], self.itemList[name]["Type"], self.itemList[name]["Value"], self.itemList[name]["Rarity"])
         return item
 

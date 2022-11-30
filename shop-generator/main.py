@@ -1,6 +1,7 @@
 import string
 from Objects.Shop import *
 from Objects.TypeAndRegionManager import *
+import os
 
 shops = ShopManager()
 items = ItemManager()
@@ -24,9 +25,9 @@ nounFile.close()
 for l in nicknameFile:
     nicknames = l.split(",")
 
-printShop = ['print', 'show', 'l']
-printShopList = ['all', 'shops']
-printShopIn = ["shops in"]
+printShop = ['print', 'show']
+printShopList = ['all', 'shops','l']
+printShopIn = ["print shops in", "psi"]
 enterShop = ['enter', 'visit', 'e', 'v']
 buyItem = ['-', 'buy']
 sellItem = ['+', 'sell']
@@ -35,10 +36,9 @@ regionCommand = ["regions"]
 addCommand = ["add", "+"]
 regionManager = ["edit regions", "manage regions"]
 generateCom = ["generate", "make shops", "make", "gen", "gs"]
-
-
+clearScreen = ["cls","clear"]
+helpCommand = ["help", "h"]
 def main():
-    print(shops.shopList)
     inp = ""
     while inp not in exitArea:
         inp = input(">> ")
@@ -58,8 +58,10 @@ def runCommands(argv):
         pass
     elif argv[0] in printShopIn:
         printShopsIn(argv[1])
+    elif argv[0] in helpCommand:
+        printHelp()
     elif argv[0] in printShop:
-        pass
+        shops.printShop(argv[1])
     elif argv[0] in enterShop:
         currentShop(argv[1])
     elif argv[0] in regionCommand:
@@ -68,6 +70,8 @@ def runCommands(argv):
         manageRegions()
     elif argv[0] in generateCom:
         generateShops()
+    elif argv[0] in clearScreen:
+        os.system('cls' if os.name == 'nt' else 'clear')
     elif argv[0] in addCommand:
         if argv[1] == "shop":
             print(
@@ -84,26 +88,32 @@ def runCommands(argv):
 
 
 def buyShopItem(arg, name):
-    try:
-        shops.getItemAmount(name, arg[0])
-    except KeyError:
-        print("Item not in shop")
-        return
+    shops.getItemAmount(name, arg[0])
     amount = 0
+    cost = int(shops.getShopbyName(name)["Items"][arg[0]]["Cost"])
+    print(cost)
     if len(arg) == 1:
         amount = 1
         shops.decreaseShopItemAmount(name, arg[0])
+        shops.increaseShopGoldAmount(name,cost)
         if shops.getItemAmount(name, arg[0]) == 0:
             shops.removeItem(name, arg[0])
     elif len(arg) == 2:
         itemAmount = int(shops.getItemAmount(name, arg[0]))
         while (amount < int(arg[1]) and amount < itemAmount):
             shops.decreaseShopItemAmount(name, arg[0])
+            shops.increaseShopGoldAmount(name, cost)
             if shops.getItemAmount(name, arg[0]) == 0:
                 shops.removeItem(name, arg[0])
             amount += 1
-    cost = amount * items.getItemName(name).baseValue
-    print("Bought %s" % (amount, arg[0]))
+    cost = amount*cost
+    if(int(cost)/100>1):
+        cost = str(cost/100) + " gp"
+    elif(int(cost)/10>1):
+        cost = str(cost/10) + " sp"
+    else:
+        cost = str(cost) + " cp"
+    print("Bought %s %s for %s" % (amount, arg[0],cost))
     shops.saveShops()
 
 
@@ -112,7 +122,6 @@ def sellShopItem(arg, name):
     goldAmount = int(round(float(shop["GoldAmount"])))
     try:
         item = items.getItemName(arg[0])
-        print(item)
     except KeyError:
         print("Item does not exist")
         return
@@ -124,41 +133,49 @@ def sellShopItem(arg, name):
     itemValue = int(round(itemValue))
     if (arg[0] in shop["Items"]):
         if len(arg) == 1:
+            itemAmount = 1
             shops.increaseShopItemAmount(name, arg[0])
             shops.decreaseShopGoldAmount(name, itemValue)
-            print("Sold 1 %s for %s" % (arg[0], itemValue))
         elif len(arg) == 2:
+            itemAmount = int(arg[1])
             amount = 0
-            while (amount < int(arg[1]) and itemValue < goldAmount):
+            while amount < itemAmount and itemValue < goldAmount:
                 shops.increaseShopItemAmount(name, arg[0])
                 shops.decreaseShopGoldAmount(name, itemValue)
                 goldAmount -= itemValue
                 amount += 1
-            print("Sold %s %s(s) for %s" % (amount, arg[0], itemValue * amount))
+            itemAmount = amount
         else:
             print("Invalid command structure.")
+            return
     else:
         if len(arg) == 1:
+            itemAmount = 1
             shops.addNewItem(name, item.name)
             shops.decreaseShopGoldAmount(name, itemValue)
-            print("Sold 1 %s for %s" % (arg[0], itemValue))
         elif len(arg) == 2:
+            itemAmount = int(arg[1])
             shops.addNewItem(name, item.name)
             amount = 1
-            while (amount < int(arg[1]) and goldAmount > 0):
+            while amount < itemAmount and goldAmount > 0:
                 shops.increaseShopItemAmount(name, arg[0])
                 shops.decreaseShopGoldAmount(name, itemValue)
                 goldAmount -= itemValue
                 amount += 1
-            print("Sold %s %s(s) for %s cp" % (amount, arg[0], round(itemValue * amount)))
+            itemAmount = amount
+    cost = itemAmount * itemValue
+    if (int(cost) / 100 > 1):
+        cost = str(cost / 100) + " gp"
+    elif (int(cost) / 10 > 1):
+        cost = str(cost / 10) + " sp"
+    else:
+        cost = str(cost) + " cp"
+    print("Sold %s %s(s) for %s" % (amount, arg[0], cost))
 
 
 def runShopCommands(arg, name):
     if arg[0] in buyItem:
-        try:
-            buyShopItem(arg[1:], name)
-        except KeyError:
-            print("Item is not in shop")
+        buyShopItem(arg[1:], name)
     elif arg[0] in sellItem:
         sellShopItem(arg[1:], name)
     elif arg[0] in printShop:
@@ -169,7 +186,6 @@ def runShopCommands(arg, name):
 
 def currentShop(name):
     name = name.strip()
-    print(name)
     cur = ""
     try:
         shops.printShop(name)
@@ -253,6 +269,8 @@ def makeShopRandom(typeShop, city, owner, region, wealth):
     else:
         wealth = wealth.split("-")
         if len(wealth) == 2:
+            print("hellogen"
+                  "")
             wealth = random.randint(int(wealth[0]), int(wealth[1]))
         else:
             wealth = random.randint(1, int(wealth[0]))
@@ -347,17 +365,69 @@ def generateName():
 
 
 def printShopsIn(city):
+    print("Printing shops in %s."% city)
+    print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
     allRegions = list(shops.getShopRegions())
     shopsIn = list(shops.getShopByCity(city).keys())
     if city in allRegions:
         shopsIn = list(shops.getShopByRegion(city))
-    print(shopsIn)
+    count = 1
+    for k in shopsIn:
+        shop = shops.getShopbyName(k)
+        stringPrint = "| #" + str(count) + ", Shop : " + k + " | Region : " + shop["Region"] + " | City : " + shop["City"] + " |" + " | Wealth : " + shop["Wealth"] + " |"
+        stringSep = "-."*int((len(stringPrint)/2))
+        print(stringPrint)
+        print(stringSep)
+        count+=1
+    print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 
 
 def printAllShops():
     shopsToPrint = list(shops.shopList.keys())
+    count = 1
     for k in shopsToPrint:
-        print(k)
+        shop = shops.getShopbyName(k)
+        stringPrint = "| #" + str(count) + ", Shop : " + k + " | Region : " + shop["Region"] + " | City : " + shop["City"] + " | Wealth : " + shop["Wealth"] + " |"
+        stringSep = "-."*int((len(stringPrint)/2))
+        print(stringPrint)
+        print(stringSep)
+        count+=1
+
+def printHelp():
+    print("All arguments should be separated by a ',', [] indicated required argument, {} indicates optional argument"
+          "\nCommands are: \n"
+          "print,[Shop Name]: prints the shop given a name\n"
+          "----------------------------------------------------------------------------------------------------------\n"
+          "all: prints all shops\n"
+          "----------------------------------------------------------------------------------------------------------\n"
+          "print shops in,[Region/City]: prints shops in a given region or city\n"
+          "----------------------------------------------------------------------------------------------------------\n"
+          "enter,[Shop Name]: Enters a shop\n"
+          "----------------------------------------------------------------------------------------------------------\n"
+          "(in shop) buy,[Item],{Amount}: buys x amount of item from a shop\n"
+          "----------------------------------------------------------------------------------------------------------\n"
+          "(in shop) sell,[Item],{Amount}: sells x amount of item from a shop\n"
+          "----------------------------------------------------------------------------------------------------------\n"
+          "exit: exits area/terminal\n"
+          "----------------------------------------------------------------------------------------------------------\n"
+          "regions: gets all shop regionn"
+          "add: adds new shop\n"
+          "----------------------------------------------------------------------------------------------------------\n"
+          "edit regions: opens the edit region\n"
+          "----------------------------------------------------------------------------------------------------------\n"
+          "(in region manager) add shop region: adds a new region\n"
+          "----------------------------------------------------------------------------------------------------------\n"
+          "(in region manager) add item to region: adds a new item to a region\n"
+          "----------------------------------------------------------------------------------------------------------\n"
+          "(in region manager) print regions: prints all regions\n"
+          "----------------------------------------------------------------------------------------------------------\n"
+          "generate: enters shop generator\n"
+          "----------------------------------------------------------------------------------------------------------\n"
+          "cls: clears screen\n"
+          "----------------------------------------------------------------------------------------------------------\n"
+          "help: prints out list of commands\n"
+          "----------------------------------------------------------------------------------------------------------h\n")
+
 
 
 if __name__ == '__main__':

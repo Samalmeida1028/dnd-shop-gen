@@ -147,7 +147,7 @@ class ShopManager:
         cost /= (float(newItem["Rarity"])*random.uniform(.5,.9))
         if(newItem["Base Region"] == shop["Region"]):
             cost /= 1.2
-        cost = min(cost,5.0)
+        cost = max(cost,5.0)
         self.shopList[shopName]["Items"].update({itemName: {"Cost": cost, "Amount": "1"}})
 
     def increaseShopItemAmount(self, shopName, itemName):
@@ -169,6 +169,13 @@ class ShopManager:
             amount = 0
         self.shopList[shopName]["GoldAmount"] = amount
 
+    def increaseShopGoldAmount(self, shopName, gold):
+        amount = int(float(self.shopList[shopName]["GoldAmount"]))
+        amount += round(gold)
+        if(amount < 0):
+            amount = 0
+        self.shopList[shopName]["GoldAmount"] = amount
+
     def getShopbyName(self, name):
         return self.shopList[name]
 
@@ -179,18 +186,20 @@ class ShopManager:
             if(cost < 1):
                 cost *= 10
                 if(cost > 1):
-                    cost = str(int(cost)) + " sp"
+                    cost = str.format("%.1f"%float(cost)) + " sp"
                 else:
                     cost *= 10
                     cost = str(int(cost)) + " cp"
             else:
-                cost = str(int(cost)) + " gp"
+                cost = str.format("%.2f"%float(cost)) + " gp"
             print("%s : %s, Cost : %s" %(k,str(self.shopList[shop]["Items"][k]["Amount"]),cost))
 
     def printShop(self, shopName):
         shop = self.shopList[shopName]
         print("Shop name is: ", shop["Name"])
         print("Shop type is: ", shop["Type"])
+        print("Shop City is: ", shop["City"])
+        print("Shop Notes are: ", shop["Notes"])
         print()
         print("Shop currently has %s gold" % int(float(shop["GoldAmount"])/100))
         print()

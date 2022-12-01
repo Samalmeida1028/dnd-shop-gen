@@ -90,6 +90,7 @@ def runCommands(argv):
         print("command does not exist")
 
 
+# ---------SHOP FUNCTIONS----------------
 def buyShopItem(arg, shop_name):
     shops.getItemAmount(shop_name, arg[0])
     amount = 0
@@ -204,12 +205,6 @@ def currentShop(shop_name):
     shops.saveShops()
 
 
-def getAllRegions():
-    shop_regions = shops.getShopRegions()
-    item_regions = items.getItemRegions()
-    print("Shop Regions: %s, Item Regions: %s" % (shop_regions, item_regions))
-
-
 def makeShop(args):
     for i in range(len(args)):
         args[i] = args[i].strip()
@@ -229,23 +224,6 @@ def makeShop(args):
         temp_shop.addNewItem(temp_item, 1, temp_item.baseValue)
     shops.addShop(temp_shop)
     shops.saveShops()
-
-
-def manageRegions():
-    current_input = ""
-    while current_input not in exitArea:
-        current_input = input("Region Manager>>")
-        argv = current_input.split(",")
-        for i in range(len(argv)):
-            argv[i] = argv[i].strip()
-        if argv[0] == "add shop region":
-            regions.addNewShopRegion(argv[1])
-        if argv[0] == "add item to shop region":
-            regions.addItemRegion(argv[1], argv[2])
-            regions.saveRegions()
-            print(regions.regionManager)
-        if argv[0] == "print regions":
-            print(regions.regionManager)
 
 
 def generateShops():
@@ -331,7 +309,7 @@ def makeShopRandom(type_shop, city, owner, region, wealth):
                 is_added /= 5
             elif wealth == "Middle Class":
                 is_added /= 2
-        else: # if the item-shop_type is not offered by the shop then make it unlikely for the item to be in  the shop
+        else:  # if the item-shop_type is not offered by the shop then make it unlikely for the item to be in  the shop
             is_added *= 40
         if is_added <= float(item.rarity) <= is_added * 10:  # threshold for adding item to the shop pool
             if item.name in shop.items:
@@ -340,8 +318,8 @@ def makeShopRandom(type_shop, city, owner, region, wealth):
             else:  # make the cost fluctuate around the base cost of the item
                 cost = random.uniform(float(item.baseValue) / min(1.0, float(item.rarity) ** 1 / 4),
                                       float(item.baseValue) / min(.9, float(item.rarity) ** 1 / 3))
-                if ((regions.regionList != "{}" and item.baseRegion in regions.regionManager[
-                        region]) or item.baseRegion == shop.region):  # if item is in the region divide the cost by 2
+                if ((regions.regionList != "{}" and item.baseRegion in regions.regionManager[region])
+                        or item.baseRegion == shop.region):  # if item is in the region divide the cost by 2
                     cost /= 1.5
                 shop.addNewItem(item, random.randint(1, int(float(is_added) + float(item.rarity) + 2)),
                                 # adds the new item to the shop
@@ -367,6 +345,31 @@ def generateName():
     return shop_name
 
 
+# -----------REGION FUNCTIONS----------------
+def manageRegions():
+    current_input = ""
+    while current_input not in exitArea:
+        current_input = input("Region Manager>>")
+        argv = current_input.split(",")
+        for i in range(len(argv)):
+            argv[i] = argv[i].strip()
+        if argv[0] == "add shop region":
+            regions.addNewShopRegion(argv[1])
+        if argv[0] == "add item to shop region":
+            regions.addItemRegion(argv[1], argv[2])
+            regions.saveRegions()
+            print(regions.regionManager)
+        if argv[0] == "print regions":
+            print(regions.regionManager)
+
+
+def getAllRegions():
+    shop_regions = shops.getShopRegions()
+    item_regions = items.getItemRegions()
+    print("Shop Regions: %s, Item Regions: %s" % (shop_regions, item_regions))
+
+
+# -----------------PRINT FUNCTIONS--------------------
 def printShopsIn(city):
     print("Printing shops in %s." % city)
     print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
@@ -434,6 +437,7 @@ def printHelp():
           "help: prints out list of commands\n"
           "----------------------------------------------------------------------------------------------------------\n"
           )
+
 
 
 if __name__ == '__main__':

@@ -15,6 +15,8 @@ to shop regions, and enter shops and buy and sell specific items
 **Because everything is saved in a JSON file, you can go into the text file and edit the parameters, and as long as the format
 is maintained, it will change in the program when you restart it**
 
+**If you need to add items, then under "Scripts" there is an item adder script that can be used currently**
+
 ## TODO (in terminal app)
 
 - Allow user to add new items to the item list

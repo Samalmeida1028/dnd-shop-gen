@@ -22,7 +22,7 @@ class TypeManager:
         for key in self.typeList:
             self.typeManager.update({key: self.typeList[key]})  # updates all the keys with the types in the save file
 
-    def addItemType(self, key, value):  # adds an item type to a given shop type
+    def addItemType(self, key, value):  # adds an item shop_type to a given shop shop_type
         temp = []
         if (self.typeManager[key] != ''):
             temp += self.typeManager[key]
@@ -35,7 +35,7 @@ class TypeManager:
         if key not in self.typeManager:
             self.typeManager.update({key: ""})
 
-    def removeItemType(self, key, value):  # removes an item type from a given shop type
+    def removeItemType(self, key, value):  # removes an item shop_type from a given shop shop_type
         temp = []
         if (self.typeManager[key] != ''):
             temp += self.typeManager[key]
@@ -44,7 +44,7 @@ class TypeManager:
         if (len(temp) != 0):
             self.typeManager.update({key: temp})
 
-    def addNewShopItemType(self, key, value): # adds a new shop type and a new item type to the shop type
+    def addNewShopItemType(self, key, value): # adds a new shop shop_type and a new item shop_type to the shop shop_type
         if (key not in self.typeManager):
             print(key)
             self.typeManager.update({key: ""})

@@ -7,7 +7,7 @@ from Objects.TypeAndRegionManager import *
 def main():
     items = ItemManager()  # manages the items.txt save file
     shops = ShopManager()  # manages the shops.txt save file
-    types = TypeManager(shops, items)  # type manager managers the item types that are offered by a shop type
+    types = TypeManager(shops, items)  # shop_type manager managers the item types that are offered by a shop shop_type
     regions = RegionManager(shops,items)
     print(types.typeManager)
     print(regions.regionManager)
@@ -84,7 +84,7 @@ def generateRandomShop(name, city, region, size, wealth, items, shops, types, re
         isAdded = random.uniform(0,
                                  100)  # this is compared against the rarity of an item to determine if the item is added
         if any(item.itemType in type for type in types.typeManager[
-            shop.shopType]):  # checks if the item type is found in the supported item types of the shop type
+            shop.shopType]):  # checks if the item shop_type is found in the supported item types of the shop shop_type
             isAdded /= 2
             if (regions.regionList != "{}" and item.baseRegion in regions.regionManager[region]) or item.baseRegion == shop.region or item.baseRegion == "Anywhere":  # isAdded is divided according to the region and shop wealth to simulate the rarity being less in better and local shops
                 isAdded /= 2

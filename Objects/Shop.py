@@ -2,51 +2,53 @@ import json
 from Objects.Item import ItemManager
 import random
 
+
 #
 # Class: Shop
-# Takes in the name, type, city, region, wealth, gold amount, and sell multiplier of a shop
+# Takes in the name, shop_type, city, region, wealth, gold amount, and sell multiplier of a shop
 class Shop:
-    def __init__(self, name="",owner = "",notes = "", shopType="", city="", region="", wealth="", items={}, goldAmount="", sellMult=""):
+    def __init__(self, name="", owner="", notes="", shop_type="", city="", region="", wealth="", items={}, gold_amount="",
+                 sell_mult=""):
         self.name = name
         self.owner = owner
-        self.shopType = shopType
+        self.shopType = shop_type
         self.notes = notes
         self.city = city
         self.region = region
         self.wealth = wealth
         self.items = {}
-        if (type(items) != str):
+        if type(items) != str:
             self.addItems(items)
-        self.goldAmount = goldAmount
-        self.sellMult = sellMult
+        self.goldAmount = gold_amount
+        self.sell_mult = sell_mult
 
     def __str__(self):  # this puts the shop items in JSON format for saving
         temp = json.dumps(self.items, indent=4)
-        return '{"Name":"' + self.name + '","Owner":"'+self.owner+'","Notes":"'+self.notes+'","Type":"' + self.shopType + '","City":"' + self.city + '","Region":"' + self.region + '","Wealth":"' + self.wealth + '","Items":' + temp + ',"GoldAmount":"' + self.goldAmount + '","SellMult":"' + self.sellMult + '"}'
+        return '{"Name":"' + self.name + '","Owner":"' + self.owner + '","Notes":"' + self.notes + '","Type":"' + self.shopType + '","City":"' + self.city + '","Region":"' + self.region + '","Wealth":"' + self.wealth + '","Items":' + temp + ',"GoldAmount":"' + self.goldAmount + '","SellMult":"' + self.sellMult + '"}'
 
     def str(self):
         return self.__str__()
 
-    def addItems(self, items):  # adds a list of items, given an itemlist, to the shop
+    def addItems(self, items):  # adds a list of items, given an item list, to the shop
         for key in items:
             self.items[key] = {"Cost": "", "Amount": "0"}
-            if (items[key]["Base Region"] == self.region):
+            if items[key]["Base Region"] == self.region:
                 self.items[key]["Cost"] = str((float(items[key]["Value"]) * 1 / float(items[key]["Rarity"])) // 2)
             else:
                 self.items[key]["Cost"] = str((float(items[key]["Value"]) * 1 / float(items[key]["Rarity"])))
 
-    def addNewItem(self, item, Amount, cost):  # adds a new item to the shop
-        self.items[item.name] = {"Cost": float(cost), "Amount": Amount}
+    def addNewItem(self, item, amount, cost):  # adds a new item to the shop
+        self.items[item.name] = {"Cost": float(cost), "Amount": amount}
 
-    def addItem(self, name, amount):  # adds a previous item to the shop, increasing the amound
+    def addItem(self, name, amount):  # adds a previous item to the shop, increasing the amount
         temp = int(self.items[name]["Amount"])
         temp += amount
         self.items[name]["Amount"] = temp
 
-    def updateItemPrice(self, itemName, cost):  # updates the cost of an item
-        temp = int(self.items[itemName]["Cost"])
+    def updateItemPrice(self, item_name, cost):  # updates the cost of an item
+        temp = int(self.items[item_name]["Cost"])
         temp = cost
-        self.items[itemName]["Cost"] = temp
+        self.items[item_name]["Cost"] = temp
 
 
 #
@@ -71,8 +73,9 @@ class ShopManager:
                 print(e)
                 self.shopList = {}
 
-    def addShop(self, name,owner, type, city, region, wealth, items, goldAmount, sellMult):  # adds a shop by the input values
-        temp = Shop(name,owner,type,city, region, wealth, items, goldAmount, sellMult)
+    def addShop(self, name, owner, type, city, region, wealth, items, gold_amount,
+                sell_multiplier):  # adds a shop by the input values
+        temp = Shop(name, owner, type, city, region, wealth, items, gold_amount, sell_multiplier)
         self.shopList[name] = json.loads(temp.str())
 
     def addShop(self, shop):  # adds a shop if you made a shop already
@@ -85,14 +88,14 @@ class ShopManager:
         json.dump(self.shopList, file, indent=4)
         file.close()
 
-    def getShopRegions(self):  # returns all the regions that shops have
+    def getShopRegions(self) -> list:  # returns all the regions that shops have
         regions = []
         for key in self.shopList:
             if self.shopList[key]["Region"] not in regions:
                 regions.append(self.shopList[key]["Region"])
         return regions
 
-    def getShopTypes(self):  # returns all the different types of shops
+    def getShopTypes(self) -> dict:  # returns all the different types of shops
         types = {}
         temp = []
         for key in self.shopList:
@@ -101,107 +104,105 @@ class ShopManager:
         types.update({'Shop Types': temp})
         return types
 
-    def getShopByRegion(self, region):
-        regionalShops = {}
+    def getShopByRegion(self, region) -> dict:
+        regional_shops = {}
         for k in self.shopList:
             if self.shopList[k]["Region"] == region:
                 # print(k)
-                regionalShops.update({k: self.shopList[k]})
-        return regionalShops
+                regional_shops.update({k: self.shopList[k]})
+        return regional_shops
 
-    def getShopByType(self, type):
-        typeShops = {}
+    def getShopByType(self, type_shop) -> dict:
+        type_shops = {}
         for k in self.shopList:
-            if self.shopList[k]["Type"] == type:
-                # print(k)
-                typeShops.update({k: self.shopList[k]})
-        return typeShops
+            if self.shopList[k]["Type"] == type_shop:
+                type_shops.update({k: self.shopList[k]})
+        return type_shops
 
-    def getShopByCity(self, city):
-        cityShops = {}
-        for k in self.shopList:
-            if self.shopList[k]["City"] == city:
-                # print(k)
-                cityShops.update({k: self.shopList[k]})
-        return cityShops
-
-    def getShopByTypeinCity(self, city, type):
-        cityShops = {}
+    def getShopByCity(self, city) -> dict:
+        city_shops = {}
         for k in self.shopList:
             if self.shopList[k]["City"] == city:
                 # print(k)
-                if self.shopList[k]["Type"] == type:
-                    cityShops.update({k: self.shopList[k]})
-        return cityShops
+                city_shops.update({k: self.shopList[k]})
+        return city_shops
 
-    def getItemAmount(self,shopName,item):
-        return int(self.shopList[shopName]["Items"][item]["Amount"])
+    def getShopByTypeinCity(self, city, shop_type) -> dict:
+        city_shops = {}
+        for k in self.shopList:
+            if self.shopList[k]["City"] == city:
+                # print(k)
+                if self.shopList[k]["Type"] == shop_type:
+                    city_shops.update({k: self.shopList[k]})
+        return city_shops
 
-    def removeItem(self,shopName, item):
-        self.shopList[shopName]["Items"].pop(item)
+    def getItemAmount(self, shop_name: str, item: str) -> int:
+        return int(self.shopList[shop_name]["Items"][item]["Amount"])
 
-    def addNewItem(self,shopName, itemName):
-        shop = self.shopList[shopName]
-        newItem = self.items.itemList[itemName]
-        cost = float(newItem["Value"])
-        cost /= (float(newItem["Rarity"])*random.uniform(.5,.9))
-        if(newItem["Base Region"] == shop["Region"]):
+    def removeItem(self, shop_name, item):
+        self.shopList[shop_name]["Items"].pop(item)
+
+    def addNewItem(self, shop_name: str, item_name: str):
+        shop = self.shopList[shop_name]
+        new_item = self.items.itemList[item_name]
+        cost = float(new_item["Value"])
+        cost /= (float(new_item["Rarity"]) * random.uniform(.5, .9))
+        if new_item["Base Region"] == shop["Region"]:
             cost /= 1.2
-        cost = max(cost,5.0)
-        self.shopList[shopName]["Items"].update({itemName: {"Cost": cost, "Amount": "1"}})
+        cost = max(cost, 5.0)
+        self.shopList[shop_name]["Items"].update({item_name: {"Cost": cost, "Amount": "1"}})
 
-    def increaseShopItemAmount(self, shopName, itemName):
-        shop = self.shopList[shopName]
-        amount = int(shop["Items"][itemName]["Amount"])
+    def increaseShopItemAmount(self, shop_name: str, item_name: str):
+        shop = self.shopList[shop_name]
+        amount = int(shop["Items"][item_name]["Amount"])
         amount += 1
-        shop["Items"][itemName]["Amount"] = amount
+        shop["Items"][item_name]["Amount"] = amount
 
-
-    def decreaseShopItemAmount(self, shopName, item):
-        amount = int(self.shopList[shopName]["Items"][item]["Amount"])
+    def decreaseShopItemAmount(self, shop_name, item):
+        amount = int(self.shopList[shop_name]["Items"][item]["Amount"])
         amount -= 1
-        self.shopList[shopName]["Items"][item]["Amount"] = amount
+        self.shopList[shop_name]["Items"][item]["Amount"] = amount
 
-    def decreaseShopGoldAmount(self, shopName, gold):
-        amount = int(float(self.shopList[shopName]["GoldAmount"]))
+    def decreaseShopGoldAmount(self, shop_name, gold):
+        amount = int(float(self.shopList[shop_name]["GoldAmount"]))
         amount -= round(gold)
-        if(amount < 0):
+        if amount < 0:
             amount = 0
-        self.shopList[shopName]["GoldAmount"] = amount
+        self.shopList[shop_name]["GoldAmount"] = amount
 
-    def increaseShopGoldAmount(self, shopName, gold):
-        amount = int(float(self.shopList[shopName]["GoldAmount"]))
+    def increaseShopGoldAmount(self, shop_name, gold):
+        amount = int(float(self.shopList[shop_name]["GoldAmount"]))
         amount += round(gold)
-        if(amount < 0):
+        if amount < 0:
             amount = 0
-        self.shopList[shopName]["GoldAmount"] = amount
+        self.shopList[shop_name]["GoldAmount"] = amount
 
-    def getShopbyName(self, name):
+    def getShopByName(self, name) -> dict:
         return self.shopList[name]
 
-    def printShopItems(self,shop):
-        printedShop = self.shopList[shop]
-        for k in printedShop["Items"]:
-            cost = float(self.shopList[shop]["Items"][k]["Cost"])/100
-            if(cost < 1):
+    def printShopItems(self, shop):
+        printed_shop = self.shopList[shop]
+        for k in printed_shop["Items"]:
+            cost = float(self.shopList[shop]["Items"][k]["Cost"]) / 100
+            if cost < 1:
                 cost *= 10
-                if(cost > 1):
-                    cost = str.format("%.1f"%float(cost)) + " sp"
+                if cost > 1:
+                    cost = str.format("%.1f" % float(cost)) + " sp"
                 else:
                     cost *= 10
                     cost = str(int(cost)) + " cp"
             else:
-                cost = str.format("%.2f"%float(cost)) + " gp"
-            print("%s : %s, Cost : %s" %(k,str(self.shopList[shop]["Items"][k]["Amount"]),cost))
+                cost = str.format("%.2f" % float(cost)) + " gp"
+            print("%s : %s, Cost : %s" % (k, str(self.shopList[shop]["Items"][k]["Amount"]), cost))
 
-    def printShop(self, shopName):
-        shop = self.shopList[shopName]
+    def printShop(self, shop_name):
+        shop = self.shopList[shop_name]
         print("Shop name is: ", shop["Name"])
-        print("Shop type is: ", shop["Type"])
+        print("Shop shop_type is: ", shop["Type"])
         print("Shop City is: ", shop["City"])
         print("Shop Notes are: ", shop["Notes"])
         print()
-        print("Shop currently has %s gold" % int(float(shop["GoldAmount"])/100))
+        print("Shop currently has %s gold" % int(float(shop["GoldAmount"]) / 100))
         print()
         print("||||||||||||||||||||||||||||||||||||||||||||||||")
         print("||||||||||||||||||||ITEMS|||||||||||||||||||||||")

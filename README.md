@@ -22,6 +22,7 @@ is maintained, it will change in the program when you restart it**
 - Allow user to add new items to the item list
 - Remove shops, remove items from shops, remove regions, and remove items from regions
 - Rename Shops
+- add update shops to randomly update and change shops
 
 ## TODO (General)
 

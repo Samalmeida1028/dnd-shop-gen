@@ -24,11 +24,11 @@ class TypeManager:
 
     def addItemType(self, key, value):  # adds an item shop_type to a given shop shop_type
         temp = []
-        if (self.typeManager[key] != ''):
+        if self.typeManager[key] != '':
             temp += self.typeManager[key]
-        if (temp.count(value) == 0):
+        if temp.count(value) == 0:
             temp += [value]
-        if (len(temp) != 0):
+        if len(temp) != 0:
             self.typeManager.update({key: temp})
 
     def addNewShopType(self, key):
@@ -37,15 +37,15 @@ class TypeManager:
 
     def removeItemType(self, key, value):  # removes an item shop_type from a given shop shop_type
         temp = []
-        if (self.typeManager[key] != ''):
+        if self.typeManager[key] != '':
             temp += self.typeManager[key]
-        if (temp.count(value) != 0):
+        if temp.count(value) != 0:
             temp.pop(value)
-        if (len(temp) != 0):
+        if len(temp) != 0:
             self.typeManager.update({key: temp})
 
     def addNewShopItemType(self, key, value): # adds a new shop shop_type and a new item shop_type to the shop shop_type
-        if (key not in self.typeManager):
+        if key not in self.typeManager:
             print(key)
             self.typeManager.update({key: ""})
         self.addItemType(key, value)
@@ -73,7 +73,8 @@ class RegionManager:
             except json.decoder.JSONDecodeError:
                 self.regionList = {}
         for key in self.regionList:
-            self.regionManager.update({key: self.regionList[key]})  # updates all the keys with the regions in the save file
+            self.regionManager.update({key: self.regionList[key]})
+            # updates all the keys with the regions in the save file
         count = 0
         for key in self.shopRegions:
             if key not in self.regionManager:
@@ -82,11 +83,11 @@ class RegionManager:
 
     def addItemRegion(self, key, value):  # adds an item region to a given shop region
         temp = []
-        if (self.regionManager[key] != ''):
+        if self.regionManager[key] != '':
             temp += self.regionManager[key]
-        if (temp.count(value) == 0):
+        if temp.count(value) == 0:
             temp += [value]
-        if (len(temp) != 0):
+        if len(temp) != 0:
             self.regionManager.update({key: temp})
 
     def addNewShopRegion(self, key):
@@ -95,15 +96,15 @@ class RegionManager:
 
     def removeItemRegion(self, key, value):  # removes an item region from a given shop region
         temp = []
-        if (self.regionManager[key] != ''):
+        if self.regionManager[key] != '':
             temp += self.regionManager[key]
-        if (temp.count(value) != 0):
+        if temp.count(value) != 0:
             temp.pop(value)
-        if (len(temp) != 0):
+        if len(temp) != 0:
             self.regionManager.update({key: temp})
 
     def addNewShopItemRegion(self, key, value): # adds a new shop region and a new item region to the shop region
-        if (key not in self.regionManager):
+        if key not in self.regionManager:
             self.regionManager.update({key: ""})
         self.addItemRegion(key, value)
 

@@ -13,7 +13,7 @@ The terminal right now allows users to create specific shops, generate random sh
 to shop regions, and enter shops and buy and sell specific items
 
 **Because everything is saved in JSON format, you can go into the text file and edit the parameters, and as long as the format
-is maintained, it will change in the program when you restart it **
+is maintained, it will change in the program when you restart it**
 _this also means you can use all save data as JSON objects_
 
 **If you need to add items, then under "Scripts" there is an item adder script that can be used currently**

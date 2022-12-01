@@ -24,7 +24,9 @@ class Shop:
 
     def __str__(self):  # this puts the shop items in JSON format for saving
         temp = json.dumps(self.items, indent=4)
-        return '{"Name":"' + self.name + '","Owner":"' + self.owner + '","Notes":"' + self.notes + '","Type":"' + self.shopType + '","City":"' + self.city + '","Region":"' + self.region + '","Wealth":"' + self.wealth + '","Items":' + temp + ',"GoldAmount":"' + self.goldAmount + '","SellMult":"' + self.sellMult + '"}'
+        return '{"Name":"' + self.name + '","Owner":"' + self.owner + '","Notes":"' + self.notes + '","Type":"' \
+               + self.shopType + '","City":"' + self.city + '","Region":"' + self.region + '","Wealth":"' + self.wealth \
+               + '","Items":' + temp + ',"GoldAmount":"' + self.goldAmount + '","SellMult":"' + self.sellMult + '"}'
 
     def str(self):
         return self.__str__()

@@ -331,7 +331,7 @@ def makeShopRandom(type_shop, city, owner, region, wealth):
                 is_added /= 5
             elif wealth == "Middle Class":
                 is_added /= 2
-        else:  # if the item-shop_type is not offered by the shop then make it very unlikely for the item to be in the shop
+        else: # if the item-shop_type is not offered by the shop then make it unlikely for the item to be in  the shop
             is_added *= 40
         if is_added <= float(item.rarity) <= is_added * 10:  # threshold for adding item to the shop pool
             if item.name in shop.items:

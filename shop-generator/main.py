@@ -49,12 +49,12 @@ def main():
             runCommands(argv)
 
 
-def splitInput(userinput):
+def splitInput(userinput: str):
     argv = userinput.split(",")
     return argv
 
 
-def runCommands(argv):
+def runCommands(argv: list):  # simple interface with if statements to run commands that the user inputs
     if argv[0] in printShopList:
         printAllShops()
         pass
@@ -73,7 +73,7 @@ def runCommands(argv):
     elif argv[0] in generateCom:
         generateShops()
     elif argv[0] in clearScreen:
-        os.system('cls' if os.name == 'nt' else 'clear')
+        os.system('cls' if os.name == 'nt' else 'clear')  # clears screen
     elif argv[0] in addCommand:
         if argv[1] == "shop":
             print(
@@ -91,7 +91,7 @@ def runCommands(argv):
 
 
 # ---------SHOP FUNCTIONS----------------
-def buyShopItem(arg, shop_name):
+def buyShopItem(arg: list, shop_name: str):  # buys an item in a shop
     shops.getItemAmount(shop_name, arg[0])
     amount = 0
     cost = int(shops.getShopByName(shop_name)["Items"][arg[0]]["Cost"])
@@ -121,7 +121,7 @@ def buyShopItem(arg, shop_name):
     shops.saveShops()
 
 
-def sellShopItem(arg, shop_name):
+def sellShopItem(arg: list, shop_name: str):    # sells an item to the shop
     amount = 1
     item_amount = 1
     shop = shops.shopList[shop_name]
@@ -177,7 +177,7 @@ def sellShopItem(arg, shop_name):
     print("Sold %s %s(s) for %s" % (amount, arg[0], cost))
 
 
-def runShopCommands(arg, shop_name):
+def runShopCommands(arg: list, shop_name: str):
     if arg[0] in buyItem:
         buyShopItem(arg[1:], shop_name)
     elif arg[0] in sellItem:
@@ -188,7 +188,7 @@ def runShopCommands(arg, shop_name):
         print("command not found")
 
 
-def currentShop(shop_name):
+def currentShop(shop_name: str):
     shop_name = shop_name.strip()
     cur = ""
     try:
@@ -205,7 +205,7 @@ def currentShop(shop_name):
     shops.saveShops()
 
 
-def makeShop(args):
+def makeShop(args: list):
     for i in range(len(args)):
         args[i] = args[i].strip()
     shop_name = args[0]
@@ -242,7 +242,7 @@ def generateShops():
         print("%s: Generated successfully." % str(i + 1))
 
 
-def makeShopRandom(type_shop, city, owner, region, wealth):
+def makeShopRandom(type_shop: str, city: str, owner: str, region: str, wealth: str):
     region_list = list(regions.regionList)
     type_list = list(types.typeManager.keys())
     if wealth == "":
@@ -370,7 +370,7 @@ def getAllRegions():
 
 
 # -----------------PRINT FUNCTIONS--------------------
-def printShopsIn(city):
+def printShopsIn(city: str):
     print("Printing shops in %s." % city)
     print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
     all_regions = list(shops.getShopRegions())
@@ -437,7 +437,6 @@ def printHelp():
           "help: prints out list of commands\n"
           "----------------------------------------------------------------------------------------------------------\n"
           )
-
 
 
 if __name__ == '__main__':

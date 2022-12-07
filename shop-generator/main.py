@@ -77,6 +77,8 @@ def runCommands(argv: list):  # simple interface with if statements to run comma
     elif argv[0] in clearScreen:
         os.system('cls' if os.name == 'nt' else 'clear')  # clears screen
     elif argv[0] in addCommand:
+        if(len(argv[0])!=2):
+            print("Invalid structure for 'add'")
         if argv[1] == "shop":
             print(
                 "Enter shop fields separated by a comma ([name],[shop_type],[city],[region],[wealth],[items],"
@@ -466,7 +468,8 @@ def printHelp():
           "exit: exits area/terminal\n"
           "----------------------------------------------------------------------------------------------------------\n"
           "regions: gets all shop region"
-          "add: adds new shop\n"
+          "----------------------------------------------------------------------------------------------------------\n"
+          "add, shop/item: adds new shop/item depending on which is inputted by the user\n"
           "----------------------------------------------------------------------------------------------------------\n"
           "edit regions: opens the edit region\n"
           "----------------------------------------------------------------------------------------------------------\n"

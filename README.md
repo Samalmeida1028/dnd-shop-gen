@@ -19,7 +19,7 @@ _this also means you can use all save data as JSON objects_
 
 **If you need to add items, then under "Scripts" there is an item adder script that can be used currently**
 
-###Update:
+### Update:
 added the ability to add items through the terminal!
 
 ## TODO (in terminal app)

@@ -8,5 +8,7 @@
     "Polar": "[]",
     "Oksandarr": "['Mines','Magic Lands']",
     "Crestus": "['Mines','Plains']",
-    "Pitt": "[]"
+    "Pitt": "[]",
+    "India": "[]",
+    "Burd": "[]"
 }

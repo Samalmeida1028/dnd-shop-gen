@@ -26,7 +26,7 @@ class Shop:
         temp = json.dumps(self.items, indent=4)
         return '{"Name":"' + self.name + '","Owner":"' + self.owner + '","Notes":"' + self.notes + '","Type":"' \
                + self.shopType + '","City":"' + self.city + '","Region":"' + self.region + '","Wealth":"' + self.wealth \
-               + '","Items":' + temp + ',"GoldAmount":"' + self.goldAmount + '","SellMult":"' + self.sellMult + '"}'
+               + '","Items":' + temp + ',"GoldAmount":"' + self.goldAmount + '","SellMult":"' + self.sell_mult + '"}'
 
     def str(self):
         return self.__str__()
@@ -39,7 +39,7 @@ class Shop:
             else:
                 self.items[key]["Cost"] = str((float(items[key]["Value"]) * 1 / float(items[key]["Rarity"])))
 
-    def addNewItem(self, item: Item, amount: str, cost: float):  # adds a new item to the shop
+    def addNewItem(self, item, amount: str, cost: float):  # adds a new item to the shop
         self.items[item.name] = {"Cost": float(cost), "Amount": amount}
 
     def addItem(self, name: str, amount: float):  # adds a previous item to the shop, increasing the amount
@@ -108,7 +108,6 @@ class ShopManager:
         regional_shops = {}
         for k in self.shopList:
             if self.shopList[k]["Region"] == region:
-                # print(k)
                 regional_shops.update({k: self.shopList[k]})
         return regional_shops
 

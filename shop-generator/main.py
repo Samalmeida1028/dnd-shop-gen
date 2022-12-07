@@ -2,8 +2,11 @@ import string
 from Objects.Shop import *
 from Objects.TypeAndRegionManager import *
 import os
+import threading
+import time
 
 shops = ShopManager()
+shop_names = list(shops.shopList.keys())
 items = ItemManager()
 types = TypeManager(shops, items)
 regions = RegionManager(shops, items)
@@ -237,10 +240,22 @@ def generateShops():
     number = input("Enter number of shops to create: ")
     if number == "":
         number = 1
-    for i in range(int(number)):
-        makeShopRandom(type_shop, city, owner, region, wealth)
-        print("%s: Generated successfully." % str(i + 1))
+    threadList = []
+    st = time.time()
+    integers = range(int(number))
 
+    for i in integers:
+        thread = threading.Thread(target=makeShopRandom, args=(type_shop, city, owner, region, wealth))
+        #makeShopRandom(type_shop, city, owner, region, wealth)
+        thread.start()
+        threadList.append(thread)
+    for thread in threadList:
+        thread.join()
+    shops.saveShops()  # saves the shops to the text file
+    types.saveTypes()
+    regions.saveRegions()
+    et = time.time()
+    print("Total time was: %s." %(et-st))
 
 def makeShopRandom(type_shop: str, city: str, owner: str, region: str, wealth: str):
     region_list = list(regions.regionList)
@@ -284,9 +299,6 @@ def makeShopRandom(type_shop: str, city: str, owner: str, region: str, wealth: s
     item_list = {}
     shop = Shop(name, owner, "", type_shop, city, region, str(wealth), item_list, str(int(gold_amount)), str(sell_rate))
 
-    types.saveTypes()
-    regions.saveRegions()
-
     for i in range(int(size)):
         item_index = random.randint(0, len(list(items.itemList.keys())))
         try:
@@ -325,23 +337,40 @@ def makeShopRandom(type_shop: str, city: str, owner: str, region: str, wealth: s
                                 # adds the new item to the shop
                                 int(min(max(cost, 1), 1000000)))
         shops.addShop(shop)  # adds the shop to the shop list
-        shops.saveShops()  # saves the shops to the text file
+        #shops.saveShops()
 
 
 def generateName():
-    shop_name = random.randint(0, 2)  # more randomness for the name selection
-    pick_noun = random.randint(0, len(nouns) - 1)  # picks a random noun for the name
-    if shop_name == 0:
-        pick_adjective = random.randint(0, len(adjectives) - 1)  # picks a random adjective for the name
-        shop_name = "The" + adjectives[pick_adjective].strip('"') + " " + nouns[pick_noun].strip(
-            '"')  # The [adjective] [noun] name
-        shop_name = string.capwords(shop_name)
-    elif shop_name == 1:
-        shop_name = nicknames[random.randint(0, len(nicknames) - 1)].strip(",") + "'s"  # [Nickname]'s name
+    if(len(shop_names)!=0):
+        shop_name = shop_names[0]
+        while shop_name in shops.shopList:
+            shop_name = random.randint(0, 2)  # more randomness for the name selection
+            pick_noun = random.randint(0, len(nouns) - 1)  # picks a random noun for the name
+            if shop_name == 0:
+                pick_adjective = random.randint(0, len(adjectives) - 1)  # picks a random adjective for the name
+                shop_name = "The" + adjectives[pick_adjective].strip('"') + " " + nouns[pick_noun].strip(
+                    '"')  # The [adjective] [noun] name
+                shop_name = string.capwords(shop_name)
+            elif shop_name == 1:
+                shop_name = nicknames[random.randint(0, len(nicknames) - 1)].strip(",") + "'s"  # [Nickname]'s name
+            else:
+                shop_name = nicknames[random.randint(0, len(nicknames) - 1)].strip(",") + "'s "  # [Nicknames]'s [noun] name
+                shop_name += string.capwords(nouns[pick_noun].strip('"'))
     else:
-        shop_name = nicknames[random.randint(0, len(nicknames) - 1)].strip(",") + "'s "  # [Nicknames]'s [noun] name
-        shop_name += string.capwords(nouns[pick_noun].strip('"'))
-    print("Name: %s" % shop_name)
+        shop_name = random.randint(0, 2)  # more randomness for the name selection
+        pick_noun = random.randint(0, len(nouns) - 1)  # picks a random noun for the name
+        if shop_name == 0:
+            pick_adjective = random.randint(0, len(adjectives) - 1)  # picks a random adjective for the name
+            shop_name = "The" + adjectives[pick_adjective].strip('"') + " " + nouns[pick_noun].strip(
+                '"')  # The [adjective] [noun] name
+            shop_name = string.capwords(shop_name)
+        elif shop_name == 1:
+            shop_name = nicknames[random.randint(0, len(nicknames) - 1)].strip(",") + "'s"  # [Nickname]'s name
+        else:
+            shop_name = nicknames[random.randint(0, len(nicknames) - 1)].strip(",") + "'s "  # [Nicknames]'s [noun] name
+            shop_name += string.capwords(nouns[pick_noun].strip('"'))
+    shop_names.append(shop_name)
+    #print("Name: %s" %(shop_name))
     return shop_name
 
 
@@ -371,7 +400,6 @@ def getAllRegions():
 
 # -----------------PRINT FUNCTIONS--------------------
 def printShopsIn(city: str):
-    print("Printing shops in %s." % city)
     print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
     all_regions = list(shops.getShopRegions())
     shops_in = list(shops.getShopByCity(city).keys())

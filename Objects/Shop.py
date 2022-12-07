@@ -1,5 +1,5 @@
 import json
-from Objects.Item import ItemManager
+from Objects.Item import *
 import random
 
 
@@ -39,7 +39,7 @@ class Shop:
             else:
                 self.items[key]["Cost"] = str((float(items[key]["Value"]) * 1 / float(items[key]["Rarity"])))
 
-    def addNewItem(self, item, amount: str, cost: float):  # adds a new item to the shop
+    def addNewItem(self, item: Item, amount: str, cost: float):  # adds a new item to the shop
         self.items[item.name] = {"Cost": float(cost), "Amount": amount}
 
     def addItem(self, name: str, amount: float):  # adds a previous item to the shop, increasing the amount

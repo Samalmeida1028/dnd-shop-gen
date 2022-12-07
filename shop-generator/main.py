@@ -60,7 +60,6 @@ def splitInput(userinput: str):
 def runCommands(argv: list):  # simple interface with if statements to run commands that the user inputs
     if argv[0] in printShopList:
         printAllShops()
-        pass
     elif argv[0] in printShopIn:
         printShopsIn(argv[1])
     elif argv[0] in helpCommand:
@@ -89,6 +88,18 @@ def runCommands(argv: list):  # simple interface with if statements to run comma
                 makeShop(args)
             else:
                 print("invalid syntax for adding shop")
+                
+        elif argv[1] == "item":
+            print(
+                "Enter item fields separated by a comma ([name],[type],[value],[rarity],[Base Region]")
+            print("Individual items should be separated by a ;")
+            item_in = input(": ")
+            args = item_in.split(",")
+            if len(args) == 5:
+                items.addItem(args)
+                items.saveItems()
+            else:
+                print("invalid syntax for adding item")
     else:
         print("command does not exist")
 
@@ -125,21 +136,28 @@ def buyShopItem(arg: list, shop_name: str):  # buys an item in a shop
 
 
 def sellShopItem(arg: list, shop_name: str):    # sells an item to the shop
-    amount = 1
-    item_amount = 1
-    shop = shops.shopList[shop_name]
-    gold_amount = int(round(float(shop["GoldAmount"])))
+    try:
+        shop = shops.shopList[shop_name]
+    except KeyError:
+        print("Shop does not exist")
+        return
     try:
         item = items.getItemName(arg[0])
     except KeyError:
         print("Item does not exist")
         return
+    amount = 1
+    item_amount = 1
+    gold_amount = int(round(float(shop["GoldAmount"])))
     item_value = int(round(float(item.baseValue) * float(shop["SellMult"])))
+
     if item.itemType not in types.typeManager[shop["Type"]]:
         item_value /= 2
     if item.baseRegion not in regions.regionManager[shop["Region"]]:
         item_value *= 1.2
+
     item_value = int(round(item_value))
+
     if arg[0] in shop["Items"]:
         if len(arg) == 1:
             item_amount = 1

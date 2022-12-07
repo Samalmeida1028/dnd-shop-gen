@@ -88,7 +88,7 @@ def runCommands(argv: list):  # simple interface with if statements to run comma
                 makeShop(args)
             else:
                 print("invalid syntax for adding shop")
-                
+
         elif argv[1] == "item":
             print(
                 "Enter item fields separated by a comma ([name],[type],[value],[rarity],[Base Region]")

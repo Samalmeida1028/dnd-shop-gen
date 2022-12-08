@@ -8,6 +8,7 @@ When running it, the user is presented with a simple terminal.
 Arguments are currently delimited by a comma in the terminal to allow for names that include spaces.
 Type "help" to get a list of the currently supported commands.
 
+Currently the item list has about 90 items with types, the base value is in CP (copper pieces), and is based off of my campaign. Those values can be easily changed in the JSON, I'll add an update item price function later
 ## Functions
 
 The terminal right now allows users to create specific shops, generate random shops in a region, add new shop regions, add items
@@ -27,6 +28,10 @@ added the ability to add items through the terminal!
 - Remove shops, remove items from shops, remove regions, and remove items from regions
 - Rename Shops
 - add update shops to randomly update and change shops
+- add update item price
+- add update item rarity
+- add update item region
+- (more item stuff)
 
 ## TODO (General)
 

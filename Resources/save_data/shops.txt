@@ -1,622 +1,3926 @@
 {
-    "Freak's": {
-        "Name": "Freak's",
-        "Owner": "",
+    "The Poised Asin": {
+        "Name": "The Poised Asin",
+        "Owner": " ",
         "Notes": "",
-        "Type": "Blacksmith",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
         "Items": {
-            "Sledge Hammer": {
-                "Cost": 3933.0,
-                "Amount": 3
+            "Sickle": {
+                "Cost": 4331.0,
+                "Amount": "2"
             },
-            "Club": {
-                "Cost": 2364.0,
-                "Amount": 1
+            "Gold": {
+                "Cost": 5869.0,
+                "Amount": "1"
+            },
+            "Nail": {
+                "Cost": 20.0,
+                "Amount": 12
+            },
+            "Vial": {
+                "Cost": 639.0,
+                "Amount": "1"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "17"
+            },
+            "Shortsword +1": {
+                "Cost": 6113.0,
+                "Amount": "1"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "7"
+            },
+            "Yellow Vine": {
+                "Cost": 6.0,
+                "Amount": "4"
+            },
+            "Chain Mail": {
+                "Cost": 4722.0,
+                "Amount": "2"
+            },
+            "Padded Armor": {
+                "Cost": 3986.0,
+                "Amount": "3"
+            },
+            "Split Armor": {
+                "Cost": 18398.0,
+                "Amount": "3"
+            }
+        },
+        "GoldAmount": "32011",
+        "SellMult": "0.3760063611986708"
+    },
+    "The Living Floral": {
+        "Name": "The Living Floral",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Plate Armor": {
+                "Cost": 20776.0,
+                "Amount": "1"
+            },
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": "12"
+            },
+            "Emerald": {
+                "Cost": 17240.0,
+                "Amount": 4
+            },
+            "Arrow": {
+                "Cost": 21.0,
+                "Amount": "1"
+            },
+            "Blowgun": {
+                "Cost": 2248.0,
+                "Amount": "2"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "7"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "2"
+            },
+            "Paper": {
+                "Cost": 31.0,
+                "Amount": "3"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "14"
+            }
+        },
+        "GoldAmount": "15639",
+        "SellMult": "0.21973317055297523"
+    },
+    "Bunny Rabbit's": {
+        "Name": "Bunny Rabbit's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Crossbow": {
+                "Cost": 3360.0,
+                "Amount": "2"
+            },
+            "Silver": {
+                "Cost": 631.0,
+                "Amount": "2"
+            },
+            "Oil": {
+                "Cost": 183.0,
+                "Amount": "3"
+            },
+            "Split Armor": {
+                "Cost": 15500.0,
+                "Amount": "2"
+            },
+            "Sledge Hammer": {
+                "Cost": 4328.0,
+                "Amount": "1"
+            },
+            "Paper": {
+                "Cost": 32.0,
+                "Amount": 10
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 30
+            },
+            "Shortsword": {
+                "Cost": 1943.0,
+                "Amount": "3"
+            },
+            "Padded Armor": {
+                "Cost": 3630.0,
+                "Amount": "3"
             },
             "Dried Long Grass": {
                 "Cost": 2.0,
-                "Amount": 18
+                "Amount": "11"
             },
-            "Paper": {
-                "Cost": 33.0,
-                "Amount": 4
+            "Club +2": {
+                "Cost": 15566.0,
+                "Amount": "1"
             }
         },
-        "GoldAmount": "78533",
-        "SellMult": "0.8461061935123847"
+        "GoldAmount": "66587",
+        "SellMult": "0.7024582920884653"
     },
-    "The Frail Mini": {
-        "Name": "The Frail Mini",
-        "Owner": "",
+    "Ducky's": {
+        "Name": "Ducky's",
+        "Owner": " ",
         "Notes": "",
-        "Type": "Mage",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
         "Items": {
-            "Glass Flask": {
-                "Cost": 458.0,
-                "Amount": 2
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": 28
             },
-            "Nail": {
-                "Cost": 20.0,
-                "Amount": 11
-            }
-        },
-        "GoldAmount": "56613",
-        "SellMult": "0.1978854568632028"
-    },
-    "Pop Tart's Cumulative": {
-        "Name": "Pop Tart's Cumulative",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Alchemist",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {
-            "Spell Scroll of Minor Illusion": {
-                "Cost": 5682.0,
-                "Amount": 2
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "5"
             },
-            "Wand": {
-                "Cost": 1403.0,
-                "Amount": 3
-            }
-        },
-        "GoldAmount": "38725",
-        "SellMult": "0.3291570539251667"
-    },
-    "The Mundane Basic": {
-        "Name": "The Mundane Basic",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Blacksmith",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "3"
+            },
+            "Club": {
+                "Cost": 2072.0,
+                "Amount": "3"
+            },
             "Iron": {
-                "Cost": 53.0,
-                "Amount": 5
-            }
-        },
-        "GoldAmount": "28800",
-        "SellMult": "0.7986455887219875"
-    },
-    "The Psychedelic Mozilla": {
-        "Name": "The Psychedelic Mozilla",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Herbalist",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {
+                "Cost": 54.0,
+                "Amount": 16
+            },
+            "Arrow": {
+                "Cost": 20.0,
+                "Amount": "11"
+            },
+            "Battle Axe": {
+                "Cost": 4289.0,
+                "Amount": "3"
+            },
             "Glass Flask": {
-                "Cost": 498.0,
-                "Amount": 3
+                "Cost": 793.0,
+                "Amount": "1"
+            },
+            "Gold": {
+                "Cost": 5076.0,
+                "Amount": "3"
             }
         },
-        "GoldAmount": "71710",
-        "SellMult": "0.3412970441506767"
+        "GoldAmount": "58755",
+        "SellMult": "0.5862325491869164"
     },
-    "Tater Tot's Smash": {
-        "Name": "Tater Tot's Smash",
-        "Owner": "",
+    "Dumbledore's": {
+        "Name": "Dumbledore's",
+        "Owner": " ",
         "Notes": "",
-        "Type": "Blacksmith",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {},
+        "GoldAmount": "94724",
+        "SellMult": "0.863664011942728"
+    },
+    "The Eight Ethnic": {
+        "Name": "The Eight Ethnic",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
         "Items": {
-            "Half Plate": {
-                "Cost": 16831.0,
-                "Amount": 1
+            "Dart +2": {
+                "Cost": 1497.0,
+                "Amount": "2"
             },
             "Paper": {
                 "Cost": 30.0,
-                "Amount": 20
+                "Amount": "5"
             }
         },
-        "GoldAmount": "7767",
-        "SellMult": "0.23425624041549648"
+        "GoldAmount": "77965",
+        "SellMult": "0.2934471530034104"
     },
-    "Smudge's": {
-        "Name": "Smudge's",
-        "Owner": "",
+    "The Exclusive Answered": {
+        "Name": "The Exclusive Answered",
+        "Owner": " ",
         "Notes": "",
-        "Type": "General Merchant",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {},
-        "GoldAmount": "8935",
-        "SellMult": "0.18343455396323388"
-    },
-    "Skipper's": {
-        "Name": "Skipper's",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Herbalist",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
         "Items": {
-            "Long Grass": {
-                "Cost": 1.0,
-                "Amount": 12
+            "Arrow": {
+                "Cost": 20.0,
+                "Amount": 14
             },
-            "Potion of Minor Healing": {
-                "Cost": 1825.0,
-                "Amount": 2
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": 15
             },
-            "Vial": {
-                "Cost": 619.0,
-                "Amount": 2
-            }
-        },
-        "GoldAmount": "130552",
-        "SellMult": "0.824153177626321"
-    },
-    "Rosebud's Piss": {
-        "Name": "Rosebud's Piss",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Herbalist",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Middle Class",
-        "Items": {
-            "Yellow Vine": {
-                "Cost": 6.0,
-                "Amount": 4
+            "Club": {
+                "Cost": 2264.0,
+                "Amount": "1"
             },
             "Long Grass": {
                 "Cost": 1.0,
-                "Amount": 9
+                "Amount": "13"
             },
             "Grass": {
                 "Cost": 1.0,
-                "Amount": 20
-            },
-            "Cucumber": {
-                "Cost": 51.0,
-                "Amount": 1
-            },
-            "Vial": {
-                "Cost": 684.0,
-                "Amount": 2
-            }
-        },
-        "GoldAmount": "58336",
-        "SellMult": "0.35744370639392453"
-    },
-    "Halfling's": {
-        "Name": "Halfling's",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Blacksmith",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {
-            "Mason's Tools": {
-                "Cost": 4267.0,
-                "Amount": 2
-            }
-        },
-        "GoldAmount": "1719",
-        "SellMult": "0.3404946129349227"
-    },
-    "The Impolite Fine": {
-        "Name": "The Impolite Fine",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Alchemist",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {
-            "Lock": {
-                "Cost": 367.0,
-                "Amount": 3
-            },
-            "Potion of Minor Healing": {
-                "Cost": 1589.0,
-                "Amount": 3
-            },
-            "Wand": {
-                "Cost": 1570.0,
-                "Amount": 3
-            }
-        },
-        "GoldAmount": "77344",
-        "SellMult": "0.7359175538619465"
-    },
-    "Snoopy's": {
-        "Name": "Snoopy's",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Blacksmith",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {
-            "Shortsword +2": {
-                "Cost": 10909.0,
-                "Amount": 1
-            },
-            "Wand": {
-                "Cost": 1248.0,
-                "Amount": 1
-            },
-            "Iron Sword (Rusty)": {
-                "Cost": 1035.0,
-                "Amount": 2
-            },
-            "Nail": {
-                "Cost": 20.0,
-                "Amount": 12
-            },
-            "Shortsword +1": {
-                "Cost": 6594.0,
-                "Amount": 2
-            },
-            "Crossbow": {
-                "Cost": 2287.0,
-                "Amount": 2
-            },
-            "Dagger": {
-                "Cost": 352.0,
-                "Amount": 4
-            }
-        },
-        "GoldAmount": "74561",
-        "SellMult": "0.10825080067101728"
-    },
-    "Fury's Hartford": {
-        "Name": "Fury's Hartford",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Herbalist",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {
-            "Torch": {
-                "Cost": 476.0,
-                "Amount": 2
-            }
-        },
-        "GoldAmount": "99927",
-        "SellMult": "0.5290010010395839"
-    },
-    "Chiquita's Shelf": {
-        "Name": "Chiquita's Shelf",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Mage",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {},
-        "GoldAmount": "48388",
-        "SellMult": "0.26319181556595883"
-    },
-    "Cheerio's": {
-        "Name": "Cheerio's",
-        "Owner": "",
-        "Notes": "",
-        "Type": "General Merchant",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {},
-        "GoldAmount": "70742",
-        "SellMult": "0.8738404634107798"
-    },
-    "Bambi's Gun": {
-        "Name": "Bambi's Gun",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Alchemist",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {
-            "Long Grass": {
-                "Cost": 1.0,
-                "Amount": 12
-            }
-        },
-        "GoldAmount": "109599",
-        "SellMult": "0.24996988672574114"
-    },
-    "Dracula's": {
-        "Name": "Dracula's",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Herbalist",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {
-            "Spell Scroll of Alarm": {
-                "Cost": 2922.0,
-                "Amount": 1
+                "Amount": 23
             },
             "Potion of Healing": {
-                "Cost": 6299.0,
-                "Amount": 1
+                "Cost": 7613.0,
+                "Amount": "2"
             },
-            "Lock": {
-                "Cost": 427.0,
-                "Amount": 3
-            },
-            "Grass": {
-                "Cost": 1.0,
-                "Amount": 1
-            }
-        },
-        "GoldAmount": "128226",
-        "SellMult": "0.23391976192292516"
-    },
-    "Twix's": {
-        "Name": "Twix's",
-        "Owner": "",
-        "Notes": "",
-        "Type": "General Merchant",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {},
-        "GoldAmount": "29140",
-        "SellMult": "0.8558907377500293"
-    },
-    "Slim's Dozens": {
-        "Name": "Slim's Dozens",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Blacksmith",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {
-            "Silver": {
-                "Cost": 567.0,
-                "Amount": 1
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": 8
             },
             "Dagger": {
-                "Cost": 352.0,
-                "Amount": 6
+                "Cost": 541.0,
+                "Amount": "8"
             },
-            "Mithral Plate Armor": {
-                "Cost": 7347.0,
-                "Amount": 1
+            "Chain Mail": {
+                "Cost": 4525.0,
+                "Amount": "1"
+            },
+            "Gold": {
+                "Cost": 5374.0,
+                "Amount": "2"
+            },
+            "Wand": {
+                "Cost": 2090.0,
+                "Amount": "3"
+            },
+            "Crossbow": {
+                "Cost": 3308.0,
+                "Amount": "2"
+            },
+            "Oil": {
+                "Cost": 199.0,
+                "Amount": "2"
             }
         },
-        "GoldAmount": "68599",
-        "SellMult": "0.6074097388135135"
+        "GoldAmount": "11505",
+        "SellMult": "0.24422385708126476"
     },
-    "The Abandoned Markers": {
-        "Name": "The Abandoned Markers",
-        "Owner": "",
+    "The Elderly Swingers": {
+        "Name": "The Elderly Swingers",
+        "Owner": " ",
         "Notes": "",
-        "Type": "General Merchant",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {},
-        "GoldAmount": "2792",
-        "SellMult": "0.6252073777911616"
-    },
-    "Dirty Harry's Ports": {
-        "Name": "Dirty Harry's Ports",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Weapons Dealer",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {},
-        "GoldAmount": "1285",
-        "SellMult": "0.17442927328253824"
-    },
-    "The Lovely Induction": {
-        "Name": "The Lovely Induction",
-        "Owner": "",
-        "Notes": "",
-        "Type": "General Merchant",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
         "Items": {
-            "Lock": {
-                "Cost": 416.0,
-                "Amount": 1
+            "Steel": {
+                "Cost": 119.0,
+                "Amount": 3
+            },
+            "Iron": {
+                "Cost": 55.0,
+                "Amount": 8
+            },
+            "Dagger": {
+                "Cost": 554.0,
+                "Amount": 10
+            },
+            "Yellow Vine": {
+                "Cost": 5.0,
+                "Amount": "6"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "14"
+            },
+            "Paper": {
+                "Cost": 33.0,
+                "Amount": "2"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "1"
+            },
+            "Sledge Hammer": {
+                "Cost": 4400.0,
+                "Amount": "1"
+            },
+            "Dart": {
+                "Cost": 87.0,
+                "Amount": "5"
             }
         },
-        "GoldAmount": "166012",
-        "SellMult": "0.8431000282817492"
-    },
-    "Redbull's": {
-        "Name": "Redbull's",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Mage",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {},
-        "GoldAmount": "60719",
-        "SellMult": "0.4666601256084294"
-    },
-    "Turkey's Depot": {
-        "Name": "Turkey's Depot",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Weapons Dealer",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {},
-        "GoldAmount": "56393",
-        "SellMult": "0.6929766738158187"
+        "GoldAmount": "9677",
+        "SellMult": "0.8689411704612943"
     },
     "Bubble Butt's": {
         "Name": "Bubble Butt's",
-        "Owner": "",
+        "Owner": " ",
         "Notes": "",
-        "Type": "Alchemist",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
         "Items": {
-            "Spell Scroll of Poison Spray": {
-                "Cost": 5803.0,
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 13
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": 20
+            },
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": "2"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "17"
+            },
+            "Spell Scroll of Thunderclap": {
+                "Cost": 18696.0,
+                "Amount": "2"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "1"
+            },
+            "Iron Sword (Rusty)": {
+                "Cost": 1580.0,
+                "Amount": "1"
+            },
+            "Dagger": {
+                "Cost": 504.0,
+                "Amount": "4"
+            },
+            "Cucumber": {
+                "Cost": 62.0,
+                "Amount": "1"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "20"
+            },
+            "Shortbow": {
+                "Cost": 2404.0,
+                "Amount": "1"
+            },
+            "Paper": {
+                "Cost": 31.0,
+                "Amount": "5"
+            }
+        },
+        "GoldAmount": "8116",
+        "SellMult": "0.459389092851362"
+    },
+    "Fury's Conflict": {
+        "Name": "Fury's Conflict",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "15"
+            }
+        },
+        "GoldAmount": "41662",
+        "SellMult": "0.5378796235251192"
+    },
+    "Bub's": {
+        "Name": "Bub's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Shortsword": {
+                "Cost": 2337.0,
+                "Amount": "1"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "4"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "7"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": 4
+            }
+        },
+        "GoldAmount": "7442",
+        "SellMult": "0.8272921229606254"
+    },
+    "Beast's Jeans": {
+        "Name": "Beast's Jeans",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Oil": {
+                "Cost": 165.0,
+                "Amount": "3"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "4"
+            }
+        },
+        "GoldAmount": "23547",
+        "SellMult": "0.5941540333016117"
+    },
+    "Doll's": {
+        "Name": "Doll's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "7"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "5"
+            },
+            "Shield of Missile Attraction": {
+                "Cost": 52746.0,
+                "Amount": "1"
+            },
+            "Arrow": {
+                "Cost": 20.0,
+                "Amount": "6"
+            }
+        },
+        "GoldAmount": "41101",
+        "SellMult": "0.8005689148684345"
+    },
+    "The Pointless Champions": {
+        "Name": "The Pointless Champions",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Dagger": {
+                "Cost": 529.0,
+                "Amount": "9"
+            },
+            "Potion of Minor Healing": {
+                "Cost": 2657.0,
+                "Amount": 2
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 23
+            },
+            "Dart": {
+                "Cost": 92.0,
+                "Amount": "1"
+            },
+            "Nail": {
+                "Cost": 22.0,
+                "Amount": "9"
+            },
+            "Mason's Tools": {
+                "Cost": 3724.0,
+                "Amount": "1"
+            },
+            "Battle Axe": {
+                "Cost": 4958.0,
+                "Amount": "3"
+            }
+        },
+        "GoldAmount": "15966",
+        "SellMult": "0.1928279327097121"
+    },
+    "The Premium Weed": {
+        "Name": "The Premium Weed",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Dagger": {
+                "Cost": 524.0,
+                "Amount": 15
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": 23
+            },
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": "11"
+            },
+            "Spell Scroll of Alarm": {
+                "Cost": 4185.0,
+                "Amount": "1"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "2"
+            },
+            "Paper": {
+                "Cost": 31.0,
+                "Amount": "1"
+            },
+            "Tinker's Tools": {
+                "Cost": 1171.0,
+                "Amount": "1"
+            },
+            "Yellow Vine": {
+                "Cost": 5.0,
+                "Amount": "3"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "5"
+            },
+            "Lock": {
+                "Cost": 344.0,
+                "Amount": "2"
+            }
+        },
+        "GoldAmount": "93475",
+        "SellMult": "0.6257789114855264"
+    },
+    "Sunshine's": {
+        "Name": "Sunshine's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "14"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "17"
+            },
+            "Club": {
+                "Cost": 1935.0,
+                "Amount": "3"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "11"
+            },
+            "Quiver": {
+                "Cost": 2118.0,
+                "Amount": "2"
+            }
+        },
+        "GoldAmount": "98059",
+        "SellMult": "0.6250890447512003"
+    },
+    "Snickers's": {
+        "Name": "Snickers's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {},
+        "GoldAmount": "96405",
+        "SellMult": "0.17712926392816508"
+    },
+    "Turtle's Booking": {
+        "Name": "Turtle's Booking",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "7"
+            }
+        },
+        "GoldAmount": "38201",
+        "SellMult": "0.1632784538183965"
+    },
+    "Muscles's Irish": {
+        "Name": "Muscles's Irish",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "9"
+            },
+            "Yellow Vine": {
+                "Cost": 6.0,
+                "Amount": "4"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "12"
+            }
+        },
+        "GoldAmount": "867",
+        "SellMult": "0.5505402642722587"
+    },
+    "Half Pint's Yellow": {
+        "Name": "Half Pint's Yellow",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Arrow": {
+                "Cost": 21.0,
+                "Amount": "9"
+            },
+            "Crossbow": {
+                "Cost": 3600.0,
+                "Amount": "1"
+            },
+            "Shortsword": {
+                "Cost": 2158.0,
+                "Amount": "3"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "2"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 25
+            },
+            "Glass Flask": {
+                "Cost": 749.0,
+                "Amount": 5
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 13
+            },
+            "Nail": {
+                "Cost": 20.0,
+                "Amount": "2"
+            },
+            "Dagger": {
+                "Cost": 509.0,
+                "Amount": "1"
+            },
+            "Yellow Diamond": {
+                "Cost": 16895.0,
+                "Amount": "2"
+            }
+        },
+        "GoldAmount": "51738",
+        "SellMult": "0.8463662788656009"
+    },
+    "The Resonant Obesity": {
+        "Name": "The Resonant Obesity",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Half Plate": {
+                "Cost": 22211.0,
+                "Amount": "2"
+            },
+            "Dart": {
+                "Cost": 83.0,
+                "Amount": "4"
+            },
+            "Paper": {
+                "Cost": 30.0,
+                "Amount": "6"
+            },
+            "Redvine": {
+                "Cost": 627.0,
+                "Amount": "1"
+            },
+            "Yellow Diamond": {
+                "Cost": 15365.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "14003",
+        "SellMult": "0.5132704254327769"
+    },
+    "Gams's": {
+        "Name": "Gams's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": "6"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "4"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "13"
+            },
+            "Gold": {
+                "Cost": 5290.0,
+                "Amount": "1"
+            },
+            "Padded Armor": {
+                "Cost": 3889.0,
+                "Amount": "1"
+            },
+            "Shortsword": {
+                "Cost": 1800.0,
+                "Amount": "1"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "7"
+            },
+            "Silver": {
+                "Cost": 621.0,
+                "Amount": "3"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "7"
+            },
+            "Dagger": {
+                "Cost": 503.0,
+                "Amount": "11"
+            }
+        },
+        "GoldAmount": "80647",
+        "SellMult": "0.6707589532639392"
+    },
+    "Hermione's": {
+        "Name": "Hermione's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "2"
+            },
+            "Smith's Tools": {
+                "Cost": 1223.0,
+                "Amount": "3"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 20
+            },
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": "3"
+            },
+            "Explorer's Pack": {
+                "Cost": 14625.0,
+                "Amount": "1"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "17"
+            },
+            "Crystal": {
+                "Cost": 408.0,
+                "Amount": "1"
+            },
+            "Dagger": {
+                "Cost": 536.0,
+                "Amount": "7"
+            },
+            "Crossbow": {
+                "Cost": 3642.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "76290",
+        "SellMult": "0.8792455564591473"
+    },
+    "Silly Gilly's Mode": {
+        "Name": "Silly Gilly's Mode",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "7"
+            },
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": "9"
+            },
+            "Tinker's Tools": {
+                "Cost": 1255.0,
                 "Amount": 4
             },
-            "Spell Scroll of Fireball": {
-                "Cost": 46265.0,
+            "Arrow": {
+                "Cost": 21.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "4468",
+        "SellMult": "0.24050376174593702"
+    },
+    "The Fabulous Forum": {
+        "Name": "The Fabulous Forum",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Mithril Plate Armor": {
+                "Cost": 10377.0,
+                "Amount": "2"
+            },
+            "Paper": {
+                "Cost": 30.0,
+                "Amount": 7
+            },
+            "Padded Armor": {
+                "Cost": 3117.0,
+                "Amount": "1"
+            },
+            "Iron": {
+                "Cost": 52.0,
+                "Amount": "3"
+            },
+            "Mithril": {
+                "Cost": 6288.0,
+                "Amount": "2"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": 11
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "12"
+            },
+            "Arrow": {
+                "Cost": 20.0,
+                "Amount": "2"
+            }
+        },
+        "GoldAmount": "90875",
+        "SellMult": "0.3520549052720934"
+    },
+    "The Terrible Corners": {
+        "Name": "The Terrible Corners",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Potion of Major Healing": {
+                "Cost": 15866.0,
+                "Amount": "1"
+            },
+            "Dungeoneer's Pack": {
+                "Cost": 12404.0,
+                "Amount": "2"
+            },
+            "Quiver": {
+                "Cost": 2011.0,
+                "Amount": 6
+            },
+            "Iron": {
+                "Cost": 53.0,
+                "Amount": 19
+            },
+            "Potion of Healing": {
+                "Cost": 9525.0,
+                "Amount": "1"
+            },
+            "Longbow": {
+                "Cost": 2847.0,
+                "Amount": "3"
+            },
+            "Redvine": {
+                "Cost": 684.0,
+                "Amount": "2"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "13"
+            },
+            "Smith's Tools": {
+                "Cost": 1233.0,
+                "Amount": "1"
+            },
+            "Oil": {
+                "Cost": 174.0,
+                "Amount": "2"
+            },
+            "Javelin of Lightning": {
+                "Cost": 7911.0,
+                "Amount": "2"
+            },
+            "Emerald": {
+                "Cost": 19613.0,
+                "Amount": "2"
+            },
+            "Red Corundum": {
+                "Cost": 17591.0,
+                "Amount": "2"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "17"
+            },
+            "Mason's Tools": {
+                "Cost": 4360.0,
+                "Amount": "2"
+            },
+            "Split Armor": {
+                "Cost": 15828.0,
+                "Amount": "3"
+            },
+            "Dagger": {
+                "Cost": 545.0,
+                "Amount": "8"
+            }
+        },
+        "GoldAmount": "81302",
+        "SellMult": "0.7238212790406793"
+    },
+    "Mouse's Trackback": {
+        "Name": "Mouse's Trackback",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Nail": {
+                "Cost": 20.0,
+                "Amount": "5"
+            }
+        },
+        "GoldAmount": "53015",
+        "SellMult": "0.10313837480322148"
+    },
+    "The Nimble Allocation": {
+        "Name": "The Nimble Allocation",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Mithril": {
+                "Cost": 5001.0,
+                "Amount": "2"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "9"
+            },
+            "Oil": {
+                "Cost": 154.0,
+                "Amount": "2"
+            },
+            "Paper": {
+                "Cost": 33.0,
+                "Amount": "5"
+            },
+            "Spell Scroll of Poison Spray": {
+                "Cost": 8920.0,
+                "Amount": "1"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "11"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "13"
+            },
+            "Longbow": {
+                "Cost": 2809.0,
+                "Amount": "3"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": 3
+            },
+            "Half Plate": {
+                "Cost": 24889.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "54207",
+        "SellMult": "0.493378080547052"
+    },
+    "Psycho's": {
+        "Name": "Psycho's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Vicious Morningstar": {
+                "Cost": 138639.0,
+                "Amount": "1"
+            },
+            "Potion of Major Healing": {
+                "Cost": 14271.0,
+                "Amount": "2"
+            },
+            "Spell Scroll of Resistance": {
+                "Cost": 11455.0,
+                "Amount": "2"
+            },
+            "Spell Scroll of Thunderclap": {
+                "Cost": 21499.0,
+                "Amount": "1"
+            },
+            "Club +1": {
+                "Cost": 4349.0,
+                "Amount": "2"
+            },
+            "Iron": {
+                "Cost": 54.0,
+                "Amount": "4"
+            }
+        },
+        "GoldAmount": "91180",
+        "SellMult": "0.672199312654794"
+    },
+    "Cheese's Muscles": {
+        "Name": "Cheese's Muscles",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": 22
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 19
+            },
+            "Yellow Vine": {
+                "Cost": 6.0,
+                "Amount": "2"
+            }
+        },
+        "GoldAmount": "26343",
+        "SellMult": "0.8829657140720114"
+    },
+    "Birdy's": {
+        "Name": "Birdy's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Iron Sword (Good)": {
+                "Cost": 3734.0,
+                "Amount": "3"
+            },
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": 26
+            },
+            "Potion of Minor Healing": {
+                "Cost": 2554.0,
+                "Amount": "3"
+            },
+            "Sledge Hammer": {
+                "Cost": 3794.0,
+                "Amount": "3"
+            },
+            "Arrow": {
+                "Cost": 21.0,
+                "Amount": 14
+            },
+            "Platinum": {
+                "Cost": 6740.0,
+                "Amount": "1"
+            },
+            "Iron": {
+                "Cost": 53.0,
+                "Amount": "4"
+            },
+            "Cucumber": {
+                "Cost": 65.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "95127",
+        "SellMult": "0.24672917070509792"
+    },
+    "The Barbarous Tale": {
+        "Name": "The Barbarous Tale",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Halberd": {
+                "Cost": 9564.0,
+                "Amount": "2"
+            },
+            "Tinker's Tools": {
+                "Cost": 1186.0,
+                "Amount": "1"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "13"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "12"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "8"
+            }
+        },
+        "GoldAmount": "12289",
+        "SellMult": "0.5152318118539685"
+    },
+    "Chili's Shark": {
+        "Name": "Chili's Shark",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Half Plate": {
+                "Cost": 20686.0,
+                "Amount": "2"
+            },
+            "Nail": {
+                "Cost": 20.0,
+                "Amount": 9
+            },
+            "Paper": {
+                "Cost": 31.0,
+                "Amount": 13
+            },
+            "Spell Scroll of Minor Illusion": {
+                "Cost": 9769.0,
+                "Amount": "2"
+            },
+            "Padded Armor": {
+                "Cost": 3875.0,
+                "Amount": "3"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "14"
+            },
+            "Dart +3": {
+                "Cost": 3113.0,
+                "Amount": "1"
+            },
+            "Dagger": {
+                "Cost": 516.0,
+                "Amount": "3"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "8"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "2"
+            }
+        },
+        "GoldAmount": "79543",
+        "SellMult": "0.5358068306753129"
+    },
+    "Blondie's Occurs": {
+        "Name": "Blondie's Occurs",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 23
+            },
+            "Dungeoneer's Pack": {
+                "Cost": 15617.0,
+                "Amount": "1"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": 27
+            },
+            "Dagger": {
+                "Cost": 542.0,
+                "Amount": "6"
+            },
+            "Club +2": {
+                "Cost": 19737.0,
+                "Amount": "1"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "3"
+            },
+            "Arrow": {
+                "Cost": 22.0,
+                "Amount": 6
+            },
+            "Thieves's Tools": {
+                "Cost": 1179.0,
+                "Amount": "3"
+            },
+            "Paper": {
+                "Cost": 30.0,
+                "Amount": "9"
+            },
+            "Potion of Flying": {
+                "Cost": 6179.0,
+                "Amount": "2"
+            },
+            "Lock": {
+                "Cost": 347.0,
+                "Amount": "2"
+            }
+        },
+        "GoldAmount": "19638",
+        "SellMult": "0.25491320789833405"
+    },
+    "The Sincere Framed": {
+        "Name": "The Sincere Framed",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": 16
+            },
+            "Potion of Minor Healing": {
+                "Cost": 2671.0,
+                "Amount": "1"
+            },
+            "Blowgun": {
+                "Cost": 2517.0,
+                "Amount": "1"
+            },
+            "Iron": {
+                "Cost": 52.0,
+                "Amount": "1"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 17
+            },
+            "Sickle": {
+                "Cost": 4393.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "49017",
+        "SellMult": "0.6697925132660689"
+    },
+    "Fury's Spice": {
+        "Name": "Fury's Spice",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": "6"
+            },
+            "Dagger": {
+                "Cost": 514.0,
+                "Amount": "8"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 38
+            },
+            "Longbow": {
+                "Cost": 2749.0,
+                "Amount": "2"
+            },
+            "Club": {
+                "Cost": 1972.0,
+                "Amount": "2"
+            },
+            "Shield": {
+                "Cost": 2438.0,
+                "Amount": "1"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 20
+            },
+            "Torch": {
+                "Cost": 521.0,
+                "Amount": "3"
+            },
+            "Chain Mail": {
+                "Cost": 4452.0,
+                "Amount": "3"
+            },
+            "Lock": {
+                "Cost": 431.0,
+                "Amount": "1"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "13"
+            },
+            "Potion of Healing": {
+                "Cost": 7460.0,
+                "Amount": "2"
+            },
+            "Shortsword": {
+                "Cost": 2011.0,
+                "Amount": "3"
+            },
+            "Battle Axe +1": {
+                "Cost": 10530.0,
+                "Amount": "1"
+            },
+            "Paper": {
+                "Cost": 33.0,
+                "Amount": "7"
+            }
+        },
+        "GoldAmount": "1100",
+        "SellMult": "0.6099757396408386"
+    },
+    "Double Double's Msgid": {
+        "Name": "Double Double's Msgid",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "3"
+            },
+            "Silver": {
+                "Cost": 562.0,
+                "Amount": "1"
+            },
+            "Battle Axe +1": {
+                "Cost": 9754.0,
+                "Amount": "2"
+            },
+            "Shortsword +2": {
+                "Cost": 18818.0,
+                "Amount": "2"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "16"
+            },
+            "Yellow Vine": {
+                "Cost": 5.0,
+                "Amount": "5"
+            },
+            "Nail": {
+                "Cost": 20.0,
+                "Amount": 21
+            },
+            "Potion of Healing": {
+                "Cost": 8424.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "15149",
+        "SellMult": "0.27185657326862933"
+    },
+    "The Divergent Desktops": {
+        "Name": "The Divergent Desktops",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Battle Axe +1": {
+                "Cost": 9301.0,
+                "Amount": "1"
+            },
+            "Dart": {
+                "Cost": 88.0,
+                "Amount": "5"
+            },
+            "Paper": {
+                "Cost": 32.0,
+                "Amount": "4"
+            }
+        },
+        "GoldAmount": "99408",
+        "SellMult": "0.7596042963538103"
+    },
+    "Peep's Center": {
+        "Name": "Peep's Center",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "8"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "9"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": 10
+            },
+            "Half Plate": {
+                "Cost": 22252.0,
+                "Amount": "3"
+            },
+            "Iron Sword (Rusty)": {
+                "Cost": 1761.0,
+                "Amount": "2"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": 11
+            },
+            "Diamond": {
+                "Cost": 4763.0,
+                "Amount": "2"
+            },
+            "Paper": {
+                "Cost": 31.0,
+                "Amount": "7"
+            },
+            "Oil": {
+                "Cost": 184.0,
+                "Amount": "1"
+            },
+            "Crossbow Bolt": {
+                "Cost": 275.0,
+                "Amount": "3"
+            },
+            "Arrow": {
+                "Cost": 20.0,
+                "Amount": "2"
+            },
+            "Wand": {
+                "Cost": 2089.0,
+                "Amount": "3"
+            },
+            "Yellow Diamond": {
+                "Cost": 16487.0,
+                "Amount": "1"
+            },
+            "Dagger": {
+                "Cost": 536.0,
+                "Amount": "9"
+            }
+        },
+        "GoldAmount": "84605",
+        "SellMult": "0.7556979414225222"
+    },
+    "Mimi's Positions": {
+        "Name": "Mimi's Positions",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Javelin of Lightning": {
+                "Cost": 8429.0,
+                "Amount": "2"
+            },
+            "Deck of Illusions": {
+                "Cost": 1000000.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "32242",
+        "SellMult": "0.6814326643950053"
+    },
+    "The Venomous Tripadvisor": {
+        "Name": "The Venomous Tripadvisor",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Glaive": {
+                "Cost": 4924.0,
+                "Amount": "3"
+            }
+        },
+        "GoldAmount": "47471",
+        "SellMult": "0.46343340725461657"
+    },
+    "Buster's": {
+        "Name": "Buster's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "15"
+            },
+            "Shield of Missile Attraction": {
+                "Cost": 45246.0,
+                "Amount": "1"
+            },
+            "Crystal": {
+                "Cost": 415.0,
+                "Amount": 3
+            },
+            "Gold": {
+                "Cost": 5939.0,
+                "Amount": "2"
+            },
+            "Arrow": {
+                "Cost": 20.0,
+                "Amount": "3"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": 25
+            },
+            "Mithril Plate Armor": {
+                "Cost": 10137.0,
+                "Amount": "1"
+            },
+            "Dagger": {
+                "Cost": 548.0,
+                "Amount": "6"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "8"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "12"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "13"
+            }
+        },
+        "GoldAmount": "59314",
+        "SellMult": "0.8100508370548539"
+    },
+    "Rockette's Object": {
+        "Name": "Rockette's Object",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Glass Flask": {
+                "Cost": 780.0,
+                "Amount": "2"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "4"
+            }
+        },
+        "GoldAmount": "69356",
+        "SellMult": "0.32850183773424535"
+    },
+    "The Outrageous Extending": {
+        "Name": "The Outrageous Extending",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Quiver": {
+                "Cost": 2073.0,
+                "Amount": "1"
+            },
+            "Club +1": {
+                "Cost": 4548.0,
+                "Amount": "2"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "10"
+            }
+        },
+        "GoldAmount": "2546",
+        "SellMult": "0.6545802184725472"
+    },
+    "Rambo's": {
+        "Name": "Rambo's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 32
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": 33
+            },
+            "Pike": {
+                "Cost": 2989.0,
+                "Amount": "3"
+            },
+            "Iron": {
+                "Cost": 53.0,
+                "Amount": "9"
+            },
+            "Greatsword": {
+                "Cost": 10795.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "4296",
+        "SellMult": "0.48940748206471885"
+    },
+    "The Unbecoming Recognize": {
+        "Name": "The Unbecoming Recognize",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": "8"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "10"
+            }
+        },
+        "GoldAmount": "42415",
+        "SellMult": "0.33086634954114236"
+    },
+    "The Sleepy Learned": {
+        "Name": "The Sleepy Learned",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Cucumber": {
+                "Cost": 59.0,
+                "Amount": 5
+            },
+            "Paper": {
+                "Cost": 32.0,
+                "Amount": 11
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 16
+            },
+            "Dart": {
+                "Cost": 92.0,
+                "Amount": "4"
+            },
+            "Glass Flask": {
+                "Cost": 806.0,
+                "Amount": "2"
+            },
+            "Split Armor": {
+                "Cost": 15158.0,
+                "Amount": "1"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "5"
+            },
+            "Chain Mail": {
+                "Cost": 5118.0,
+                "Amount": "2"
+            },
+            "Quiver": {
+                "Cost": 2293.0,
+                "Amount": "1"
+            },
+            "Potion of Major Healing": {
+                "Cost": 13504.0,
+                "Amount": 2
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "2"
+            },
+            "Nail": {
+                "Cost": 20.0,
+                "Amount": "3"
+            }
+        },
+        "GoldAmount": "30631",
+        "SellMult": "0.27428808453933506"
+    },
+    "Gingersnap's": {
+        "Name": "Gingersnap's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {},
+        "GoldAmount": "25694",
+        "SellMult": "0.1529014876825559"
+    },
+    "The Superb Regret": {
+        "Name": "The Superb Regret",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Gold": {
+                "Cost": 6109.0,
+                "Amount": "1"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "3"
+            },
+            "Diamond": {
+                "Cost": 5039.0,
+                "Amount": "2"
+            },
+            "Iron Sword (Rusty)": {
+                "Cost": 1524.0,
+                "Amount": 4
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "1"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "6"
+            },
+            "Steel": {
+                "Cost": 118.0,
+                "Amount": 3
+            },
+            "Sledge Hammer": {
+                "Cost": 3434.0,
+                "Amount": 5
+            },
+            "Mason's Tools": {
+                "Cost": 3896.0,
+                "Amount": "2"
+            },
+            "Nail": {
+                "Cost": 20.0,
+                "Amount": "4"
+            },
+            "Club": {
+                "Cost": 2319.0,
+                "Amount": "3"
+            },
+            "Dart +2": {
+                "Cost": 1141.0,
                 "Amount": 2
             }
         },
-        "GoldAmount": "3937",
-        "SellMult": "0.43253433689474985"
+        "GoldAmount": "53372",
+        "SellMult": "0.5315153349639673"
     },
-    "Stud's Note": {
-        "Name": "Stud's Note",
-        "Owner": "",
+    "Cat's": {
+        "Name": "Cat's",
+        "Owner": " ",
         "Notes": "",
-        "Type": "Blacksmith",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {},
-        "GoldAmount": "14556",
-        "SellMult": "0.6888876637802234"
-    },
-    "Gummi Bear's": {
-        "Name": "Gummi Bear's",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Herbalist",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
-        "Items": {},
-        "GoldAmount": "25039",
-        "SellMult": "0.3280643088988702"
-    },
-    "The Sour Democrat": {
-        "Name": "The Sour Democrat",
-        "Owner": "",
-        "Notes": "",
-        "Type": "Blacksmith",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
         "Items": {
-            "Greatsword": {
-                "Cost": 6926.0,
-                "Amount": 2
+            "Nail": {
+                "Cost": 20.0,
+                "Amount": "10"
             },
-            "Club +1": {
-                "Cost": 3716.0,
-                "Amount": 1
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": 24
             },
-            "Sickle": {
-                "Cost": 3427.0,
-                "Amount": 1
+            "Thieves's Tools": {
+                "Cost": 1032.0,
+                "Amount": "1"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 17
+            },
+            "Platinum": {
+                "Cost": 5737.0,
+                "Amount": "1"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "3"
+            },
+            "Crossbow Bolt": {
+                "Cost": 236.0,
+                "Amount": "2"
+            },
+            "Dagger": {
+                "Cost": 504.0,
+                "Amount": "1"
+            },
+            "Iron": {
+                "Cost": 53.0,
+                "Amount": "6"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "8"
+            },
+            "Spell Scroll of Minor Illusion": {
+                "Cost": 8673.0,
+                "Amount": "2"
+            },
+            "Arrow": {
+                "Cost": 20.0,
+                "Amount": 10
+            },
+            "Shortsword": {
+                "Cost": 2027.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "37616",
+        "SellMult": "0.14057712958649538"
+    },
+    "The Addicted Lang": {
+        "Name": "The Addicted Lang",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Spell Scroll of Alarm": {
+                "Cost": 4184.0,
+                "Amount": "2"
+            },
+            "Dart +1": {
+                "Cost": 430.0,
+                "Amount": "2"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "3"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "8"
+            },
+            "Cucumber": {
+                "Cost": 52.0,
+                "Amount": "3"
+            },
+            "Crossbow": {
+                "Cost": 3436.0,
+                "Amount": "2"
+            },
+            "Platinum": {
+                "Cost": 5663.0,
+                "Amount": "1"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "43074",
+        "SellMult": "0.356962837504449"
+    },
+    "The Unwieldy Lean": {
+        "Name": "The Unwieldy Lean",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Spell Scroll of Animal Messenger": {
+                "Cost": 11665.0,
+                "Amount": "2"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "17"
+            },
+            "Torch": {
+                "Cost": 467.0,
+                "Amount": "1"
+            },
+            "Shield of Missile Attraction": {
+                "Cost": 53023.0,
+                "Amount": "1"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 16
+            }
+        },
+        "GoldAmount": "19974",
+        "SellMult": "0.6699271295849613"
+    },
+    "Wifey's Diverse": {
+        "Name": "Wifey's Diverse",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {},
+        "GoldAmount": "81258",
+        "SellMult": "0.7353948611396467"
+    },
+    "Weirdo's": {
+        "Name": "Weirdo's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 10
+            },
+            "Battle Axe +1": {
+                "Cost": 9841.0,
+                "Amount": "1"
+            },
+            "Crossbow Bolt": {
+                "Cost": 270.0,
+                "Amount": "3"
+            },
+            "Crystal": {
+                "Cost": 362.0,
+                "Amount": "2"
+            },
+            "Split Armor": {
+                "Cost": 16467.0,
+                "Amount": "2"
+            },
+            "Wand": {
+                "Cost": 1940.0,
+                "Amount": "3"
+            },
+            "Dart": {
+                "Cost": 90.0,
+                "Amount": "2"
             },
             "Vine": {
                 "Cost": 3.0,
                 "Amount": 8
             },
-            "Explorer's Pack": {
-                "Cost": 13588.0,
-                "Amount": 2
-            },
             "Paper": {
-                "Cost": 31.0,
-                "Amount": 8
+                "Cost": 30.0,
+                "Amount": "2"
             }
         },
-        "GoldAmount": "31089",
-        "SellMult": "0.43393521947015323"
+        "GoldAmount": "97919",
+        "SellMult": "0.3219713788589411"
     },
-    "Marshmallow's": {
-        "Name": "Marshmallow's",
-        "Owner": "",
+    "Dilly Dally's Fill": {
+        "Name": "Dilly Dally's Fill",
+        "Owner": " ",
         "Notes": "",
-        "Type": "Blacksmith",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
         "Items": {
-            "Nail": {
-                "Cost": 21.0,
-                "Amount": 8
-            },
             "Dried Long Grass": {
                 "Cost": 2.0,
-                "Amount": 8
+                "Amount": 22
             },
-            "Paper": {
-                "Cost": 31.0,
-                "Amount": 1
-            },
-            "Iron Sword (Good)": {
-                "Cost": 2526.0,
-                "Amount": 3
+            "Bag of Holding": {
+                "Cost": 302769.0,
+                "Amount": "2"
             },
             "Dagger": {
-                "Cost": 355.0,
-                "Amount": 3
+                "Cost": 507.0,
+                "Amount": "9"
             },
-            "Half Plate": {
-                "Cost": 13648.0,
-                "Amount": 1
+            "Shortsword +1": {
+                "Cost": 7513.0,
+                "Amount": "2"
             },
-            "Quiver": {
-                "Cost": 2044.0,
-                "Amount": 1
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "6"
             },
-            "Redvine": {
-                "Cost": 652.0,
-                "Amount": 1
+            "Mason's Tools": {
+                "Cost": 3470.0,
+                "Amount": "1"
             },
-            "Tinker's Tools": {
-                "Cost": 1040.0,
-                "Amount": 2
+            "Torch": {
+                "Cost": 441.0,
+                "Amount": "2"
+            },
+            "Longbow": {
+                "Cost": 2988.0,
+                "Amount": "3"
+            },
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": "12"
             }
         },
-        "GoldAmount": "32500",
-        "SellMult": "0.20077853497176898"
+        "GoldAmount": "31215",
+        "SellMult": "0.7614668907267358"
     },
-    "Swiss Miss's": {
-        "Name": "Swiss Miss's",
-        "Owner": "",
+    "The Temporary Payroll": {
+        "Name": "The Temporary Payroll",
+        "Owner": " ",
         "Notes": "",
-        "Type": "Herbalist",
-        "City": "Siddonia",
-        "Region": "East Ozoa",
-        "Wealth": "Poor",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
         "Items": {
-            "Vial": {
-                "Cost": 649.0,
-                "Amount": 4
+            "Sickle": {
+                "Cost": 3758.0,
+                "Amount": "2"
+            },
+            "Silver": {
+                "Cost": 690.0,
+                "Amount": "3"
             },
             "Grass": {
                 "Cost": 1.0,
-                "Amount": 26
+                "Amount": "12"
+            },
+            "Yellow Vine": {
+                "Cost": 6.0,
+                "Amount": "4"
             }
         },
-        "GoldAmount": "31240",
-        "SellMult": "0.5480448003227041"
+        "GoldAmount": "85624",
+        "SellMult": "0.1941249900396967"
+    },
+    "Princess's Reasons": {
+        "Name": "Princess's Reasons",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "15"
+            },
+            "Iron": {
+                "Cost": 52.0,
+                "Amount": "9"
+            },
+            "Crossbow Bolt": {
+                "Cost": 264.0,
+                "Amount": "2"
+            },
+            "Yellow Vine": {
+                "Cost": 5.0,
+                "Amount": 11
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "15"
+            },
+            "Iron Sword (Rusty)": {
+                "Cost": 1527.0,
+                "Amount": "1"
+            },
+            "Battle Axe": {
+                "Cost": 4464.0,
+                "Amount": "1"
+            },
+            "Nail": {
+                "Cost": 20.0,
+                "Amount": "2"
+            },
+            "Quiver": {
+                "Cost": 2572.0,
+                "Amount": "1"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": 17
+            },
+            "Cucumber": {
+                "Cost": 63.0,
+                "Amount": "2"
+            },
+            "Arrow": {
+                "Cost": 20.0,
+                "Amount": "3"
+            }
+        },
+        "GoldAmount": "96248",
+        "SellMult": "0.7061876606565728"
+    },
+    "The Living Metal": {
+        "Name": "The Living Metal",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Crossbow Bolt": {
+                "Cost": 273.0,
+                "Amount": "1"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 9
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": 16
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": 16
+            },
+            "Crossbow": {
+                "Cost": 3371.0,
+                "Amount": "3"
+            },
+            "Nail": {
+                "Cost": 20.0,
+                "Amount": "8"
+            },
+            "Iron": {
+                "Cost": 55.0,
+                "Amount": "2"
+            },
+            "Paper": {
+                "Cost": 31.0,
+                "Amount": "3"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "4"
+            }
+        },
+        "GoldAmount": "42950",
+        "SellMult": "0.5719301031162981"
+    },
+    "The Unwieldy Alabama": {
+        "Name": "The Unwieldy Alabama",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": 10
+            },
+            "Battle Axe": {
+                "Cost": 4792.0,
+                "Amount": "1"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 4
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "5"
+            },
+            "Chain Mail": {
+                "Cost": 4373.0,
+                "Amount": "2"
+            }
+        },
+        "GoldAmount": "93365",
+        "SellMult": "0.5177341963491257"
+    },
+    "First Mate's": {
+        "Name": "First Mate's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Dart": {
+                "Cost": 85.0,
+                "Amount": "2"
+            },
+            "Blowgun": {
+                "Cost": 2497.0,
+                "Amount": "2"
+            },
+            "Dagger": {
+                "Cost": 547.0,
+                "Amount": "11"
+            },
+            "War Pick": {
+                "Cost": 2489.0,
+                "Amount": "1"
+            },
+            "Padded Armor": {
+                "Cost": 3070.0,
+                "Amount": "1"
+            },
+            "Arrow": {
+                "Cost": 20.0,
+                "Amount": "3"
+            },
+            "Yellow Vine": {
+                "Cost": 6.0,
+                "Amount": "5"
+            },
+            "Mithril": {
+                "Cost": 5208.0,
+                "Amount": "2"
+            },
+            "Silver": {
+                "Cost": 644.0,
+                "Amount": "3"
+            },
+            "Steel": {
+                "Cost": 139.0,
+                "Amount": "2"
+            }
+        },
+        "GoldAmount": "85518",
+        "SellMult": "0.7054416253266805"
+    },
+    "Big Guy's": {
+        "Name": "Big Guy's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Potion of Healing": {
+                "Cost": 7261.0,
+                "Amount": "2"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 34
+            },
+            "Club": {
+                "Cost": 1931.0,
+                "Amount": "2"
+            },
+            "Dagger": {
+                "Cost": 532.0,
+                "Amount": "7"
+            },
+            "Nail": {
+                "Cost": 20.0,
+                "Amount": "8"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "9"
+            },
+            "Backpack": {
+                "Cost": 2296.0,
+                "Amount": "2"
+            },
+            "Dart +2": {
+                "Cost": 1243.0,
+                "Amount": "2"
+            }
+        },
+        "GoldAmount": "71339",
+        "SellMult": "0.6969409450103653"
+    },
+    "The Sedate Manufacturer": {
+        "Name": "The Sedate Manufacturer",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {},
+        "GoldAmount": "19775",
+        "SellMult": "0.12756699282189868"
+    },
+    "The Uppity Announces": {
+        "Name": "The Uppity Announces",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "15"
+            },
+            "Split Armor": {
+                "Cost": 17658.0,
+                "Amount": "3"
+            },
+            "Paper": {
+                "Cost": 30.0,
+                "Amount": "8"
+            },
+            "Dart": {
+                "Cost": 85.0,
+                "Amount": "3"
+            }
+        },
+        "GoldAmount": "75138",
+        "SellMult": "0.659444524589322"
+    },
+    "Dork's Basin": {
+        "Name": "Dork's Basin",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {},
+        "GoldAmount": "88195",
+        "SellMult": "0.2596688441712474"
+    },
+    "The Boundless Past": {
+        "Name": "The Boundless Past",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 23
+            },
+            "Glass Flask": {
+                "Cost": 825.0,
+                "Amount": "3"
+            },
+            "Lock": {
+                "Cost": 436.0,
+                "Amount": "2"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "16"
+            },
+            "Nail": {
+                "Cost": 20.0,
+                "Amount": "4"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "13"
+            },
+            "Paper": {
+                "Cost": 33.0,
+                "Amount": "7"
+            }
+        },
+        "GoldAmount": "50314",
+        "SellMult": "0.38386288432001814"
+    },
+    "Pinata's": {
+        "Name": "Pinata's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "11"
+            },
+            "Arrow": {
+                "Cost": 20.0,
+                "Amount": "9"
+            },
+            "Paper": {
+                "Cost": 30.0,
+                "Amount": "11"
+            },
+            "Battle Axe +1": {
+                "Cost": 9356.0,
+                "Amount": "1"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "20"
+            }
+        },
+        "GoldAmount": "53727",
+        "SellMult": "0.13086914651623652"
+    },
+    "Scout's": {
+        "Name": "Scout's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Amethyst": {
+                "Cost": 984.0,
+                "Amount": "2"
+            },
+            "Paper": {
+                "Cost": 30.0,
+                "Amount": "7"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 15
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "5"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "4"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "1"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "4"
+            }
+        },
+        "GoldAmount": "54454",
+        "SellMult": "0.2891984654479175"
+    },
+    "The Hanging Romania": {
+        "Name": "The Hanging Romania",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": "3"
+            }
+        },
+        "GoldAmount": "81515",
+        "SellMult": "0.6647866370055989"
+    },
+    "Chump's Assumptions": {
+        "Name": "Chump's Assumptions",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "3"
+            },
+            "Iron": {
+                "Cost": 51.0,
+                "Amount": "4"
+            },
+            "Explorer's Pack": {
+                "Cost": 13228.0,
+                "Amount": "2"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": 4
+            },
+            "Dart": {
+                "Cost": 84.0,
+                "Amount": "5"
+            },
+            "Yellow Vine": {
+                "Cost": 5.0,
+                "Amount": "4"
+            },
+            "Crossbow Bolt": {
+                "Cost": 221.0,
+                "Amount": "1"
+            },
+            "Club": {
+                "Cost": 2259.0,
+                "Amount": "1"
+            },
+            "Mithril Plate Armor": {
+                "Cost": 10391.0,
+                "Amount": "2"
+            },
+            "Wand": {
+                "Cost": 2208.0,
+                "Amount": "2"
+            }
+        },
+        "GoldAmount": "38989",
+        "SellMult": "0.7545176458399329"
+    },
+    "Dorito's Matter": {
+        "Name": "Dorito's Matter",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Paper": {
+                "Cost": 30.0,
+                "Amount": "3"
+            },
+            "Nail": {
+                "Cost": 20.0,
+                "Amount": "5"
+            }
+        },
+        "GoldAmount": "26680",
+        "SellMult": "0.2502029175689111"
+    },
+    "The Sudden Opposite": {
+        "Name": "The Sudden Opposite",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "10"
+            },
+            "Dungeoneer's Pack": {
+                "Cost": 15073.0,
+                "Amount": "2"
+            },
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": 19
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 17
+            },
+            "Quiver": {
+                "Cost": 2220.0,
+                "Amount": "3"
+            },
+            "Steel": {
+                "Cost": 136.0,
+                "Amount": "1"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "3"
+            },
+            "Iron": {
+                "Cost": 53.0,
+                "Amount": 18
+            },
+            "Crossbow": {
+                "Cost": 3515.0,
+                "Amount": "2"
+            },
+            "Dagger": {
+                "Cost": 509.0,
+                "Amount": "3"
+            }
+        },
+        "GoldAmount": "12710",
+        "SellMult": "0.5293551774178001"
+    },
+    "Tough Guy's": {
+        "Name": "Tough Guy's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Iron": {
+                "Cost": 52.0,
+                "Amount": 11
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": 19
+            },
+            "Mason's Tools": {
+                "Cost": 4441.0,
+                "Amount": "1"
+            },
+            "Iron Sword (Good)": {
+                "Cost": 3673.0,
+                "Amount": "2"
+            },
+            "Arrow": {
+                "Cost": 20.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "93071",
+        "SellMult": "0.474737603225842"
+    },
+    "Wifey's Based": {
+        "Name": "Wifey's Based",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "10"
+            },
+            "War Pick": {
+                "Cost": 2446.0,
+                "Amount": "1"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "10"
+            },
+            "Dagger": {
+                "Cost": 521.0,
+                "Amount": "6"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 32
+            },
+            "Crystal": {
+                "Cost": 425.0,
+                "Amount": "3"
+            },
+            "Padded Armor": {
+                "Cost": 3612.0,
+                "Amount": "3"
+            },
+            "Club +1": {
+                "Cost": 4414.0,
+                "Amount": "1"
+            },
+            "Sledge Hammer": {
+                "Cost": 4238.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "58687",
+        "SellMult": "0.3519838567522382"
+    },
+    "The Level Containing": {
+        "Name": "The Level Containing",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Wand": {
+                "Cost": 1991.0,
+                "Amount": "1"
+            },
+            "Arrow": {
+                "Cost": 21.0,
+                "Amount": 7
+            },
+            "Dagger": {
+                "Cost": 544.0,
+                "Amount": 7
+            },
+            "Split Armor": {
+                "Cost": 15276.0,
+                "Amount": "1"
+            },
+            "Thieves's Tools": {
+                "Cost": 1104.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "64499",
+        "SellMult": "0.2856682375136227"
+    },
+    "Maestro's": {
+        "Name": "Maestro's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Battle Axe +1": {
+                "Cost": 9000.0,
+                "Amount": "2"
+            }
+        },
+        "GoldAmount": "35170",
+        "SellMult": "0.8119419401975329"
+    },
+    "Mouse's Belle": {
+        "Name": "Mouse's Belle",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Torch": {
+                "Cost": 448.0,
+                "Amount": "2"
+            },
+            "Crystal": {
+                "Cost": 441.0,
+                "Amount": "2"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": 23
+            },
+            "Shield": {
+                "Cost": 2702.0,
+                "Amount": "3"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": 13
+            },
+            "Dagger": {
+                "Cost": 511.0,
+                "Amount": "5"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 10
+            },
+            "Iron Sword (Rusty)": {
+                "Cost": 1473.0,
+                "Amount": "3"
+            },
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": "4"
+            },
+            "Steel": {
+                "Cost": 124.0,
+                "Amount": "5"
+            },
+            "Mason's Tools": {
+                "Cost": 3739.0,
+                "Amount": "2"
+            }
+        },
+        "GoldAmount": "33280",
+        "SellMult": "0.48496503118474155"
+    },
+    "DJ's": {
+        "Name": "DJ's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Potion of Minor Healing": {
+                "Cost": 2551.0,
+                "Amount": "3"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "15"
+            },
+            "Dart": {
+                "Cost": 96.0,
+                "Amount": "3"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "8"
+            }
+        },
+        "GoldAmount": "76719",
+        "SellMult": "0.8714605817015117"
+    },
+    "Freckles's": {
+        "Name": "Freckles's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Quiver": {
+                "Cost": 2318.0,
+                "Amount": "1"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "9"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 24
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "3"
+            },
+            "Greatsword": {
+                "Cost": 10740.0,
+                "Amount": 3
+            },
+            "Yellow Vine": {
+                "Cost": 6.0,
+                "Amount": "5"
+            },
+            "Torch": {
+                "Cost": 510.0,
+                "Amount": "3"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "1"
+            },
+            "Steel": {
+                "Cost": 111.0,
+                "Amount": "4"
+            }
+        },
+        "GoldAmount": "42967",
+        "SellMult": "0.6433425112541227"
+    },
+    "Pebbles's Biodiversity": {
+        "Name": "Pebbles's Biodiversity",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 18
+            },
+            "Crossbow Bolt": {
+                "Cost": 244.0,
+                "Amount": 2
+            },
+            "Dungeoneer's Pack": {
+                "Cost": 13204.0,
+                "Amount": "2"
+            },
+            "Dagger": {
+                "Cost": 534.0,
+                "Amount": 7
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 13
+            },
+            "Shortsword": {
+                "Cost": 2133.0,
+                "Amount": "1"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "10"
+            },
+            "Crystal": {
+                "Cost": 378.0,
+                "Amount": "1"
+            },
+            "Yellow Vine": {
+                "Cost": 6.0,
+                "Amount": "1"
+            },
+            "Half Plate": {
+                "Cost": 24364.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "16222",
+        "SellMult": "0.5938779691214943"
+    },
+    "4-Wheel's": {
+        "Name": "4-Wheel's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Pike": {
+                "Cost": 3366.0,
+                "Amount": 5
+            },
+            "Yellow Vine": {
+                "Cost": 6.0,
+                "Amount": "5"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "15"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "8"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": 34
+            }
+        },
+        "GoldAmount": "86793",
+        "SellMult": "0.787050906927126"
+    },
+    "The Modern Blood": {
+        "Name": "The Modern Blood",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "1"
+            },
+            "Flail": {
+                "Cost": 3475.0,
+                "Amount": "3"
+            },
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": 11
+            },
+            "Arrow": {
+                "Cost": 20.0,
+                "Amount": "3"
+            },
+            "Oil": {
+                "Cost": 187.0,
+                "Amount": "3"
+            }
+        },
+        "GoldAmount": "30388",
+        "SellMult": "0.3640804770837841"
+    },
+    "Rubber's": {
+        "Name": "Rubber's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {},
+        "GoldAmount": "37177",
+        "SellMult": "0.497297177307923"
+    },
+    "The Agreeable Machine": {
+        "Name": "The Agreeable Machine",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Dungeoneer's Pack": {
+                "Cost": 14534.0,
+                "Amount": "2"
+            },
+            "Platinum": {
+                "Cost": 5867.0,
+                "Amount": "1"
+            },
+            "Longbow": {
+                "Cost": 2721.0,
+                "Amount": "1"
+            },
+            "Dart +2": {
+                "Cost": 1220.0,
+                "Amount": "1"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "7"
+            },
+            "Sickle": {
+                "Cost": 3792.0,
+                "Amount": "2"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "9"
+            },
+            "Arrow": {
+                "Cost": 22.0,
+                "Amount": "3"
+            },
+            "Steel": {
+                "Cost": 119.0,
+                "Amount": "1"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "10"
+            }
+        },
+        "GoldAmount": "4044",
+        "SellMult": "0.5104523505602233"
+    },
+    "Cuddle Pig's": {
+        "Name": "Cuddle Pig's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Cucumber": {
+                "Cost": 53.0,
+                "Amount": "2"
+            },
+            "Quiver": {
+                "Cost": 2404.0,
+                "Amount": "2"
+            },
+            "Glass Flask": {
+                "Cost": 826.0,
+                "Amount": "3"
+            },
+            "War Pick": {
+                "Cost": 2189.0,
+                "Amount": "1"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 16
+            },
+            "Dart +1": {
+                "Cost": 523.0,
+                "Amount": "2"
+            },
+            "Oil": {
+                "Cost": 163.0,
+                "Amount": "1"
+            },
+            "Split Armor": {
+                "Cost": 16127.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "45029",
+        "SellMult": "0.7716643026246103"
+    },
+    "Lovey's Yoga": {
+        "Name": "Lovey's Yoga",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "4"
+            },
+            "Dagger": {
+                "Cost": 517.0,
+                "Amount": "6"
+            },
+            "Shortbow": {
+                "Cost": 2695.0,
+                "Amount": "2"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": 11
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "3"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "15"
+            },
+            "Redvine": {
+                "Cost": 770.0,
+                "Amount": "1"
+            },
+            "Iron": {
+                "Cost": 54.0,
+                "Amount": "2"
+            },
+            "Sledge Hammer": {
+                "Cost": 4405.0,
+                "Amount": "1"
+            },
+            "Halberd": {
+                "Cost": 11922.0,
+                "Amount": "2"
+            },
+            "Emerald": {
+                "Cost": 18346.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "84666",
+        "SellMult": "0.20335496213043786"
+    },
+    "Baby Boo's Untitled": {
+        "Name": "Baby Boo's Untitled",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "4"
+            },
+            "Shortbow": {
+                "Cost": 2513.0,
+                "Amount": "3"
+            },
+            "Arrow": {
+                "Cost": 22.0,
+                "Amount": "1"
+            },
+            "Mason's Tools": {
+                "Cost": 3409.0,
+                "Amount": "1"
+            },
+            "Glass Flask": {
+                "Cost": 729.0,
+                "Amount": "3"
+            },
+            "Paper": {
+                "Cost": 32.0,
+                "Amount": "5"
+            },
+            "Iron Sword (Rusty)": {
+                "Cost": 1673.0,
+                "Amount": "1"
+            },
+            "Nail": {
+                "Cost": 20.0,
+                "Amount": "12"
+            }
+        },
+        "GoldAmount": "52866",
+        "SellMult": "0.8449098600195222"
+    },
+    "Short Shorts's Proprietary": {
+        "Name": "Short Shorts's Proprietary",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {},
+        "GoldAmount": "29620",
+        "SellMult": "0.2607868833694338"
+    },
+    "Redbull's Clip": {
+        "Name": "Redbull's Clip",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "8"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "9"
+            }
+        },
+        "GoldAmount": "19382",
+        "SellMult": "0.18869047118706928"
+    },
+    "Filly Fally's Heated": {
+        "Name": "Filly Fally's Heated",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Mithril": {
+                "Cost": 5485.0,
+                "Amount": "2"
+            },
+            "Mithril Plate Armor": {
+                "Cost": 10928.0,
+                "Amount": "3"
+            },
+            "Dart +1": {
+                "Cost": 525.0,
+                "Amount": "2"
+            },
+            "Platinum": {
+                "Cost": 6453.0,
+                "Amount": "2"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 15
+            }
+        },
+        "GoldAmount": "79170",
+        "SellMult": "0.34265484751270725"
+    },
+    "The Dangerous Benefits": {
+        "Name": "The Dangerous Benefits",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Crossbow Bolt": {
+                "Cost": 268.0,
+                "Amount": "2"
+            },
+            "Half Plate": {
+                "Cost": 25460.0,
+                "Amount": "1"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "8"
+            },
+            "Blowgun": {
+                "Cost": 2593.0,
+                "Amount": "2"
+            },
+            "Paper": {
+                "Cost": 30.0,
+                "Amount": "3"
+            }
+        },
+        "GoldAmount": "31836",
+        "SellMult": "0.3279283285882306"
+    },
+    "The Tangy Cookbook": {
+        "Name": "The Tangy Cookbook",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "1"
+            },
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": "10"
+            },
+            "Dart": {
+                "Cost": 84.0,
+                "Amount": "6"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 27
+            },
+            "Club": {
+                "Cost": 2151.0,
+                "Amount": "3"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "6"
+            }
+        },
+        "GoldAmount": "11211",
+        "SellMult": "0.23168460984794026"
+    },
+    "Duckling's Launch": {
+        "Name": "Duckling's Launch",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Paper": {
+                "Cost": 30.0,
+                "Amount": "4"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "12"
+            },
+            "Smith's Tools": {
+                "Cost": 1030.0,
+                "Amount": "3"
+            },
+            "Crossbow Bolt": {
+                "Cost": 252.0,
+                "Amount": "2"
+            },
+            "Spell Scroll of Alarm": {
+                "Cost": 4470.0,
+                "Amount": "2"
+            },
+            "Red Corundum": {
+                "Cost": 16059.0,
+                "Amount": "1"
+            },
+            "Cloak of Invisibility": {
+                "Cost": 1000000.0,
+                "Amount": "2"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "4"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "1"
+            },
+            "Quiver": {
+                "Cost": 2476.0,
+                "Amount": "2"
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "3"
+            },
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": "4"
+            }
+        },
+        "GoldAmount": "14966",
+        "SellMult": "0.5503143526520605"
+    },
+    "The Savory Occasion": {
+        "Name": "The Savory Occasion",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Torch": {
+                "Cost": 547.0,
+                "Amount": "2"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 11
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "7"
+            },
+            "Dagger": {
+                "Cost": 534.0,
+                "Amount": "2"
+            },
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": "1"
+            },
+            "Silver": {
+                "Cost": 720.0,
+                "Amount": "2"
+            },
+            "Iron": {
+                "Cost": 52.0,
+                "Amount": "1"
+            },
+            "Greatsword": {
+                "Cost": 9799.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "72354",
+        "SellMult": "0.48185461206549174"
+    },
+    "Doobie's": {
+        "Name": "Doobie's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Dart": {
+                "Cost": 96.0,
+                "Amount": "2"
+            },
+            "Glass Flask": {
+                "Cost": 638.0,
+                "Amount": 3
+            },
+            "Amethyst": {
+                "Cost": 901.0,
+                "Amount": "2"
+            },
+            "Emerald": {
+                "Cost": 18137.0,
+                "Amount": "2"
+            },
+            "Steel": {
+                "Cost": 128.0,
+                "Amount": "1"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 27
+            },
+            "Paper": {
+                "Cost": 32.0,
+                "Amount": "8"
+            },
+            "Arrow": {
+                "Cost": 21.0,
+                "Amount": "4"
+            },
+            "Wand": {
+                "Cost": 2057.0,
+                "Amount": "1"
+            },
+            "Iron": {
+                "Cost": 53.0,
+                "Amount": "5"
+            },
+            "Mason's Tools": {
+                "Cost": 4068.0,
+                "Amount": "1"
+            },
+            "Longbow": {
+                "Cost": 2584.0,
+                "Amount": "2"
+            }
+        },
+        "GoldAmount": "9587",
+        "SellMult": "0.8202042905750023"
+    },
+    "Dinosaur's": {
+        "Name": "Dinosaur's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Arrow": {
+                "Cost": 20.0,
+                "Amount": 10
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 21
+            },
+            "Dart +1": {
+                "Cost": 530.0,
+                "Amount": "2"
+            },
+            "Club": {
+                "Cost": 2255.0,
+                "Amount": "2"
+            },
+            "Steel": {
+                "Cost": 130.0,
+                "Amount": 5
+            },
+            "Chain Mail": {
+                "Cost": 4280.0,
+                "Amount": "1"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "3"
+            },
+            "Nail": {
+                "Cost": 22.0,
+                "Amount": "11"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": 14
+            },
+            "Longbow": {
+                "Cost": 2839.0,
+                "Amount": "3"
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": "15"
+            }
+        },
+        "GoldAmount": "9717",
+        "SellMult": "0.5003234557019085"
+    },
+    "Dracula's": {
+        "Name": "Dracula's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Gold": {
+                "Cost": 5583.0,
+                "Amount": "2"
+            },
+            "Shortbow": {
+                "Cost": 2699.0,
+                "Amount": "2"
+            },
+            "Torch": {
+                "Cost": 462.0,
+                "Amount": "1"
+            },
+            "War Pick": {
+                "Cost": 2286.0,
+                "Amount": "3"
+            },
+            "Crossbow": {
+                "Cost": 3041.0,
+                "Amount": "1"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "4"
+            },
+            "Shield": {
+                "Cost": 2929.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "71015",
+        "SellMult": "0.6537014984840482"
+    },
+    "Drake's": {
+        "Name": "Drake's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Quiver": {
+                "Cost": 2498.0,
+                "Amount": "3"
+            },
+            "Dagger": {
+                "Cost": 535.0,
+                "Amount": "8"
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "2"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": 41
+            },
+            "Arrow": {
+                "Cost": 21.0,
+                "Amount": "1"
+            },
+            "Lock": {
+                "Cost": 374.0,
+                "Amount": "1"
+            }
+        },
+        "GoldAmount": "3316",
+        "SellMult": "0.11987097910152099"
+    },
+    "Betty Boop's Sends": {
+        "Name": "Betty Boop's Sends",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": "10"
+            }
+        },
+        "GoldAmount": "42899",
+        "SellMult": "0.29424489440594775"
+    },
+    "Lady's": {
+        "Name": "Lady's",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Silver": {
+                "Cost": 592.0,
+                "Amount": "2"
+            },
+            "Yellow Vine": {
+                "Cost": 6.0,
+                "Amount": 7
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": 11
+            },
+            "Torch": {
+                "Cost": 553.0,
+                "Amount": "2"
+            },
+            "Greataxe": {
+                "Cost": 9807.0,
+                "Amount": "2"
+            },
+            "Iron": {
+                "Cost": 52.0,
+                "Amount": "5"
+            },
+            "Dart": {
+                "Cost": 93.0,
+                "Amount": "2"
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": "16"
+            },
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": "5"
+            }
+        },
+        "GoldAmount": "70217",
+        "SellMult": "0.3962509317589662"
+    },
+    "Sunshine's Thailand": {
+        "Name": "Sunshine's Thailand",
+        "Owner": " ",
+        "Notes": "",
+        "Type": " ",
+        "City": " ",
+        "Region": " ",
+        "Wealth": " ",
+        "Items": {
+            "Dart": {
+                "Cost": 92.0,
+                "Amount": "1"
+            },
+            "Yellow Diamond": {
+                "Cost": 18735.0,
+                "Amount": "1"
+            },
+            "Paper": {
+                "Cost": 32.0,
+                "Amount": "5"
+            },
+            "Steel": {
+                "Cost": 136.0,
+                "Amount": "3"
+            },
+            "Diamond": {
+                "Cost": 5331.0,
+                "Amount": "2"
+            },
+            "Iron": {
+                "Cost": 50.0,
+                "Amount": 16
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": "2"
+            },
+            "Orange Vine": {
+                "Cost": 5.0,
+                "Amount": "4"
+            },
+            "War Pick": {
+                "Cost": 2518.0,
+                "Amount": "3"
+            }
+        },
+        "GoldAmount": "65811",
+        "SellMult": "0.6774832678859792"
     }
 }

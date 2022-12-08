@@ -16,7 +16,7 @@ WEALTHY_RARITY_MULT = 5  # this number dictates the rarity of item found in weal
 MIDDLECLASS_RARITY_MULT = 2  # this number dictates the rarity of item found in middle class shops,
 POOR_RARITY_MULT = 1 # ^^^     higher means more rare items
 
-POOR_CHANCE = 50
+POOR_CHANCE = 50 # threshold for poor shops ( all of them should add to 100 for easiest determining of wealth)
 MIDDLECLASS_CHANCE = 30
 WEALTHY_CHANCE = 15
 ELITE_CHANCE = 5
@@ -25,8 +25,8 @@ TOTAL_THRESH = (POOR_CHANCE+MIDDLECLASS_CHANCE+WEALTHY_CHANCE+ELITE_CHANCE)
 
 MAX_ITEM_COST = 1000000
 
-#-------------
-#----SET UP----
+# -------------
+# ----SET UP----
 shops = ShopManager()
 shop_names = list(shops.shopList.keys())
 items = ItemManager()
@@ -50,7 +50,7 @@ for line in nounFile:
 nounFile.close()
 for line in nicknameFile:
     nicknames = line.split(",")
-#----------------
+# ----------------
 
 # lists for the command to add the option for custom command input and shortcuts
 printShop = ['print', 'show']
@@ -323,7 +323,7 @@ def makeShopRandom(type_shop: str, city: str, owner: str, region: str, wealth: s
     type_list = list(types.typeManager.keys()) # gets a list of the types of shops from the text file
     if wealth == "":
         wealth = random.randint(1, 100) # this determines the wealth of the shop based on the presets
-    else:
+    elif(wealth != " "):
         wealth = wealth.split("-") # if the user entered a range use that
         if len(wealth) == 2:
             wealth = random.randint(max(1,int(wealth[0])), min(100,int(wealth[1]))) # assures shop thresh is 1-100
@@ -345,24 +345,27 @@ def makeShopRandom(type_shop: str, city: str, owner: str, region: str, wealth: s
             types.addNewShopType(type_shop)
 
     name = generateName() # generate's the name of the shop and the key
-    size = wealth * random.randint(5, 15) # generates a shop of a random size influenced by the wealth
-    gold_amount = random.randint(1, 500) * wealth ** 1.5 # makes the random gold amount influenced by wealth
+    if(wealth != " "):
+        size = wealth * random.randint(5, 15) # generates a shop of a random size influenced by the wealth
+        gold_amount = random.randint(1, 500) * wealth ** 1.5 # makes the random gold amount influenced by wealth
+        # these are generating the thresholds out of 100 to allow for the percentages to make sense
+        poor_thresh = round((POOR_CHANCE / TOTAL_THRESH) * 100)
+        middleclass_thresh = poor_thresh + round((MIDDLECLASS_CHANCE / TOTAL_THRESH) * 100)
+        wealthy_thresh = middleclass_thresh + round((WEALTHY_CHANCE / TOTAL_THRESH) * 100)
+        elite_thresh = wealthy_thresh + round((ELITE_CHANCE / TOTAL_THRESH) * 100)
+        if 0 <= wealth < poor_thresh:  # determines the shop wealth for items
+            wealth = "Poor"
+        elif poor_thresh <= wealth < middleclass_thresh:
+            wealth = "Middle Class"
+        elif middleclass_thresh <= wealth < wealthy_thresh:
+            wealth = "Wealthy"
+        elif wealthy_thresh <= wealth <= elite_thresh:
+            wealth = "Elite"
+    else:
+        size = random.randint(1,1500)
+        gold_amount = random.randint(500,100000)
+    sell_rate = random.uniform(MIN_SELL_MULT, MAX_SELL_MULT)  # determines the sell multiplier of a shop
 
-    # these are generating the thresholds out of 100 to allow for the percentages to make sense
-    poor_thresh = round((POOR_CHANCE/TOTAL_THRESH)*100)
-    middleclass_thresh = poor_thresh + round((MIDDLECLASS_CHANCE/TOTAL_THRESH)*100)
-    wealthy_thresh = middleclass_thresh + round((WEALTHY_CHANCE/TOTAL_THRESH)*100)
-    elite_thresh = wealthy_thresh + round((ELITE_CHANCE/TOTAL_THRESH)*100)
-
-    if 0 <= wealth < poor_thresh:  # determines the shop wealth for items
-        wealth = "Poor"
-    elif poor_thresh <= wealth < middleclass_thresh:
-        wealth = "Middle Class"
-    elif middleclass_thresh <= wealth < wealthy_thresh:
-        wealth = "Wealthy"
-    elif wealthy_thresh <= wealth <= elite_thresh:
-        wealth = "Elite"
-    sell_rate = random.uniform(MIN_SELL_MULT, MAX_SELL_MULT) # determines the sell multiplier of a shop
     item_list = {}
     # creates the shop with an empty item list
     shop = Shop(name, owner, "", type_shop, city, region, str(wealth), item_list, str(int(gold_amount)), str(sell_rate))
@@ -391,8 +394,18 @@ def makeShopRandom(type_shop: str, city: str, owner: str, region: str, wealth: s
                 can_be_added /= MIDDLECLASS_RARITY_MULT
             elif wealth == "Poor":
                 can_be_added /= POOR_RARITY_MULT
-        else:  # if the item-shop_type is not offered by the shop then make it unlikely for the item to be in  the shop
+        elif (type_shop != " "):  # if the item-shop_type is not offered by the shop then make it unlikely for the item to be in  the shop
             can_be_added *= 40
+        else:
+            if wealth == "Elite":
+                can_be_added /= ELITE_RARITY_MULT
+            elif wealth == "Wealthy":
+                can_be_added /= WEALTHY_RARITY_MULT
+            elif wealth == "Middle Class":
+                can_be_added /= MIDDLECLASS_RARITY_MULT
+            elif wealth == "Poor":
+                can_be_added /= POOR_RARITY_MULT
+            
         if can_be_added <= float(item.rarity) <= can_be_added * 10:  # threshold for adding item to the shop pool
             if item.name in shop.items:
                 shop.addItem(item.name, random.randint(1, int(float(can_be_added) + float(

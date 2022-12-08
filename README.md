@@ -5,8 +5,8 @@
 Most of the functionality is in **main.py**
 
 When running it, the user is presented with a simple terminal.
-Arguments are currently delimited by a comma in the terminal to allow for names that include spaces
-Type "help" to get a list of the currently supported commands
+Arguments are currently delimited by a comma in the terminal to allow for names that include spaces.
+Type "help" to get a list of the currently supported commands.
 
 ## Functions
 

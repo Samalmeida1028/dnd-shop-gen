@@ -11,7 +11,7 @@ class Shop:
                  sell_mult=""):
         self.name = name
         self.owner = owner
-        self.shopType = shop_type
+        self.shop_type = shop_type
         self.notes = notes
         self.city = city
         self.region = region
@@ -19,14 +19,14 @@ class Shop:
         self.items = {}
         if type(items) != str:
             self.addItems(items)
-        self.goldAmount = gold_amount
+        self.gold_amount = gold_amount
         self.sell_mult = sell_mult
 
     def __str__(self):  # this puts the shop items in JSON format for saving
         temp = json.dumps(self.items, indent=4)
         return '{"Name":"' + self.name + '","Owner":"' + self.owner + '","Notes":"' + self.notes + '","Type":"' \
-               + self.shopType + '","City":"' + self.city + '","Region":"' + self.region + '","Wealth":"' + self.wealth \
-               + '","Items":' + temp + ',"GoldAmount":"' + self.goldAmount + '","SellMult":"' + self.sellMult + '"}'
+               + self.shop_type + '","City":"' + self.city + '","Region":"' + self.region + '","Wealth":"' + self.wealth \
+               + '","Items":' + temp + ',"GoldAmount":"' + self.gold_amount + '","SellMult":"' + self.sell_mult + '"}'
 
     def str(self):
         return self.__str__()

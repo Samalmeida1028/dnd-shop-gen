@@ -3,22 +3,22 @@ import json
 
 class Item:
 
-    def __init__(self, name, baseRegion, itemType="misc", baseValue="1", rarity="1", arg=[]):
+    def __init__(self, name, baseRegion, item_type="misc", baseValue="1", rarity="1", arg=[]):
         if len(arg) == 0:
             self.name = name
-            self.itemType = itemType
+            self.item_type = item_type
             self.baseValue = baseValue
             self.rarity = rarity
             self.baseRegion = baseRegion
         else:
             self.name = arg[0]
-            self.itemType = arg[1]
+            self.item_type = arg[1]
             self.baseValue = arg[2]
             self.rarity = arg[3]
             self.baseRegion = arg[4]
 
     def __str__(self):
-        return '{"Name":"' + self.name + '","Type":"' + self.itemType + '","Value":"' + self.baseValue + '","Rarity":"'\
+        return '{"Name":"' + self.name + '","Type":"' + self.item_type + '","Value":"' + self.baseValue + '","Rarity":"'\
                + self.rarity + '","Base Region":"' + self.baseRegion + '"}'
 
     def str(self):
@@ -29,7 +29,7 @@ class ItemManager:
 
     def __init__(self):  # inits by trying to load an items.txt json for the save data, else it creates a new one
         temp = ""
-        self.itemTypes = []
+        self.item_types = []
         self.itemRegions = []
         self.itemList = {}
         try:
@@ -43,8 +43,8 @@ class ItemManager:
             except json.decoder.JSONDecodeError:
                 self.itemList = {}
 
-    def addItem(self, name, itemType, baseValue, rarity, baseRegion):  # add item by property
-        temp = Item(name, itemType, baseValue, rarity, baseRegion)
+    def addItem(self, name, item_type, baseValue, rarity, baseRegion):  # add item by property
+        temp = Item(name, item_type, baseValue, rarity, baseRegion)
         self.itemList[name] = json.loads(temp.str())
 
     def addItem(self, item_list):  # add new item by list
@@ -59,9 +59,9 @@ class ItemManager:
 
     def getItemTypes(self) -> list:  # gets all the item types in the item list
         for key in self.itemList:
-            if self.itemList[key]["Type"] not in self.itemTypes:
-                self.itemTypes.append(self.itemList[key]["Type"])
-        return self.itemTypes
+            if self.itemList[key]["Type"] not in self.item_types:
+                self.item_types.append(self.itemList[key]["Type"])
+        return self.item_types
 
     def getItemIndex(self, index) -> Item:  # gets the index of an item in the item list
         item_name = list(self.itemList)[int(index)]

@@ -132,7 +132,7 @@ def sellShopItem(arg, shop_name):
         print("Item does not exist")
         return
     item_value = int(round(float(item.baseValue) * float(shop["SellMult"])))
-    if item.itemType not in types.typeManager[shop["Type"]]:
+    if item.item_type not in types.typeManager[shop["Type"]]:
         item_value /= 2
     if item.baseRegion not in regions.regionManager[shop["Region"]]:
         item_value *= 1.2
@@ -296,7 +296,7 @@ def makeShopRandom(type_shop, city, owner, region, wealth):
             break
         is_added = random.uniform(0, 100)
         # this is compared against the rarity of an item to determine if the item is added
-        if any(item.itemType in shop_type for shop_type in types.typeManager[shop.shopType]):
+        if any(item.item_type in shop_type for shop_type in types.typeManager[shop.shop_type]):
             # checks if the item shop_type is found in the supported item types of the shop shop_type
             is_added /= 2
             if (regions.regionList != "{}" and item.baseRegion in regions.regionManager[region]) \

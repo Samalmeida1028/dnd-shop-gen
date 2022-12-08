@@ -1,0 +1,622 @@
+{
+    "Freak's": {
+        "Name": "Freak's",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Blacksmith",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Sledge Hammer": {
+                "Cost": 3933.0,
+                "Amount": 3
+            },
+            "Club": {
+                "Cost": 2364.0,
+                "Amount": 1
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": 18
+            },
+            "Paper": {
+                "Cost": 33.0,
+                "Amount": 4
+            }
+        },
+        "GoldAmount": "78533",
+        "SellMult": "0.8461061935123847"
+    },
+    "The Frail Mini": {
+        "Name": "The Frail Mini",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Mage",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Glass Flask": {
+                "Cost": 458.0,
+                "Amount": 2
+            },
+            "Nail": {
+                "Cost": 20.0,
+                "Amount": 11
+            }
+        },
+        "GoldAmount": "56613",
+        "SellMult": "0.1978854568632028"
+    },
+    "Pop Tart's Cumulative": {
+        "Name": "Pop Tart's Cumulative",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Alchemist",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Spell Scroll of Minor Illusion": {
+                "Cost": 5682.0,
+                "Amount": 2
+            },
+            "Wand": {
+                "Cost": 1403.0,
+                "Amount": 3
+            }
+        },
+        "GoldAmount": "38725",
+        "SellMult": "0.3291570539251667"
+    },
+    "The Mundane Basic": {
+        "Name": "The Mundane Basic",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Blacksmith",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Iron": {
+                "Cost": 53.0,
+                "Amount": 5
+            }
+        },
+        "GoldAmount": "28800",
+        "SellMult": "0.7986455887219875"
+    },
+    "The Psychedelic Mozilla": {
+        "Name": "The Psychedelic Mozilla",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Herbalist",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Glass Flask": {
+                "Cost": 498.0,
+                "Amount": 3
+            }
+        },
+        "GoldAmount": "71710",
+        "SellMult": "0.3412970441506767"
+    },
+    "Tater Tot's Smash": {
+        "Name": "Tater Tot's Smash",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Blacksmith",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Half Plate": {
+                "Cost": 16831.0,
+                "Amount": 1
+            },
+            "Paper": {
+                "Cost": 30.0,
+                "Amount": 20
+            }
+        },
+        "GoldAmount": "7767",
+        "SellMult": "0.23425624041549648"
+    },
+    "Smudge's": {
+        "Name": "Smudge's",
+        "Owner": "",
+        "Notes": "",
+        "Type": "General Merchant",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {},
+        "GoldAmount": "8935",
+        "SellMult": "0.18343455396323388"
+    },
+    "Skipper's": {
+        "Name": "Skipper's",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Herbalist",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 12
+            },
+            "Potion of Minor Healing": {
+                "Cost": 1825.0,
+                "Amount": 2
+            },
+            "Vial": {
+                "Cost": 619.0,
+                "Amount": 2
+            }
+        },
+        "GoldAmount": "130552",
+        "SellMult": "0.824153177626321"
+    },
+    "Rosebud's Piss": {
+        "Name": "Rosebud's Piss",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Herbalist",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Middle Class",
+        "Items": {
+            "Yellow Vine": {
+                "Cost": 6.0,
+                "Amount": 4
+            },
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 9
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 20
+            },
+            "Cucumber": {
+                "Cost": 51.0,
+                "Amount": 1
+            },
+            "Vial": {
+                "Cost": 684.0,
+                "Amount": 2
+            }
+        },
+        "GoldAmount": "58336",
+        "SellMult": "0.35744370639392453"
+    },
+    "Halfling's": {
+        "Name": "Halfling's",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Blacksmith",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Mason's Tools": {
+                "Cost": 4267.0,
+                "Amount": 2
+            }
+        },
+        "GoldAmount": "1719",
+        "SellMult": "0.3404946129349227"
+    },
+    "The Impolite Fine": {
+        "Name": "The Impolite Fine",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Alchemist",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Lock": {
+                "Cost": 367.0,
+                "Amount": 3
+            },
+            "Potion of Minor Healing": {
+                "Cost": 1589.0,
+                "Amount": 3
+            },
+            "Wand": {
+                "Cost": 1570.0,
+                "Amount": 3
+            }
+        },
+        "GoldAmount": "77344",
+        "SellMult": "0.7359175538619465"
+    },
+    "Snoopy's": {
+        "Name": "Snoopy's",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Blacksmith",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Shortsword +2": {
+                "Cost": 10909.0,
+                "Amount": 1
+            },
+            "Wand": {
+                "Cost": 1248.0,
+                "Amount": 1
+            },
+            "Iron Sword (Rusty)": {
+                "Cost": 1035.0,
+                "Amount": 2
+            },
+            "Nail": {
+                "Cost": 20.0,
+                "Amount": 12
+            },
+            "Shortsword +1": {
+                "Cost": 6594.0,
+                "Amount": 2
+            },
+            "Crossbow": {
+                "Cost": 2287.0,
+                "Amount": 2
+            },
+            "Dagger": {
+                "Cost": 352.0,
+                "Amount": 4
+            }
+        },
+        "GoldAmount": "74561",
+        "SellMult": "0.10825080067101728"
+    },
+    "Fury's Hartford": {
+        "Name": "Fury's Hartford",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Herbalist",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Torch": {
+                "Cost": 476.0,
+                "Amount": 2
+            }
+        },
+        "GoldAmount": "99927",
+        "SellMult": "0.5290010010395839"
+    },
+    "Chiquita's Shelf": {
+        "Name": "Chiquita's Shelf",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Mage",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {},
+        "GoldAmount": "48388",
+        "SellMult": "0.26319181556595883"
+    },
+    "Cheerio's": {
+        "Name": "Cheerio's",
+        "Owner": "",
+        "Notes": "",
+        "Type": "General Merchant",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {},
+        "GoldAmount": "70742",
+        "SellMult": "0.8738404634107798"
+    },
+    "Bambi's Gun": {
+        "Name": "Bambi's Gun",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Alchemist",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Long Grass": {
+                "Cost": 1.0,
+                "Amount": 12
+            }
+        },
+        "GoldAmount": "109599",
+        "SellMult": "0.24996988672574114"
+    },
+    "Dracula's": {
+        "Name": "Dracula's",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Herbalist",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Spell Scroll of Alarm": {
+                "Cost": 2922.0,
+                "Amount": 1
+            },
+            "Potion of Healing": {
+                "Cost": 6299.0,
+                "Amount": 1
+            },
+            "Lock": {
+                "Cost": 427.0,
+                "Amount": 3
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 1
+            }
+        },
+        "GoldAmount": "128226",
+        "SellMult": "0.23391976192292516"
+    },
+    "Twix's": {
+        "Name": "Twix's",
+        "Owner": "",
+        "Notes": "",
+        "Type": "General Merchant",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {},
+        "GoldAmount": "29140",
+        "SellMult": "0.8558907377500293"
+    },
+    "Slim's Dozens": {
+        "Name": "Slim's Dozens",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Blacksmith",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Silver": {
+                "Cost": 567.0,
+                "Amount": 1
+            },
+            "Dagger": {
+                "Cost": 352.0,
+                "Amount": 6
+            },
+            "Mithral Plate Armor": {
+                "Cost": 7347.0,
+                "Amount": 1
+            }
+        },
+        "GoldAmount": "68599",
+        "SellMult": "0.6074097388135135"
+    },
+    "The Abandoned Markers": {
+        "Name": "The Abandoned Markers",
+        "Owner": "",
+        "Notes": "",
+        "Type": "General Merchant",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {},
+        "GoldAmount": "2792",
+        "SellMult": "0.6252073777911616"
+    },
+    "Dirty Harry's Ports": {
+        "Name": "Dirty Harry's Ports",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Weapons Dealer",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {},
+        "GoldAmount": "1285",
+        "SellMult": "0.17442927328253824"
+    },
+    "The Lovely Induction": {
+        "Name": "The Lovely Induction",
+        "Owner": "",
+        "Notes": "",
+        "Type": "General Merchant",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Lock": {
+                "Cost": 416.0,
+                "Amount": 1
+            }
+        },
+        "GoldAmount": "166012",
+        "SellMult": "0.8431000282817492"
+    },
+    "Redbull's": {
+        "Name": "Redbull's",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Mage",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {},
+        "GoldAmount": "60719",
+        "SellMult": "0.4666601256084294"
+    },
+    "Turkey's Depot": {
+        "Name": "Turkey's Depot",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Weapons Dealer",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {},
+        "GoldAmount": "56393",
+        "SellMult": "0.6929766738158187"
+    },
+    "Bubble Butt's": {
+        "Name": "Bubble Butt's",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Alchemist",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Spell Scroll of Poison Spray": {
+                "Cost": 5803.0,
+                "Amount": 4
+            },
+            "Spell Scroll of Fireball": {
+                "Cost": 46265.0,
+                "Amount": 2
+            }
+        },
+        "GoldAmount": "3937",
+        "SellMult": "0.43253433689474985"
+    },
+    "Stud's Note": {
+        "Name": "Stud's Note",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Blacksmith",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {},
+        "GoldAmount": "14556",
+        "SellMult": "0.6888876637802234"
+    },
+    "Gummi Bear's": {
+        "Name": "Gummi Bear's",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Herbalist",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {},
+        "GoldAmount": "25039",
+        "SellMult": "0.3280643088988702"
+    },
+    "The Sour Democrat": {
+        "Name": "The Sour Democrat",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Blacksmith",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Greatsword": {
+                "Cost": 6926.0,
+                "Amount": 2
+            },
+            "Club +1": {
+                "Cost": 3716.0,
+                "Amount": 1
+            },
+            "Sickle": {
+                "Cost": 3427.0,
+                "Amount": 1
+            },
+            "Vine": {
+                "Cost": 3.0,
+                "Amount": 8
+            },
+            "Explorer's Pack": {
+                "Cost": 13588.0,
+                "Amount": 2
+            },
+            "Paper": {
+                "Cost": 31.0,
+                "Amount": 8
+            }
+        },
+        "GoldAmount": "31089",
+        "SellMult": "0.43393521947015323"
+    },
+    "Marshmallow's": {
+        "Name": "Marshmallow's",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Blacksmith",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Nail": {
+                "Cost": 21.0,
+                "Amount": 8
+            },
+            "Dried Long Grass": {
+                "Cost": 2.0,
+                "Amount": 8
+            },
+            "Paper": {
+                "Cost": 31.0,
+                "Amount": 1
+            },
+            "Iron Sword (Good)": {
+                "Cost": 2526.0,
+                "Amount": 3
+            },
+            "Dagger": {
+                "Cost": 355.0,
+                "Amount": 3
+            },
+            "Half Plate": {
+                "Cost": 13648.0,
+                "Amount": 1
+            },
+            "Quiver": {
+                "Cost": 2044.0,
+                "Amount": 1
+            },
+            "Redvine": {
+                "Cost": 652.0,
+                "Amount": 1
+            },
+            "Tinker's Tools": {
+                "Cost": 1040.0,
+                "Amount": 2
+            }
+        },
+        "GoldAmount": "32500",
+        "SellMult": "0.20077853497176898"
+    },
+    "Swiss Miss's": {
+        "Name": "Swiss Miss's",
+        "Owner": "",
+        "Notes": "",
+        "Type": "Herbalist",
+        "City": "Siddonia",
+        "Region": "East Ozoa",
+        "Wealth": "Poor",
+        "Items": {
+            "Vial": {
+                "Cost": 649.0,
+                "Amount": 4
+            },
+            "Grass": {
+                "Cost": 1.0,
+                "Amount": 26
+            }
+        },
+        "GoldAmount": "31240",
+        "SellMult": "0.5480448003227041"
+    }
+}

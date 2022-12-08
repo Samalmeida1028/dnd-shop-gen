@@ -95,7 +95,7 @@ def runCommands(argv: list):  # simple interface with if statements to run comma
     elif argv[0] in enterShop:
         currentShop(argv[1])
     elif argv[0] in regionCommand:
-        getAllRegions()
+        printAllRegions()
     elif argv[0] in regionManager:
         manageRegions()
     elif argv[0] in generateCom:
@@ -446,7 +446,7 @@ def generateName():
 
 
 # -----------REGION FUNCTIONS----------------
-def manageRegions():
+def manageRegions(): # goes into the region managing program
     current_input = ""
     while current_input not in exitArea:
         current_input = input("Region Manager>>")
@@ -463,19 +463,19 @@ def manageRegions():
             print(regions.regionManager)
 
 
-def getAllRegions():
+def printAllRegions(): # prints all the shop and item regions
     shop_regions = shops.getShopRegions()
     item_regions = items.getItemRegions()
     print("Shop Regions: %s, Item Regions: %s" % (shop_regions, item_regions))
 
 
 # -----------------PRINT FUNCTIONS--------------------
-def printShopsIn(city: str):
+def printShopsIn(area: str): # prints all the shops in a given area (city or region)
     print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
     all_regions = list(shops.getShopRegions())
-    shops_in = list(shops.getShopByCity(city).keys())
-    if city in all_regions:
-        shops_in = list(shops.getShopByRegion(city))
+    shops_in = list(shops.getShopByCity(area).keys())
+    if area in all_regions:
+        shops_in = list(shops.getShopByRegion(area))
     count = 1
     for k in shops_in:
         shop = shops.getShopByName(k)
@@ -488,7 +488,7 @@ def printShopsIn(city: str):
     print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 
 
-def printAllShops():
+def printAllShops(): # prints all shops
     shops_to_print = list(shops.shopList.keys())
     count = 1
     for k in shops_to_print:

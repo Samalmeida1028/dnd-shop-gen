@@ -9,4 +9,4 @@ class RandomChest:
             self.rarity = 1000
         else:
             self.rarity = chest_rarity
-        generateChest(self.rarity)
+        #generateChest(self.rarity)

@@ -707,7 +707,7 @@
         "Base Region": "Magic Lands"
     },
     "Mithril": {
-        "Name": "Mithral",
+        "Name": "Mithril",
         "Type": "Material",
         "Value": "1000",
         "Rarity": ".6",
@@ -762,8 +762,8 @@
         "Rarity": ".6",
         "Base Region": "Magic Area"
     },
-    "Mithral Plate Armor": {
-        "Name": "Mithral Plate Armor",
+    "Mithril Plate Armor": {
+        "Name": "Mithril Plate Armor",
         "Type": "Armor",
         "Value": "2000",
         "Rarity": ".6",

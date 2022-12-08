@@ -19,9 +19,10 @@ _this also means you can use all save data as JSON objects_
 
 **If you need to add items, then under "Scripts" there is an item adder script that can be used currently**
 
-## TODO (in terminal app)
+### Update:
+added the ability to add items through the terminal!
 
-- Allow user to add new items to the item list
+## TODO (in terminal app)
 - Remove shops, remove items from shops, remove regions, and remove items from regions
 - Rename Shops
 - add update shops to randomly update and change shops

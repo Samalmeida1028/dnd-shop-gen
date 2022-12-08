@@ -8,14 +8,13 @@ from Objects.TypeAndRegionManager import *
 # ---GOLBALS---
 REGION_ITEM_VALUE = 1.2  # used to determine how an item's value fluctuates based on region
 TYPE_ITEM_VALUE = 2  # used to determine item's price when sold if it is in the shop that sells it
-ELITE_RARITY_MULT = 10  # this number dictates the rarity of item found in elite shops, higher means more rare items
 MIN_SELL_MULT = .1
 MAX_SELL_MULT = .9
 
+ELITE_RARITY_MULT = 10  # this number dictates the rarity of item found in elite shops, higher means more rare items
 WEALTHY_RARITY_MULT = 5  # this number dictates the rarity of item found in wealthy shops, higher means more rare items
 MIDDLECLASS_RARITY_MULT = 2  # this number dictates the rarity of item found in middle class shops,
-                                                # higher means more rare items
-POOR_RARITY_MULT = 1 # ^^^
+POOR_RARITY_MULT = 1 # ^^^     higher means more rare items
 
 POOR_CHANCE = 50
 MIDDLECLASS_CHANCE = 30

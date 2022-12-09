@@ -1,6 +1,12 @@
 import json
 from dataclasses import dataclass
 
+# TODO: Fix serialization of Item and Shops, change all item and shop keys to match within the file,
+# TODO: ^^ cont.. update keys on main terminal, refactor terminal into different programs to support adding new programs
+# TODO: add chest generation, add support for custom files to load shops and items, make it easier to update items
+# TODO: Make shop regions and biome easier to interpret, as well as shop types and item types
+# TODO: Refactor code for ease of use and remove dependencies on hard coded values to support tweaking of parameters
+# TODO: Load those parameters into another json editable file so users can tweak program values without tweaking code
 @dataclass
 class Item:
     name: str

@@ -1,5 +1,6 @@
 import json
 from dataclasses import dataclass
+from pathlib import Path
 
 # TODO: Fix serialization of Item and Shops, change all item and shop keys to match within the file,
 # TODO: ^^ cont.. update keys on main terminal, refactor terminal into different programs to support adding new programs
@@ -11,22 +12,22 @@ from dataclasses import dataclass
 class Item:
     name: str
     item_type: str
-    baseValue: str
-    rarity: float
-    baseRegion: str
-    def __init__(self, name, baseRegion, item_type="misc", baseValue="1", rarity="1", arg=[]):
+    base_value: str
+    rarity: float | str
+    base_region: str
+    def __init__(self, name, base_region, item_type="misc", base_value="1", rarity="1", arg=[]):
         if len(arg) == 0:
             self.name = name
             self.item_type = item_type
-            self.baseValue = baseValue
+            self.base_value = base_value
             self.rarity = rarity
-            self.baseRegion = baseRegion
+            self.base_region = base_region
         else:
             self.name = arg[0]
             self.item_type = arg[1]
-            self.baseValue = arg[2]
+            self.base_value = arg[2]
             self.rarity = arg[3]
-            self.baseRegion = arg[4]
+            self.base_region = arg[4]
 
     def Serialize(self):
         return vars(self)
@@ -34,55 +35,56 @@ class Item:
 
 class ItemManager:
 
-    def __init__(self):  # inits by trying to load an items.txt json for the save data, else it creates a new one
+    def __init__(self,filename: str = "items.txt"):  # inits by trying to load an items.txt json for the save data, else it creates a new one
         temp = ""
         self.item_types = []
         self.itemRegions = []
-        self.itemList = {}
+        self.item_list = {}
+        self.file = "../Resources/save_data/" + filename
         try:
-            with open("../Resources/save_data/items.txt", "x") as file:
+            with open(Path(self.file), "x") as file:
                 file.write(temp)
                 file.close()
         except FileExistsError:
             try:
-                with open("../Resources/save_data/items.txt") as file:  # loads the json file into a dictionary
-                    self.itemList = json.load(file)
+                with open(Path(self.file)) as file:  # loads the json file into a dictionary
+                    self.item_list = json.load(file)
             except json.decoder.JSONDecodeError:
-                self.itemList = {}
+                self.item_list = {}
 
-    def addItem(self, name, item_type, baseValue, rarity, baseRegion):  # add item by property
-        temp = Item(name, item_type, baseValue, rarity, baseRegion)
-        self.itemList[name] = temp.Serialize()
+    def addItem(self, name, item_type, base_value, rarity, base_region):  # add item by property
+        temp = Item(name, item_type, base_value, rarity, base_region)
+        self.item_list[name] = temp.Serialize()
 
     def addItem(self, item_list):  # add new item by list
         temp = Item("", "", "", "", "", item_list)
-        self.itemList[item_list[0]] = temp.Serialize()
+        self.item_list[item_list[0]] = temp.Serialize()
 
     def getItemRegions(self) -> list:  # returns a list of all the regions in the item list
-        for key in self.itemList:
-            if self.itemList[key]["Base Region"] not in self.itemRegions:
-                self.itemRegions.append(self.itemList[key]["Base Region"])
+        for key in self.item_list:
+            if self.item_list[key]["Base Region"] not in self.itemRegions:
+                self.itemRegions.append(self.item_list[key]["Base Region"])
         return self.itemRegions
 
     def getItemTypes(self) -> list:  # gets all the item types in the item list
-        for key in self.itemList:
-            if self.itemList[key]["Type"] not in self.item_types:
-                self.item_types.append(self.itemList[key]["Type"])
+        for key in self.item_list:
+            if self.item_list[key]["Type"] not in self.item_types:
+                self.item_types.append(self.item_list[key]["Type"])
         return self.item_types
 
     def getItemIndex(self, index: int | str) -> Item:  # gets the index of an item in the item list
-        item_name = list(self.itemList)[int(index)]
-        item = Item(item_name, self.itemList[item_name]["Base Region"], self.itemList[item_name]["Type"],
-                    self.itemList[item_name]["Value"], self.itemList[item_name]["Rarity"])
+        item_name = list(self.item_list)[int(index)]
+        item = Item(item_name, self.item_list[item_name]["Base Region"], self.item_list[item_name]["Type"],
+                    self.item_list[item_name]["Value"], self.item_list[item_name]["Rarity"])
         return item
 
     def getItemName(self, name: str) -> Item:  # gets an item if given a name
-        item = Item(name, self.itemList[name]["Base Region"], self.itemList[name]["Type"], self.itemList[name]["Value"],
-                    self.itemList[name]["Rarity"])
+        item = Item(name, self.item_list[name]["Base Region"], self.item_list[name]["Type"], self.item_list[name]["Value"],
+                    self.item_list[name]["Rarity"])
         return item
 
     def saveItems(self):  # saves the items to the txt file
-        open('../Resources/save_data/items.txt', 'w').close()
-        file = open("../Resources/save_data/items.txt", "r+")
-        json.dump(self.itemList, file, indent=4)
+        open(Path(self.file), 'w').close()
+        file = open(Path(self.file), "r+")
+        json.dump(self.item_list, file, indent=4)
         file.close()

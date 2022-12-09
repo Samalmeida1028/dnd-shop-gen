@@ -1,622 +1,3514 @@
 {
-    "Freak's": {
-        "name": "Freak's",
-        "owner": "",
-        "notes": "",
-        "shop_type": "Blacksmith",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {
-            "Sledge Hammer": {
-                "Cost": 3933.0,
-                "Amount": 3
-            },
-            "Club": {
-                "Cost": 2364.0,
-                "Amount": 1
-            },
-            "Dried Long Grass": {
-                "Cost": 2.0,
-                "Amount": 18
-            },
-            "Paper": {
-                "Cost": 33.0,
-                "Amount": 4
-            }
-        },
-        "gold_amount": "78533",
-        "sell_mult": "0.8461061935123847"
-    },
-    "The Frail Mini": {
-        "name": "The Frail Mini",
+    "Cello's Latino": {
+        "name": "Cello's Latino",
         "owner": "",
         "notes": "",
         "shop_type": "Mage",
-        "city": "Siddonia",
-        "region": "East Ozoa",
+        "city": "",
+        "region": "Fechura",
         "wealth": "Poor",
-        "items": {
-            "Glass Flask": {
-                "Cost": 458.0,
-                "Amount": 2
-            },
-            "Nail": {
-                "Cost": 20.0,
-                "Amount": 11
-            }
-        },
-        "gold_amount": "56613",
-        "sell_mult": "0.1978854568632028"
+        "gold_amount": "8910",
+        "sell_mult": "0.40583979022268524",
+        "items": {}
     },
-    "Pop Tart's Cumulative": {
-        "name": "Pop Tart's Cumulative",
+    "Einstein's Gays": {
+        "name": "Einstein's Gays",
         "owner": "",
         "notes": "",
         "shop_type": "Alchemist",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {
-            "Spell Scroll of Minor Illusion": {
-                "Cost": 5682.0,
-                "Amount": 2
-            },
-            "Wand": {
-                "Cost": 1403.0,
-                "Amount": 3
-            }
-        },
-        "gold_amount": "38725",
-        "sell_mult": "0.3291570539251667"
-    },
-    "The Mundane Basic": {
-        "name": "The Mundane Basic",
-        "owner": "",
-        "notes": "",
-        "shop_type": "Blacksmith",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {
-            "Iron": {
-                "Cost": 53.0,
-                "Amount": 5
-            }
-        },
-        "gold_amount": "28800",
-        "sell_mult": "0.7986455887219875"
-    },
-    "The Psychedelic Mozilla": {
-        "name": "The Psychedelic Mozilla",
-        "owner": "",
-        "notes": "",
-        "shop_type": "Herbalist",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
+        "city": "",
+        "region": "Unknown Lands",
+        "wealth": "Middle Class",
+        "gold_amount": "51450",
+        "sell_mult": "0.8985257409985876",
         "items": {
             "Glass Flask": {
-                "Cost": 498.0,
-                "Amount": 3
+                "cost": 781.0,
+                "amount": "2"
             }
-        },
-        "gold_amount": "71710",
-        "sell_mult": "0.3412970441506767"
+        }
     },
-    "Tater Tot's Smash": {
-        "name": "Tater Tot's Smash",
-        "owner": "",
-        "notes": "",
-        "shop_type": "Blacksmith",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {
-            "Half Plate": {
-                "Cost": 16831.0,
-                "Amount": 1
-            },
-            "Paper": {
-                "Cost": 30.0,
-                "Amount": 20
-            }
-        },
-        "gold_amount": "7767",
-        "sell_mult": "0.23425624041549648"
-    },
-    "Smudge's": {
-        "name": "Smudge's",
-        "owner": "",
-        "notes": "",
-        "shop_type": "General Merchant",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {},
-        "gold_amount": "8935",
-        "sell_mult": "0.18343455396323388"
-    },
-    "Skipper's": {
-        "name": "Skipper's",
+    "Toots's Loud": {
+        "name": "Toots's Loud",
         "owner": "",
         "notes": "",
         "shop_type": "Herbalist",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {
-            "Long Grass": {
-                "Cost": 1.0,
-                "Amount": 12
-            },
-            "Potion of Minor Healing": {
-                "Cost": 1825.0,
-                "Amount": 2
-            },
-            "Vial": {
-                "Cost": 619.0,
-                "Amount": 2
-            }
-        },
-        "gold_amount": "130552",
-        "sell_mult": "0.824153177626321"
-    },
-    "Rosebud's Piss": {
-        "name": "Rosebud's Piss",
-        "owner": "",
-        "notes": "",
-        "shop_type": "Herbalist",
-        "city": "Siddonia",
-        "region": "East Ozoa",
+        "city": "",
+        "region": "Polar",
         "wealth": "Middle Class",
+        "gold_amount": "215998",
+        "sell_mult": "0.5935339430555708",
         "items": {
             "Yellow Vine": {
-                "Cost": 6.0,
-                "Amount": 4
+                "cost": 6.0,
+                "amount": "5"
             },
             "Long Grass": {
-                "Cost": 1.0,
-                "Amount": 9
+                "cost": 1.0,
+                "amount": 16
             },
             "Grass": {
-                "Cost": 1.0,
-                "Amount": 20
-            },
-            "Cucumber": {
-                "Cost": 51.0,
-                "Amount": 1
-            },
-            "Vial": {
-                "Cost": 684.0,
-                "Amount": 2
+                "cost": 1.0,
+                "amount": 25
             }
-        },
-        "gold_amount": "58336",
-        "sell_mult": "0.35744370639392453"
+        }
     },
-    "Halfling's": {
-        "name": "Halfling's",
+    "Twizzler's Sheep": {
+        "name": "Twizzler's Sheep",
         "owner": "",
         "notes": "",
-        "shop_type": "Blacksmith",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {
-            "Mason's Tools": {
-                "Cost": 4267.0,
-                "Amount": 2
-            }
-        },
-        "gold_amount": "1719",
-        "sell_mult": "0.3404946129349227"
-    },
-    "The Impolite Fine": {
-        "name": "The Impolite Fine",
-        "owner": "",
-        "notes": "",
-        "shop_type": "Alchemist",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {
-            "Lock": {
-                "Cost": 367.0,
-                "Amount": 3
-            },
-            "Potion of Minor Healing": {
-                "Cost": 1589.0,
-                "Amount": 3
-            },
-            "Wand": {
-                "Cost": 1570.0,
-                "Amount": 3
-            }
-        },
-        "gold_amount": "77344",
-        "sell_mult": "0.7359175538619465"
-    },
-    "Snoopy's": {
-        "name": "Snoopy's",
-        "owner": "",
-        "notes": "",
-        "shop_type": "Blacksmith",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {
-            "Shortsword +2": {
-                "Cost": 10909.0,
-                "Amount": 1
-            },
-            "Wand": {
-                "Cost": 1248.0,
-                "Amount": 1
-            },
-            "Iron Sword (Rusty)": {
-                "Cost": 1035.0,
-                "Amount": 2
-            },
-            "Nail": {
-                "Cost": 20.0,
-                "Amount": 12
-            },
-            "Shortsword +1": {
-                "Cost": 6594.0,
-                "Amount": 2
-            },
-            "Crossbow": {
-                "Cost": 2287.0,
-                "Amount": 2
-            },
-            "Dagger": {
-                "Cost": 352.0,
-                "Amount": 4
-            }
-        },
-        "gold_amount": "74561",
-        "sell_mult": "0.10825080067101728"
-    },
-    "Fury's Hartford": {
-        "name": "Fury's Hartford",
-        "owner": "",
-        "notes": "",
-        "shop_type": "Herbalist",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "Oksandarr",
+        "wealth": "Wealthy",
+        "gold_amount": "86478",
+        "sell_mult": "0.4782406723622932",
         "items": {
             "Torch": {
-                "Cost": 476.0,
-                "Amount": 2
+                "cost": 521.0,
+                "amount": "1"
+            },
+            "Red Corundum": {
+                "cost": 13898.0,
+                "amount": "2"
+            },
+            "Lock": {
+                "cost": 387.0,
+                "amount": 4
+            },
+            "Amethyst": {
+                "cost": 807.0,
+                "amount": "1"
             }
-        },
-        "gold_amount": "99927",
-        "sell_mult": "0.5290010010395839"
+        }
     },
-    "Chiquita's Shelf": {
-        "name": "Chiquita's Shelf",
-        "owner": "",
-        "notes": "",
-        "shop_type": "Mage",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {},
-        "gold_amount": "48388",
-        "sell_mult": "0.26319181556595883"
-    },
-    "Cheerio's": {
-        "name": "Cheerio's",
-        "owner": "",
-        "notes": "",
-        "shop_type": "General Merchant",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {},
-        "gold_amount": "70742",
-        "sell_mult": "0.8738404634107798"
-    },
-    "Bambi's Gun": {
-        "name": "Bambi's Gun",
+    "Big Mac's": {
+        "name": "Big Mac's",
         "owner": "",
         "notes": "",
         "shop_type": "Alchemist",
-        "city": "Siddonia",
+        "city": "",
         "region": "East Ozoa",
         "wealth": "Poor",
-        "items": {
-            "Long Grass": {
-                "Cost": 1.0,
-                "Amount": 12
-            }
-        },
-        "gold_amount": "109599",
-        "sell_mult": "0.24996988672574114"
-    },
-    "Dracula's": {
-        "name": "Dracula's",
-        "owner": "",
-        "notes": "",
-        "shop_type": "Herbalist",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
+        "gold_amount": "30594",
+        "sell_mult": "0.591873907048074",
         "items": {
             "Spell Scroll of Alarm": {
-                "Cost": 2922.0,
-                "Amount": 1
+                "cost": 3744.0,
+                "amount": "2"
             },
-            "Potion of Healing": {
-                "Cost": 6299.0,
-                "Amount": 1
-            },
-            "Lock": {
-                "Cost": 427.0,
-                "Amount": 3
-            },
-            "Grass": {
-                "Cost": 1.0,
-                "Amount": 1
+            "Dart +2": {
+                "cost": 1431.0,
+                "amount": "1"
             }
-        },
-        "gold_amount": "128226",
-        "sell_mult": "0.23391976192292516"
+        }
     },
-    "Twix's": {
-        "name": "Twix's",
+    "Hawk's Jungle": {
+        "name": "Hawk's Jungle",
         "owner": "",
         "notes": "",
         "shop_type": "General Merchant",
-        "city": "Siddonia",
-        "region": "East Ozoa",
+        "city": "",
+        "region": "Oksandarr",
         "wealth": "Poor",
-        "items": {},
-        "gold_amount": "29140",
-        "sell_mult": "0.8558907377500293"
-    },
-    "Slim's Dozens": {
-        "name": "Slim's Dozens",
-        "owner": "",
-        "notes": "",
-        "shop_type": "Blacksmith",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
+        "gold_amount": "157885",
+        "sell_mult": "0.27519300257323787",
         "items": {
-            "Silver": {
-                "Cost": 567.0,
-                "Amount": 1
+            "Amethyst": {
+                "cost": 672.0,
+                "amount": "1"
             },
-            "Dagger": {
-                "Cost": 352.0,
-                "Amount": 6
-            },
-            "Mithral Plate Armor": {
-                "Cost": 7347.0,
-                "Amount": 1
+            "Torch": {
+                "cost": 513.0,
+                "amount": 4
             }
-        },
-        "gold_amount": "68599",
-        "sell_mult": "0.6074097388135135"
+        }
     },
-    "The Abandoned Markers": {
-        "name": "The Abandoned Markers",
-        "owner": "",
-        "notes": "",
-        "shop_type": "General Merchant",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {},
-        "gold_amount": "2792",
-        "sell_mult": "0.6252073777911616"
-    },
-    "Dirty Harry's Ports": {
-        "name": "Dirty Harry's Ports",
-        "owner": "",
-        "notes": "",
-        "shop_type": "Weapons Dealer",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {},
-        "gold_amount": "1285",
-        "sell_mult": "0.17442927328253824"
-    },
-    "The Lovely Induction": {
-        "name": "The Lovely Induction",
-        "owner": "",
-        "notes": "",
-        "shop_type": "General Merchant",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {
-            "Lock": {
-                "Cost": 416.0,
-                "Amount": 1
-            }
-        },
-        "gold_amount": "166012",
-        "sell_mult": "0.8431000282817492"
-    },
-    "Redbull's": {
-        "name": "Redbull's",
-        "owner": "",
-        "notes": "",
-        "shop_type": "Mage",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {},
-        "gold_amount": "60719",
-        "sell_mult": "0.4666601256084294"
-    },
-    "Turkey's Depot": {
-        "name": "Turkey's Depot",
-        "owner": "",
-        "notes": "",
-        "shop_type": "Weapons Dealer",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {},
-        "gold_amount": "56393",
-        "sell_mult": "0.6929766738158187"
-    },
-    "Bubble Butt's": {
-        "name": "Bubble Butt's",
+    "Happy's": {
+        "name": "Happy's",
         "owner": "",
         "notes": "",
         "shop_type": "Alchemist",
-        "city": "Siddonia",
-        "region": "East Ozoa",
+        "city": "",
+        "region": "Magius",
         "wealth": "Poor",
+        "gold_amount": "37135",
+        "sell_mult": "0.7279513124142418",
         "items": {
-            "Spell Scroll of Poison Spray": {
-                "Cost": 5803.0,
-                "Amount": 4
-            },
-            "Spell Scroll of Fireball": {
-                "Cost": 46265.0,
-                "Amount": 2
+            "Lock": {
+                "cost": 345.0,
+                "amount": "3"
             }
-        },
-        "gold_amount": "3937",
-        "sell_mult": "0.43253433689474985"
+        }
     },
-    "Stud's Note": {
-        "name": "Stud's Note",
+    "The Earsplitting Play": {
+        "name": "The Earsplitting Play",
         "owner": "",
         "notes": "",
-        "shop_type": "Blacksmith",
-        "city": "Siddonia",
-        "region": "East Ozoa",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "Pitt",
         "wealth": "Poor",
-        "items": {},
-        "gold_amount": "14556",
-        "sell_mult": "0.6888876637802234"
-    },
-    "Gummi Bear's": {
-        "name": "Gummi Bear's",
-        "owner": "",
-        "notes": "",
-        "shop_type": "Herbalist",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
-        "items": {},
-        "gold_amount": "25039",
-        "sell_mult": "0.3280643088988702"
-    },
-    "The Sour Democrat": {
-        "name": "The Sour Democrat",
-        "owner": "",
-        "notes": "",
-        "shop_type": "Blacksmith",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
+        "gold_amount": "41412",
+        "sell_mult": "0.6331662822893246",
         "items": {
-            "Greatsword": {
-                "Cost": 6926.0,
-                "Amount": 2
+            "Emerald": {
+                "cost": 18239.0,
+                "amount": "1"
+            }
+        }
+    },
+    "The Greedy Convicted": {
+        "name": "The Greedy Convicted",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "South East Ozoa",
+        "wealth": "Poor",
+        "gold_amount": "157",
+        "sell_mult": "0.7861051621363994",
+        "items": {
+            "Club +2": {
+                "cost": 15135.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Heisenberg's": {
+        "name": "Heisenberg's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Mage",
+        "city": "",
+        "region": "West Ozoa",
+        "wealth": "Poor",
+        "gold_amount": "26560",
+        "sell_mult": "0.8043603556448772",
+        "items": {}
+    },
+    "Amigo's": {
+        "name": "Amigo's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "West Ozoa",
+        "wealth": "Middle Class",
+        "gold_amount": "40497",
+        "sell_mult": "0.5891859823899089",
+        "items": {
+            "Torch": {
+                "cost": 557.0,
+                "amount": "1"
+            }
+        }
+    },
+    "Smirk's": {
+        "name": "Smirk's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Alchemist",
+        "city": "",
+        "region": "Oksandarr",
+        "wealth": "Middle Class",
+        "gold_amount": "2342",
+        "sell_mult": "0.48315211377181655",
+        "items": {
+            "Glass Flask": {
+                "cost": 748.0,
+                "amount": "3"
+            }
+        }
+    },
+    "The Stimulating Wanted": {
+        "name": "The Stimulating Wanted",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "Magius",
+        "wealth": "Poor",
+        "gold_amount": "25750",
+        "sell_mult": "0.15470607824301308",
+        "items": {}
+    },
+    "The Drab Guys": {
+        "name": "The Drab Guys",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Blacksmith",
+        "city": "",
+        "region": "Pitt",
+        "wealth": "Poor",
+        "gold_amount": "2504",
+        "sell_mult": "0.6124347387604182",
+        "items": {}
+    },
+    "Goose's": {
+        "name": "Goose's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "Crestus",
+        "wealth": "Poor",
+        "gold_amount": "15920",
+        "sell_mult": "0.3748906296134419",
+        "items": {}
+    },
+    "The Little Nicholas": {
+        "name": "The Little Nicholas",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Blacksmith",
+        "city": "",
+        "region": "Polar",
+        "wealth": "Poor",
+        "gold_amount": "58664",
+        "sell_mult": "0.6898992461859204",
+        "items": {
+            "Iron": {
+                "cost": 50.0,
+                "amount": 7
             },
-            "Club +1": {
-                "Cost": 3716.0,
-                "Amount": 1
-            },
-            "Sickle": {
-                "Cost": 3427.0,
-                "Amount": 1
+            "Iron Sword (Rusty)": {
+                "cost": 1377.0,
+                "amount": "1"
             },
             "Vine": {
-                "Cost": 3.0,
-                "Amount": 8
+                "cost": 3.0,
+                "amount": "3"
             },
-            "Explorer's Pack": {
-                "Cost": 13588.0,
-                "Amount": 2
-            },
-            "Paper": {
-                "Cost": 31.0,
-                "Amount": 8
+            "Shortsword +1": {
+                "cost": 7224.0,
+                "amount": "2"
             }
-        },
-        "gold_amount": "31089",
-        "sell_mult": "0.43393521947015323"
+        }
     },
-    "Marshmallow's": {
-        "name": "Marshmallow's",
+    "The Didactic Blogger": {
+        "name": "The Didactic Blogger",
         "owner": "",
         "notes": "",
         "shop_type": "Blacksmith",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
+        "city": "",
+        "region": "Pitt",
+        "wealth": "Middle Class",
+        "gold_amount": "151514",
+        "sell_mult": "0.15112120743671592",
         "items": {
             "Nail": {
-                "Cost": 21.0,
-                "Amount": 8
+                "cost": 20.0,
+                "amount": 36
+            },
+            "Glaive": {
+                "cost": 4371.0,
+                "amount": 4
+            },
+            "Orange Vine": {
+                "cost": 5.0,
+                "amount": "8"
             },
             "Dried Long Grass": {
-                "Cost": 2.0,
-                "Amount": 8
+                "cost": 2.0,
+                "amount": 21
             },
-            "Paper": {
-                "Cost": 31.0,
-                "Amount": 1
+            "Iron": {
+                "cost": 51.0,
+                "amount": 13
             },
-            "Iron Sword (Good)": {
-                "Cost": 2526.0,
-                "Amount": 3
+            "Smith's Tools": {
+                "cost": 1050.0,
+                "amount": "2"
             },
-            "Dagger": {
-                "Cost": 355.0,
-                "Amount": 3
-            },
-            "Half Plate": {
-                "Cost": 13648.0,
-                "Amount": 1
-            },
-            "Quiver": {
-                "Cost": 2044.0,
-                "Amount": 1
-            },
-            "Redvine": {
-                "Cost": 652.0,
-                "Amount": 1
+            "Vine": {
+                "cost": 3.0,
+                "amount": 21
             },
             "Tinker's Tools": {
-                "Cost": 1040.0,
-                "Amount": 2
+                "cost": 1194.0,
+                "amount": 4
+            },
+            "Dungeoneer's Pack": {
+                "cost": 14084.0,
+                "amount": "2"
+            },
+            "Shield of Missile Attraction": {
+                "cost": 58482.0,
+                "amount": "2"
+            },
+            "Explorer's Pack": {
+                "cost": 15738.0,
+                "amount": "2"
+            },
+            "Dagger": {
+                "cost": 537.0,
+                "amount": 22
+            },
+            "Mithril Plate Armor": {
+                "cost": 10594.0,
+                "amount": 4
+            },
+            "Shortsword": {
+                "cost": 1843.0,
+                "amount": "1"
+            },
+            "Javelin of Lightning": {
+                "cost": 9440.0,
+                "amount": "1"
+            },
+            "Paper": {
+                "cost": 31.0,
+                "amount": 14
+            },
+            "Club +1": {
+                "cost": 4433.0,
+                "amount": "3"
+            },
+            "Quiver": {
+                "cost": 2256.0,
+                "amount": "1"
+            },
+            "Iron Sword (Rusty)": {
+                "cost": 1621.0,
+                "amount": "1"
+            },
+            "Redvine": {
+                "cost": 711.0,
+                "amount": "1"
+            },
+            "Thieves's Tools": {
+                "cost": 1137.0,
+                "amount": "2"
+            },
+            "Club": {
+                "cost": 1813.0,
+                "amount": "1"
+            },
+            "Sickle": {
+                "cost": 3479.0,
+                "amount": "3"
             }
-        },
-        "gold_amount": "32500",
-        "sell_mult": "0.20077853497176898"
+        }
     },
-    "Swiss Miss's": {
-        "name": "Swiss Miss's",
+    "Cotton's": {
+        "name": "Cotton's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "Fechura",
+        "wealth": "Middle Class",
+        "gold_amount": "48449",
+        "sell_mult": "0.5993413288016906",
+        "items": {
+            "Torch": {
+                "cost": 480.0,
+                "amount": 5
+            }
+        }
+    },
+    "Righty's Carpet": {
+        "name": "Righty's Carpet",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Alchemist",
+        "city": "",
+        "region": "Unknown Lands",
+        "wealth": "Elite",
+        "gold_amount": "10508",
+        "sell_mult": "0.8420252933266672",
+        "items": {
+            "Spell Scroll of Animal Messenger": {
+                "cost": 10500.0,
+                "amount": "2"
+            },
+            "Potion of Healing": {
+                "cost": 8200.0,
+                "amount": "2"
+            },
+            "Spell Scroll of Acid Arrow": {
+                "cost": 20412.0,
+                "amount": "2"
+            },
+            "Lock": {
+                "cost": 441.0,
+                "amount": 10
+            },
+            "Potion of Minor Healing": {
+                "cost": 2584.0,
+                "amount": 4
+            },
+            "Spell Scroll of Minor Illusion": {
+                "cost": 8881.0,
+                "amount": "1"
+            },
+            "Torch": {
+                "cost": 530.0,
+                "amount": 5
+            },
+            "Spell Scroll of Resistance": {
+                "cost": 11893.0,
+                "amount": 2
+            },
+            "Bag of Holding": {
+                "cost": 302893.0,
+                "amount": "1"
+            },
+            "Spell Scroll of Poison Spray": {
+                "cost": 8080.0,
+                "amount": "2"
+            },
+            "Shortsword": {
+                "cost": 2365.0,
+                "amount": "2"
+            },
+            "Glass Flask": {
+                "cost": 734.0,
+                "amount": "1"
+            }
+        }
+    },
+    "The Overwrought Broadway": {
+        "name": "The Overwrought Broadway",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Alchemist",
+        "city": "",
+        "region": "Oksandarr",
+        "wealth": "Poor",
+        "gold_amount": "3222",
+        "sell_mult": "0.12132166627384518",
+        "items": {}
+    },
+    "The Curious Branches": {
+        "name": "The Curious Branches",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Alchemist",
+        "city": "",
+        "region": "Unknown Lands",
+        "wealth": "Middle Class",
+        "gold_amount": "75682",
+        "sell_mult": "0.20727833326216755",
+        "items": {
+            "Glass Flask": {
+                "cost": 764.0,
+                "amount": "1"
+            },
+            "Torch": {
+                "cost": 437.0,
+                "amount": "3"
+            }
+        }
+    },
+    "French Fry's Road": {
+        "name": "French Fry's Road",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Alchemist",
+        "city": "",
+        "region": "Polar",
+        "wealth": "Middle Class",
+        "gold_amount": "282865",
+        "sell_mult": "0.578353741536385",
+        "items": {
+            "Torch": {
+                "cost": 485.0,
+                "amount": "2"
+            }
+        }
+    },
+    "The Gamy Parent": {
+        "name": "The Gamy Parent",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Blacksmith",
+        "city": "",
+        "region": "Polar",
+        "wealth": "Wealthy",
+        "gold_amount": "254689",
+        "sell_mult": "0.14386313396770883",
+        "items": {
+            "Mithril Plate Armor": {
+                "cost": 11208.0,
+                "amount": "1"
+            },
+            "Shortsword": {
+                "cost": 1949.0,
+                "amount": 6
+            },
+            "Dried Long Grass": {
+                "cost": 2.0,
+                "amount": 32
+            },
+            "Quiver": {
+                "cost": 2130.0,
+                "amount": "2"
+            },
+            "Iron": {
+                "cost": 53.0,
+                "amount": 16
+            },
+            "Orange Vine": {
+                "cost": 5.0,
+                "amount": 10
+            },
+            "Dagger": {
+                "cost": 546.0,
+                "amount": "7"
+            },
+            "Battle Axe +1": {
+                "cost": 11408.0,
+                "amount": "1"
+            },
+            "Vine": {
+                "cost": 3.0,
+                "amount": 20
+            },
+            "Nail": {
+                "cost": 21.0,
+                "amount": 11
+            },
+            "Thieves's Tools": {
+                "cost": 1007.0,
+                "amount": 4
+            },
+            "Paper": {
+                "cost": 32.0,
+                "amount": 8
+            },
+            "Javelin of Lightning": {
+                "cost": 7515.0,
+                "amount": "3"
+            },
+            "Pike": {
+                "cost": 2805.0,
+                "amount": 3
+            },
+            "Greataxe": {
+                "cost": 9211.0,
+                "amount": "1"
+            },
+            "Greatsword": {
+                "cost": 11337.0,
+                "amount": "2"
+            },
+            "Flail": {
+                "cost": 3369.0,
+                "amount": "3"
+            },
+            "Split Armor": {
+                "cost": 17655.0,
+                "amount": "3"
+            },
+            "Blowgun": {
+                "cost": 2445.0,
+                "amount": "2"
+            },
+            "Padded Armor": {
+                "cost": 3155.0,
+                "amount": "2"
+            },
+            "Sickle": {
+                "cost": 3414.0,
+                "amount": 3
+            },
+            "War Pick": {
+                "cost": 2589.0,
+                "amount": "1"
+            },
+            "Mason's Tools": {
+                "cost": 4143.0,
+                "amount": "1"
+            }
+        }
+    },
+    "Pintsize's": {
+        "name": "Pintsize's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "Crestus",
+        "wealth": "Wealthy",
+        "gold_amount": "351711",
+        "sell_mult": "0.7435630884030984",
+        "items": {
+            "Pike": {
+                "cost": 3124.0,
+                "amount": 3
+            },
+            "Flail": {
+                "cost": 3101.0,
+                "amount": 3
+            },
+            "Dagger": {
+                "cost": 512.0,
+                "amount": 21
+            },
+            "Battle Axe": {
+                "cost": 4299.0,
+                "amount": 4
+            },
+            "Shortsword": {
+                "cost": 2243.0,
+                "amount": "1"
+            },
+            "Vicious Club": {
+                "cost": 62037.0,
+                "amount": "2"
+            },
+            "Vicious Battleaxe": {
+                "cost": 98169.0,
+                "amount": "2"
+            },
+            "Iron Sword (Good)": {
+                "cost": 3253.0,
+                "amount": 5
+            },
+            "Club +1": {
+                "cost": 3891.0,
+                "amount": "2"
+            },
+            "Blowgun": {
+                "cost": 2184.0,
+                "amount": "1"
+            },
+            "Vicious Morningstar": {
+                "cost": 124354.0,
+                "amount": "1"
+            }
+        }
+    },
+    "Cookie Dough's While": {
+        "name": "Cookie Dough's While",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "South East Ozoa",
+        "wealth": "Wealthy",
+        "gold_amount": "266640",
+        "sell_mult": "0.4973730638130821",
+        "items": {
+            "Mason's Tools": {
+                "cost": 3234.0,
+                "amount": "1"
+            },
+            "Amethyst": {
+                "cost": 814.0,
+                "amount": 3
+            },
+            "Lock": {
+                "cost": 407.0,
+                "amount": "3"
+            }
+        }
+    },
+    "The Cautious Urge": {
+        "name": "The Cautious Urge",
         "owner": "",
         "notes": "",
         "shop_type": "Herbalist",
-        "city": "Siddonia",
-        "region": "East Ozoa",
-        "wealth": "Poor",
+        "city": "",
+        "region": "Polar",
+        "wealth": "Middle Class",
+        "gold_amount": "73766",
+        "sell_mult": "0.4320379759237608",
         "items": {
+            "Potion of Healing": {
+                "cost": 7689.0,
+                "amount": "1"
+            },
             "Vial": {
-                "Cost": 649.0,
-                "Amount": 4
+                "cost": 678.0,
+                "amount": "1"
+            },
+            "Yellow Vine": {
+                "cost": 6.0,
+                "amount": "1"
+            }
+        }
+    },
+    "The Shut Expensive": {
+        "name": "The Shut Expensive",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "Polar",
+        "wealth": "Poor",
+        "gold_amount": "41791",
+        "sell_mult": "0.7063761407424461",
+        "items": {
+            "War Pick": {
+                "cost": 2304.0,
+                "amount": "3"
+            },
+            "Potion of Healing": {
+                "cost": 8978.0,
+                "amount": "1"
+            },
+            "Pike": {
+                "cost": 3183.0,
+                "amount": "1"
+            }
+        }
+    },
+    "Stud's": {
+        "name": "Stud's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "South East Ozoa",
+        "wealth": "Middle Class",
+        "gold_amount": "188201",
+        "sell_mult": "0.3619237395361955",
+        "items": {
+            "Flail": {
+                "cost": 2912.0,
+                "amount": "2"
+            },
+            "Longbow": {
+                "cost": 2073.0,
+                "amount": "3"
+            },
+            "Halberd": {
+                "cost": 9917.0,
+                "amount": "2"
+            },
+            "Shortsword +1": {
+                "cost": 7097.0,
+                "amount": "2"
+            },
+            "Shortsword": {
+                "cost": 2002.0,
+                "amount": "3"
+            },
+            "Glaive": {
+                "cost": 4660.0,
+                "amount": "3"
+            },
+            "Shortbow": {
+                "cost": 2323.0,
+                "amount": "2"
+            },
+            "Potion of Minor Healing": {
+                "cost": 2310.0,
+                "amount": "1"
+            },
+            "Potion of Healing": {
+                "cost": 8455.0,
+                "amount": "1"
+            },
+            "Dagger": {
+                "cost": 526.0,
+                "amount": "7"
+            },
+            "Battle Axe +1": {
+                "cost": 11319.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Cruella's Allan": {
+        "name": "Cruella's Allan",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Blacksmith",
+        "city": "",
+        "region": "Polar",
+        "wealth": "Elite",
+        "gold_amount": "407463",
+        "sell_mult": "0.37448560457555347",
+        "items": {
+            "Javelin of Lightning": {
+                "cost": 9607.0,
+                "amount": "2"
+            },
+            "Dagger": {
+                "cost": 545.0,
+                "amount": 32
+            },
+            "Paper": {
+                "cost": 31.0,
+                "amount": 62
+            },
+            "Quiver": {
+                "cost": 2549.0,
+                "amount": 9
+            },
+            "Nail": {
+                "cost": 21.0,
+                "amount": 45
+            },
+            "Orange Vine": {
+                "cost": 5.0,
+                "amount": 24
+            },
+            "Thieves's Tools": {
+                "cost": 1128.0,
+                "amount": 6
+            },
+            "Club": {
+                "cost": 2001.0,
+                "amount": 9
+            },
+            "Shield": {
+                "cost": 2844.0,
+                "amount": 10
+            },
+            "Iron Sword (Good)": {
+                "cost": 4084.0,
+                "amount": "1"
+            },
+            "Steel": {
+                "cost": 120.0,
+                "amount": 3
+            },
+            "Dried Long Grass": {
+                "cost": 2.0,
+                "amount": 65
+            },
+            "Sledge Hammer": {
+                "cost": 3423.0,
+                "amount": 16
+            },
+            "Club +1": {
+                "cost": 4426.0,
+                "amount": 5
+            },
+            "Backpack": {
+                "cost": 2204.0,
+                "amount": 5
+            },
+            "War Pick": {
+                "cost": 2083.0,
+                "amount": 9
+            },
+            "Vine": {
+                "cost": 3.0,
+                "amount": 53
+            },
+            "Gold": {
+                "cost": 5114.0,
+                "amount": "2"
+            },
+            "Mithril Plate Armor": {
+                "cost": 10736.0,
+                "amount": "2"
+            },
+            "Shortsword +2": {
+                "cost": 15662.0,
+                "amount": "1"
+            },
+            "Smith's Tools": {
+                "cost": 1127.0,
+                "amount": 10
+            },
+            "Blowgun": {
+                "cost": 2286.0,
+                "amount": 4
+            },
+            "Battle Axe +1": {
+                "cost": 10371.0,
+                "amount": 6
+            },
+            "Battle Axe": {
+                "cost": 4202.0,
+                "amount": 7
+            },
+            "Tinker's Tools": {
+                "cost": 1072.0,
+                "amount": 5
+            },
+            "Explorer's Pack": {
+                "cost": 13782.0,
+                "amount": 4
+            },
+            "Split Armor": {
+                "cost": 17084.0,
+                "amount": 2
+            },
+            "Crystal": {
+                "cost": 363.0,
+                "amount": 6
+            },
+            "Iron": {
+                "cost": 54.0,
+                "amount": 42
+            },
+            "Pike": {
+                "cost": 2897.0,
+                "amount": 6
+            },
+            "Platinum": {
+                "cost": 5389.0,
+                "amount": "3"
+            },
+            "Shortsword": {
+                "cost": 2227.0,
+                "amount": 7
+            },
+            "Padded Armor": {
+                "cost": 3267.0,
+                "amount": 7
+            },
+            "Glaive": {
+                "cost": 5326.0,
+                "amount": 5
+            },
+            "Sickle": {
+                "cost": 3687.0,
+                "amount": 3
+            },
+            "Shortbow": {
+                "cost": 2937.0,
+                "amount": 4
+            },
+            "Redvine": {
+                "cost": 768.0,
+                "amount": "1"
+            },
+            "Mithril": {
+                "cost": 5758.0,
+                "amount": "3"
+            },
+            "Flail": {
+                "cost": 3033.0,
+                "amount": "3"
+            },
+            "Diamond": {
+                "cost": 4272.0,
+                "amount": "2"
+            },
+            "Dungeoneer's Pack": {
+                "cost": 13067.0,
+                "amount": "1"
+            },
+            "Longbow": {
+                "cost": 2670.0,
+                "amount": "1"
+            },
+            "Half Plate": {
+                "cost": 20266.0,
+                "amount": "2"
+            },
+            "Greatsword": {
+                "cost": 9110.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Fiesta's": {
+        "name": "Fiesta's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Alchemist",
+        "city": "",
+        "region": "Crestus",
+        "wealth": "Wealthy",
+        "gold_amount": "329147",
+        "sell_mult": "0.24769606028001406",
+        "items": {
+            "Potion of Healing": {
+                "cost": 9370.0,
+                "amount": "2"
+            },
+            "Glass Flask": {
+                "cost": 728.0,
+                "amount": "1"
+            },
+            "Lock": {
+                "cost": 355.0,
+                "amount": "2"
+            },
+            "Potion of Minor Healing": {
+                "cost": 2588.0,
+                "amount": "1"
+            },
+            "Spell Scroll of Resistance": {
+                "cost": 12458.0,
+                "amount": "2"
+            }
+        }
+    },
+    "The False Differences": {
+        "name": "The False Differences",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "Unknown Lands",
+        "wealth": "Middle Class",
+        "gold_amount": "119006",
+        "sell_mult": "0.2232583890646037",
+        "items": {
+            "Iron Sword (Good)": {
+                "cost": 3964.0,
+                "amount": "2"
+            },
+            "Club +1": {
+                "cost": 4246.0,
+                "amount": "1"
+            },
+            "Iron Sword (Rusty)": {
+                "cost": 1669.0,
+                "amount": "4"
+            },
+            "Steel": {
+                "cost": 119.0,
+                "amount": "3"
+            },
+            "Sledge Hammer": {
+                "cost": 4248.0,
+                "amount": "1"
+            },
+            "Dagger": {
+                "cost": 526.0,
+                "amount": "7"
+            },
+            "Shortsword": {
+                "cost": 2034.0,
+                "amount": 4
+            },
+            "Club": {
+                "cost": 1899.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Amiga's Deal": {
+        "name": "Amiga's Deal",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Blacksmith",
+        "city": "",
+        "region": "Pitt",
+        "wealth": "Wealthy",
+        "gold_amount": "247890",
+        "sell_mult": "0.6187803443489366",
+        "items": {
+            "Chain Mail": {
+                "cost": 4722.0,
+                "amount": "1"
+            },
+            "Paper": {
+                "cost": 30.0,
+                "amount": 41
+            },
+            "Club": {
+                "cost": 2107.0,
+                "amount": 6
+            },
+            "Shield": {
+                "cost": 3151.0,
+                "amount": "3"
+            },
+            "Greataxe": {
+                "cost": 9813.0,
+                "amount": 3
+            },
+            "Dried Long Grass": {
+                "cost": 2.0,
+                "amount": 75
+            },
+            "Battle Axe": {
+                "cost": 4301.0,
+                "amount": 3
+            },
+            "Mithril Plate Armor": {
+                "cost": 11073.0,
+                "amount": 5
+            },
+            "Nail": {
+                "cost": 21.0,
+                "amount": 36
+            },
+            "Shield of Missile Attraction": {
+                "cost": 46991.0,
+                "amount": 2
+            },
+            "Diamond": {
+                "cost": 4945.0,
+                "amount": "1"
+            },
+            "Longbow": {
+                "cost": 2589.0,
+                "amount": "3"
+            },
+            "Orange Vine": {
+                "cost": 5.0,
+                "amount": 26
+            },
+            "Sickle": {
+                "cost": 4117.0,
+                "amount": 3
+            },
+            "Club +2": {
+                "cost": 17732.0,
+                "amount": "1"
+            },
+            "Iron": {
+                "cost": 53.0,
+                "amount": 8
+            },
+            "Blowgun": {
+                "cost": 2681.0,
+                "amount": "1"
+            },
+            "Shortsword": {
+                "cost": 2277.0,
+                "amount": 2
+            },
+            "War Pick": {
+                "cost": 2336.0,
+                "amount": 2
+            },
+            "Smith's Tools": {
+                "cost": 1041.0,
+                "amount": 5
+            },
+            "Glaive": {
+                "cost": 4951.0,
+                "amount": 4
+            },
+            "Iron Sword (Rusty)": {
+                "cost": 1521.0,
+                "amount": 3
+            },
+            "Split Armor": {
+                "cost": 17938.0,
+                "amount": 5
+            },
+            "Vicious Morningstar": {
+                "cost": 135744.0,
+                "amount": "2"
+            },
+            "Dagger": {
+                "cost": 510.0,
+                "amount": 26
+            },
+            "Battle Axe +1": {
+                "cost": 10447.0,
+                "amount": 3
+            },
+            "Vine": {
+                "cost": 3.0,
+                "amount": 40
+            },
+            "Thieves's Tools": {
+                "cost": 1034.0,
+                "amount": "2"
+            },
+            "Backpack": {
+                "cost": 2308.0,
+                "amount": "1"
+            },
+            "Halberd": {
+                "cost": 10855.0,
+                "amount": "2"
+            },
+            "Platinum": {
+                "cost": 6912.0,
+                "amount": "1"
+            },
+            "Padded Armor": {
+                "cost": 3006.0,
+                "amount": 5
+            },
+            "Steel": {
+                "cost": 138.0,
+                "amount": "1"
+            },
+            "Explorer's Pack": {
+                "cost": 12789.0,
+                "amount": "2"
+            },
+            "Dungeoneer's Pack": {
+                "cost": 12926.0,
+                "amount": "1"
+            },
+            "Silver": {
+                "cost": 704.0,
+                "amount": "1"
+            },
+            "Mason's Tools": {
+                "cost": 3941.0,
+                "amount": "2"
+            },
+            "Pike": {
+                "cost": 2735.0,
+                "amount": "2"
+            },
+            "Quiver": {
+                "cost": 2559.0,
+                "amount": "2"
+            }
+        }
+    },
+    "The Descriptive Inquiries": {
+        "name": "The Descriptive Inquiries",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Blacksmith",
+        "city": "",
+        "region": "Fechura",
+        "wealth": "Poor",
+        "gold_amount": "32760",
+        "sell_mult": "0.28133807407016437",
+        "items": {
+            "Vicious Lance": {
+                "cost": 119460.0,
+                "amount": "1"
+            },
+            "Paper": {
+                "cost": 32.0,
+                "amount": "5"
+            },
+            "Vine": {
+                "cost": 2.0,
+                "amount": "5"
+            },
+            "Club +2": {
+                "cost": 15003.0,
+                "amount": "1"
+            }
+        }
+    },
+    "Darling's": {
+        "name": "Darling's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Blacksmith",
+        "city": "",
+        "region": "Magius",
+        "wealth": "Poor",
+        "gold_amount": "9701",
+        "sell_mult": "0.6607009658259492",
+        "items": {
+            "Club +1": {
+                "cost": 3682.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Green Giant's": {
+        "name": "Green Giant's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Herbalist",
+        "city": "",
+        "region": "Magius",
+        "wealth": "Middle Class",
+        "gold_amount": "40381",
+        "sell_mult": "0.16488050953273758",
+        "items": {
+            "Torch": {
+                "cost": 565.0,
+                "amount": "1"
             },
             "Grass": {
-                "Cost": 1.0,
-                "Amount": 26
+                "cost": 1.0,
+                "amount": 27
             }
-        },
-        "gold_amount": "31240",
-        "sell_mult": "0.5480448003227041"
+        }
+    },
+    "The Helpless Dear": {
+        "name": "The Helpless Dear",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Herbalist",
+        "city": "",
+        "region": "Pitt",
+        "wealth": "Poor",
+        "gold_amount": "9219",
+        "sell_mult": "0.8325695399907269",
+        "items": {
+            "Yellow Vine": {
+                "cost": 6.0,
+                "amount": "1"
+            },
+            "Cucumber": {
+                "cost": 59.0,
+                "amount": "1"
+            }
+        }
+    },
+    "Sweetums's": {
+        "name": "Sweetums's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Blacksmith",
+        "city": "",
+        "region": "Pitt",
+        "wealth": "Wealthy",
+        "gold_amount": "322869",
+        "sell_mult": "0.4971645584336468",
+        "items": {
+            "Vine": {
+                "cost": 3.0,
+                "amount": 85
+            },
+            "Mithril Plate Armor": {
+                "cost": 11895.0,
+                "amount": 3
+            },
+            "Shield of Missile Attraction": {
+                "cost": 54267.0,
+                "amount": 4
+            },
+            "Platinum": {
+                "cost": 5411.0,
+                "amount": 4
+            },
+            "Dried Long Grass": {
+                "cost": 2.0,
+                "amount": 69
+            },
+            "Sledge Hammer": {
+                "cost": 4189.0,
+                "amount": 10
+            },
+            "Quiver": {
+                "cost": 2643.0,
+                "amount": "2"
+            },
+            "Club": {
+                "cost": 2320.0,
+                "amount": 6
+            },
+            "Paper": {
+                "cost": 30.0,
+                "amount": 33
+            },
+            "Dagger": {
+                "cost": 511.0,
+                "amount": 29
+            },
+            "Crystal": {
+                "cost": 428.0,
+                "amount": 2
+            },
+            "Shortsword": {
+                "cost": 2379.0,
+                "amount": "2"
+            },
+            "Split Armor": {
+                "cost": 15473.0,
+                "amount": "2"
+            },
+            "Vicious Morningstar": {
+                "cost": 155710.0,
+                "amount": 4
+            },
+            "Tinker's Tools": {
+                "cost": 1131.0,
+                "amount": 4
+            },
+            "Blowgun": {
+                "cost": 2623.0,
+                "amount": 9
+            },
+            "Nail": {
+                "cost": 22.0,
+                "amount": 61
+            },
+            "Longbow": {
+                "cost": 2514.0,
+                "amount": "3"
+            },
+            "Smith's Tools": {
+                "cost": 1270.0,
+                "amount": 3
+            },
+            "Iron": {
+                "cost": 53.0,
+                "amount": 27
+            },
+            "Pike": {
+                "cost": 2709.0,
+                "amount": 6
+            },
+            "Silver": {
+                "cost": 588.0,
+                "amount": "1"
+            },
+            "Backpack": {
+                "cost": 2340.0,
+                "amount": 3
+            },
+            "Battle Axe": {
+                "cost": 3881.0,
+                "amount": "3"
+            },
+            "Sickle": {
+                "cost": 4323.0,
+                "amount": "2"
+            },
+            "Shortsword +1": {
+                "cost": 7649.0,
+                "amount": 3
+            },
+            "Flail": {
+                "cost": 2714.0,
+                "amount": "3"
+            },
+            "Shortsword +2": {
+                "cost": 18225.0,
+                "amount": "1"
+            },
+            "War Pick": {
+                "cost": 2506.0,
+                "amount": 4
+            },
+            "Padded Armor": {
+                "cost": 3319.0,
+                "amount": 4
+            },
+            "Mithril": {
+                "cost": 5037.0,
+                "amount": "3"
+            },
+            "Explorer's Pack": {
+                "cost": 15215.0,
+                "amount": "2"
+            },
+            "Steel": {
+                "cost": 122.0,
+                "amount": "3"
+            },
+            "Iron Sword (Rusty)": {
+                "cost": 1800.0,
+                "amount": "1"
+            },
+            "Orange Vine": {
+                "cost": 5.0,
+                "amount": 13
+            },
+            "Club +1": {
+                "cost": 4179.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Big Bird's Basic": {
+        "name": "Big Bird's Basic",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Alchemist",
+        "city": "",
+        "region": "Crestus",
+        "wealth": "Poor",
+        "gold_amount": "51718",
+        "sell_mult": "0.5552457561440199",
+        "items": {}
+    },
+    "Cutie Pie's": {
+        "name": "Cutie Pie's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Mage",
+        "city": "",
+        "region": "East Ozoa",
+        "wealth": "Poor",
+        "gold_amount": "10075",
+        "sell_mult": "0.6454784372477069",
+        "items": {
+            "Glass Flask": {
+                "cost": 701.0,
+                "amount": "2"
+            }
+        }
+    },
+    "The Acoustic Kijiji": {
+        "name": "The Acoustic Kijiji",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Herbalist",
+        "city": "",
+        "region": "Fechura",
+        "wealth": "Elite",
+        "gold_amount": "260000",
+        "sell_mult": "0.7381182895203401",
+        "items": {
+            "Yellow Vine": {
+                "cost": 5.0,
+                "amount": 31
+            },
+            "Potion of Minor Healing": {
+                "cost": 2176.0,
+                "amount": 3
+            },
+            "Vial": {
+                "cost": 752.0,
+                "amount": "2"
+            },
+            "Grass": {
+                "cost": 1.0,
+                "amount": 35
+            },
+            "Long Grass": {
+                "cost": 1.0,
+                "amount": 14
+            },
+            "Glass Flask": {
+                "cost": 689.0,
+                "amount": "1"
+            },
+            "Potion of Healing": {
+                "cost": 7310.0,
+                "amount": "1"
+            },
+            "Lock": {
+                "cost": 397.0,
+                "amount": "3"
+            },
+            "Potion of Flying": {
+                "cost": 7629.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Lil Mama's Capable": {
+        "name": "Lil Mama's Capable",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Mage",
+        "city": "",
+        "region": "Fechura",
+        "wealth": "Middle Class",
+        "gold_amount": "32220",
+        "sell_mult": "0.43131397683079975",
+        "items": {
+            "Wand": {
+                "cost": 2347.0,
+                "amount": "3"
+            },
+            "Glass Flask": {
+                "cost": 688.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Ringo's": {
+        "name": "Ringo's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "Oksandarr",
+        "wealth": "Poor",
+        "gold_amount": "69336",
+        "sell_mult": "0.7996249199432744",
+        "items": {}
+    },
+    "Dropout's": {
+        "name": "Dropout's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Herbalist",
+        "city": "",
+        "region": "East Ozoa",
+        "wealth": "Poor",
+        "gold_amount": "33610",
+        "sell_mult": "0.32591610581199837",
+        "items": {
+            "Grass": {
+                "cost": 1.0,
+                "amount": "11"
+            },
+            "Long Grass": {
+                "cost": 1.0,
+                "amount": 18
+            },
+            "Glass Flask": {
+                "cost": 706.0,
+                "amount": "2"
+            }
+        }
+    },
+    "The Impossible Allen": {
+        "name": "The Impossible Allen",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Blacksmith",
+        "city": "",
+        "region": "Unknown Lands",
+        "wealth": "Poor",
+        "gold_amount": "3537",
+        "sell_mult": "0.8521531684235354",
+        "items": {
+            "Long Grass": {
+                "cost": 1.0,
+                "amount": "7"
+            },
+            "Shortsword +1": {
+                "cost": 6192.0,
+                "amount": "1"
+            }
+        }
+    },
+    "The Fat Citizenship": {
+        "name": "The Fat Citizenship",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "Polar",
+        "wealth": "Middle Class",
+        "gold_amount": "199710",
+        "sell_mult": "0.26740770430642014",
+        "items": {
+            "Emerald": {
+                "cost": 17356.0,
+                "amount": "2"
+            }
+        }
+    },
+    "The Colossal Prepared": {
+        "name": "The Colossal Prepared",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Mage",
+        "city": "",
+        "region": "East Ozoa",
+        "wealth": "Poor",
+        "gold_amount": "5687",
+        "sell_mult": "0.8061321418507369",
+        "items": {}
+    },
+    "Goblin's Suse": {
+        "name": "Goblin's Suse",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "South East Ozoa",
+        "wealth": "Poor",
+        "gold_amount": "19836",
+        "sell_mult": "0.2724413082258239",
+        "items": {
+            "Vine": {
+                "cost": 3.0,
+                "amount": "6"
+            }
+        }
+    },
+    "Spicy's": {
+        "name": "Spicy's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Mage",
+        "city": "",
+        "region": "Oksandarr",
+        "wealth": "Poor",
+        "gold_amount": "56748",
+        "sell_mult": "0.26814221418344975",
+        "items": {}
+    },
+    "The Colorful Realize": {
+        "name": "The Colorful Realize",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Herbalist",
+        "city": "",
+        "region": "Magius",
+        "wealth": "Middle Class",
+        "gold_amount": "296006",
+        "sell_mult": "0.5165812670659554",
+        "items": {
+            "Grass": {
+                "cost": 1.0,
+                "amount": 13
+            },
+            "Long Grass": {
+                "cost": 1.0,
+                "amount": 13
+            },
+            "Potion of Minor Healing": {
+                "cost": 2197.0,
+                "amount": "2"
+            }
+        }
+    },
+    "The Tidy Nashville": {
+        "name": "The Tidy Nashville",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "Fechura",
+        "wealth": "Poor",
+        "gold_amount": "9041",
+        "sell_mult": "0.42813199740621577",
+        "items": {}
+    },
+    "The Trashy Aids": {
+        "name": "The Trashy Aids",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Mage",
+        "city": "",
+        "region": "South East Ozoa",
+        "wealth": "Middle Class",
+        "gold_amount": "247735",
+        "sell_mult": "0.5962764387235875",
+        "items": {}
+    },
+    "The Thick Essentials": {
+        "name": "The Thick Essentials",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "West Ozoa",
+        "wealth": "Poor",
+        "gold_amount": "383",
+        "sell_mult": "0.5347818247501607",
+        "items": {}
+    },
+    "The Raspy Difficulty": {
+        "name": "The Raspy Difficulty",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Mage",
+        "city": "",
+        "region": "South East Ozoa",
+        "wealth": "Wealthy",
+        "gold_amount": "220386",
+        "sell_mult": "0.7975372294614819",
+        "items": {
+            "Potion of Flying": {
+                "cost": 6915.0,
+                "amount": 4
+            },
+            "Glass Flask": {
+                "cost": 781.0,
+                "amount": "3"
+            },
+            "Spell Scroll of Minor Illusion": {
+                "cost": 8314.0,
+                "amount": "2"
+            },
+            "Vial": {
+                "cost": 610.0,
+                "amount": "2"
+            },
+            "Spell Scroll of Resistance": {
+                "cost": 11558.0,
+                "amount": "2"
+            },
+            "Spell Scroll of Animal Messenger": {
+                "cost": 12557.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Shrinkwrap's": {
+        "name": "Shrinkwrap's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "East Ozoa",
+        "wealth": "Elite",
+        "gold_amount": "75001",
+        "sell_mult": "0.27315558328964623",
+        "items": {
+            "Halberd": {
+                "cost": 9216.0,
+                "amount": 3
+            },
+            "Dagger": {
+                "cost": 444.0,
+                "amount": 37
+            },
+            "Potion of Healing": {
+                "cost": 7533.0,
+                "amount": 3
+            },
+            "Potion of Minor Healing": {
+                "cost": 1972.0,
+                "amount": "2"
+            },
+            "Shortsword": {
+                "cost": 2081.0,
+                "amount": 6
+            },
+            "Shortsword +1": {
+                "cost": 6167.0,
+                "amount": 4
+            },
+            "Glass Flask": {
+                "cost": 599.0,
+                "amount": 4
+            },
+            "Iron Sword (Rusty)": {
+                "cost": 1491.0,
+                "amount": 5
+            },
+            "Shortbow": {
+                "cost": 2396.0,
+                "amount": 2
+            },
+            "Beserker Axe": {
+                "cost": 107099.0,
+                "amount": "2"
+            },
+            "Greataxe": {
+                "cost": 11650.0,
+                "amount": "2"
+            },
+            "Sickle": {
+                "cost": 3927.0,
+                "amount": "2"
+            },
+            "Blowgun": {
+                "cost": 2516.0,
+                "amount": "1"
+            },
+            "Club +1": {
+                "cost": 4551.0,
+                "amount": 3
+            },
+            "Club +2": {
+                "cost": 19043.0,
+                "amount": 4
+            },
+            "Iron Sword (Good)": {
+                "cost": 2802.0,
+                "amount": 3
+            },
+            "Battle Axe": {
+                "cost": 3800.0,
+                "amount": 2
+            },
+            "Greatsword": {
+                "cost": 9500.0,
+                "amount": "2"
+            },
+            "Vicious Battleaxe": {
+                "cost": 119818.0,
+                "amount": "1"
+            },
+            "Glaive": {
+                "cost": 4968.0,
+                "amount": 4
+            },
+            "Javelin of Lightning": {
+                "cost": 9790.0,
+                "amount": 3
+            },
+            "Pike": {
+                "cost": 3000.0,
+                "amount": "1"
+            },
+            "Potion of Major Healing": {
+                "cost": 10950.0,
+                "amount": "1"
+            },
+            "Sledge Hammer": {
+                "cost": 4059.0,
+                "amount": 8
+            },
+            "Club": {
+                "cost": 1846.0,
+                "amount": 5
+            },
+            "War Pick": {
+                "cost": 2484.0,
+                "amount": "3"
+            },
+            "Shortsword +2": {
+                "cost": 16273.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Tyke's": {
+        "name": "Tyke's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Blacksmith",
+        "city": "",
+        "region": "South East Ozoa",
+        "wealth": "Poor",
+        "gold_amount": "32020",
+        "sell_mult": "0.48226503594553327",
+        "items": {
+            "Dagger": {
+                "cost": 519.0,
+                "amount": "4"
+            },
+            "Quiver": {
+                "cost": 1858.0,
+                "amount": "2"
+            },
+            "Thieves's Tools": {
+                "cost": 1174.0,
+                "amount": "2"
+            },
+            "Nail": {
+                "cost": 20.0,
+                "amount": 8
+            },
+            "War Pick": {
+                "cost": 2139.0,
+                "amount": "1"
+            },
+            "Vine": {
+                "cost": 3.0,
+                "amount": 12
+            },
+            "Dried Long Grass": {
+                "cost": 2.0,
+                "amount": "14"
+            }
+        }
+    },
+    "The Impossible Taiwan": {
+        "name": "The Impossible Taiwan",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Mage",
+        "city": "",
+        "region": "West Ozoa",
+        "wealth": "Wealthy",
+        "gold_amount": "358760",
+        "sell_mult": "0.5836168196959756",
+        "items": {
+            "Spell Scroll of Animal Messenger": {
+                "cost": 12811.0,
+                "amount": "2"
+            },
+            "Glass Flask": {
+                "cost": 674.0,
+                "amount": 6
+            },
+            "Potion of Healing": {
+                "cost": 9401.0,
+                "amount": "1"
+            },
+            "Vial": {
+                "cost": 763.0,
+                "amount": "1"
+            },
+            "Spell Scroll of Alarm": {
+                "cost": 3665.0,
+                "amount": "2"
+            },
+            "Wand": {
+                "cost": 2171.0,
+                "amount": "1"
+            },
+            "Dagger": {
+                "cost": 508.0,
+                "amount": "1"
+            },
+            "Spell Scroll of Poison Spray": {
+                "cost": 7683.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Dirty Harry's Waterproof": {
+        "name": "Dirty Harry's Waterproof",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Herbalist",
+        "city": "",
+        "region": "Fechura",
+        "wealth": "Poor",
+        "gold_amount": "10176",
+        "sell_mult": "0.5648099102525889",
+        "items": {
+            "Potion of Minor Healing": {
+                "cost": 2132.0,
+                "amount": "3"
+            },
+            "Iron": {
+                "cost": 51.0,
+                "amount": "2"
+            },
+            "Cucumber": {
+                "cost": 55.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Mustache's": {
+        "name": "Mustache's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "South East Ozoa",
+        "wealth": "Middle Class",
+        "gold_amount": "181320",
+        "sell_mult": "0.6926431738828421",
+        "items": {
+            "Torch": {
+                "cost": 552.0,
+                "amount": 4
+            },
+            "Blue Sapphire": {
+                "cost": 15788.0,
+                "amount": "2"
+            },
+            "Lock": {
+                "cost": 360.0,
+                "amount": "3"
+            }
+        }
+    },
+    "Twinkie's": {
+        "name": "Twinkie's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Herbalist",
+        "city": "",
+        "region": "Pitt",
+        "wealth": "Middle Class",
+        "gold_amount": "69284",
+        "sell_mult": "0.8872541886191646",
+        "items": {
+            "Yellow Vine": {
+                "cost": 6.0,
+                "amount": "2"
+            },
+            "Cucumber": {
+                "cost": 54.0,
+                "amount": "2"
+            },
+            "Grass": {
+                "cost": 1.0,
+                "amount": 15
+            }
+        }
+    },
+    "Dreamey's Commented": {
+        "name": "Dreamey's Commented",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "Unknown Lands",
+        "wealth": "Wealthy",
+        "gold_amount": "78026",
+        "sell_mult": "0.5824666839762006",
+        "items": {
+            "Lock": {
+                "cost": 411.0,
+                "amount": "3"
+            },
+            "Yellow Diamond": {
+                "cost": 17263.0,
+                "amount": "2"
+            },
+            "Torch": {
+                "cost": 432.0,
+                "amount": "1"
+            }
+        }
+    },
+    "Skinny Jeans's Asking": {
+        "name": "Skinny Jeans's Asking",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Alchemist",
+        "city": "",
+        "region": "Oksandarr",
+        "wealth": "Middle Class",
+        "gold_amount": "89680",
+        "sell_mult": "0.5712614983014465",
+        "items": {
+            "Spell Scroll of Thunderclap": {
+                "cost": 22677.0,
+                "amount": "2"
+            },
+            "Potion of Minor Healing": {
+                "cost": 2178.0,
+                "amount": "1"
+            },
+            "Wand": {
+                "cost": 1813.0,
+                "amount": "3"
+            }
+        }
+    },
+    "The Crazy Treatment": {
+        "name": "The Crazy Treatment",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "Oksandarr",
+        "wealth": "Poor",
+        "gold_amount": "100726",
+        "sell_mult": "0.19149353532949365",
+        "items": {
+            "Club": {
+                "cost": 2222.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Buttercup's Housing": {
+        "name": "Buttercup's Housing",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Mage",
+        "city": "",
+        "region": "Crestus",
+        "wealth": "Middle Class",
+        "gold_amount": "25982",
+        "sell_mult": "0.6738526488264445",
+        "items": {}
+    },
+    "Juicy's": {
+        "name": "Juicy's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Herbalist",
+        "city": "",
+        "region": "West Ozoa",
+        "wealth": "Middle Class",
+        "gold_amount": "203463",
+        "sell_mult": "0.19924073923107877",
+        "items": {
+            "Long Grass": {
+                "cost": 1.0,
+                "amount": 32
+            },
+            "Potion of Flying": {
+                "cost": 6056.0,
+                "amount": 3
+            },
+            "Torch": {
+                "cost": 444.0,
+                "amount": "1"
+            },
+            "Grass": {
+                "cost": 1.0,
+                "amount": 35
+            },
+            "Yellow Vine": {
+                "cost": 6.0,
+                "amount": "7"
+            }
+        }
+    },
+    "Chico's": {
+        "name": "Chico's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Herbalist",
+        "city": "",
+        "region": "Oksandarr",
+        "wealth": "Wealthy",
+        "gold_amount": "160903",
+        "sell_mult": "0.651302361043721",
+        "items": {
+            "Potion of Flying": {
+                "cost": 5205.0,
+                "amount": "1"
+            },
+            "Long Grass": {
+                "cost": 1.0,
+                "amount": 117
+            },
+            "Yellow Vine": {
+                "cost": 5.0,
+                "amount": 13
+            },
+            "Torch": {
+                "cost": 443.0,
+                "amount": "2"
+            },
+            "Vial": {
+                "cost": 667.0,
+                "amount": 4
+            },
+            "Potion of Minor Healing": {
+                "cost": 2619.0,
+                "amount": 3
+            },
+            "Grass": {
+                "cost": 1.0,
+                "amount": 33
+            },
+            "Lock": {
+                "cost": 418.0,
+                "amount": "1"
+            },
+            "Shortsword +1": {
+                "cost": 7346.0,
+                "amount": "2"
+            },
+            "Glass Flask": {
+                "cost": 774.0,
+                "amount": "3"
+            }
+        }
+    },
+    "The Periodic Rose": {
+        "name": "The Periodic Rose",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Herbalist",
+        "city": "",
+        "region": "Fechura",
+        "wealth": "Wealthy",
+        "gold_amount": "95167",
+        "sell_mult": "0.11512291568025974",
+        "items": {
+            "Long Grass": {
+                "cost": 1.0,
+                "amount": 83
+            },
+            "Glass Flask": {
+                "cost": 773.0,
+                "amount": "3"
+            },
+            "Yellow Vine": {
+                "cost": 5.0,
+                "amount": 21
+            },
+            "Grass": {
+                "cost": 1.0,
+                "amount": 26
+            },
+            "Vial": {
+                "cost": 741.0,
+                "amount": "1"
+            },
+            "Torch": {
+                "cost": 460.0,
+                "amount": "1"
+            },
+            "Lock": {
+                "cost": 355.0,
+                "amount": "1"
+            },
+            "Potion of Flying": {
+                "cost": 6143.0,
+                "amount": "1"
+            },
+            "Dart +1": {
+                "cost": 537.0,
+                "amount": "1"
+            },
+            "Potion of Major Healing": {
+                "cost": 13856.0,
+                "amount": "2"
+            },
+            "Cucumber": {
+                "cost": 46.0,
+                "amount": "1"
+            }
+        }
+    },
+    "Hammer's": {
+        "name": "Hammer's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Herbalist",
+        "city": "",
+        "region": "Polar",
+        "wealth": "Poor",
+        "gold_amount": "5679",
+        "sell_mult": "0.1395439993524744",
+        "items": {}
+    },
+    "Ace's Bunny": {
+        "name": "Ace's Bunny",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Herbalist",
+        "city": "",
+        "region": "Unknown Lands",
+        "wealth": "Elite",
+        "gold_amount": "458562",
+        "sell_mult": "0.7300793981254731",
+        "items": {
+            "Long Grass": {
+                "cost": 1.0,
+                "amount": 72
+            },
+            "Yellow Vine": {
+                "cost": 5.0,
+                "amount": 32
+            },
+            "Torch": {
+                "cost": 431.0,
+                "amount": 5
+            },
+            "Glass Flask": {
+                "cost": 692.0,
+                "amount": 6
+            },
+            "Cucumber": {
+                "cost": 63.0,
+                "amount": "2"
+            },
+            "Vial": {
+                "cost": 610.0,
+                "amount": 4
+            },
+            "Grass": {
+                "cost": 1.0,
+                "amount": 46
+            },
+            "Potion of Minor Healing": {
+                "cost": 2714.0,
+                "amount": "2"
+            },
+            "Potion of Healing": {
+                "cost": 7949.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Sugar's Villages": {
+        "name": "Sugar's Villages",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "Polar",
+        "wealth": "Poor",
+        "gold_amount": "10699",
+        "sell_mult": "0.6793051871738714",
+        "items": {}
+    },
+    "The Domineering Characterization": {
+        "name": "The Domineering Characterization",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Herbalist",
+        "city": "",
+        "region": "West Ozoa",
+        "wealth": "Middle Class",
+        "gold_amount": "244495",
+        "sell_mult": "0.26567939987062117",
+        "items": {
+            "Yellow Vine": {
+                "cost": 5.0,
+                "amount": "3"
+            },
+            "Cucumber": {
+                "cost": 54.0,
+                "amount": "3"
+            },
+            "Long Grass": {
+                "cost": 1.0,
+                "amount": 51
+            },
+            "Grass": {
+                "cost": 1.0,
+                "amount": 24
+            },
+            "Vial": {
+                "cost": 697.0,
+                "amount": "2"
+            },
+            "Potion of Minor Healing": {
+                "cost": 2300.0,
+                "amount": "2"
+            }
+        }
+    },
+    "The Husky Redhead": {
+        "name": "The Husky Redhead",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Alchemist",
+        "city": "",
+        "region": "Magius",
+        "wealth": "Middle Class",
+        "gold_amount": "238373",
+        "sell_mult": "0.8242791395315883",
+        "items": {
+            "Lock": {
+                "cost": 352.0,
+                "amount": "3"
+            }
+        }
+    },
+    "Pookie's Otherwise": {
+        "name": "Pookie's Otherwise",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "Fechura",
+        "wealth": "Middle Class",
+        "gold_amount": "48713",
+        "sell_mult": "0.46414686750565226",
+        "items": {
+            "Red Corundum": {
+                "cost": 15527.0,
+                "amount": "1"
+            }
+        }
+    },
+    "The Flowery Indication": {
+        "name": "The Flowery Indication",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "West Ozoa",
+        "wealth": "Wealthy",
+        "gold_amount": "109378",
+        "sell_mult": "0.7393546413694662",
+        "items": {
+            "Glass Flask": {
+                "cost": 770.0,
+                "amount": "3"
+            },
+            "Iron Sword (Rusty)": {
+                "cost": 1770.0,
+                "amount": 5
+            },
+            "Oathbow": {
+                "cost": 226518.0,
+                "amount": "2"
+            },
+            "Battle Axe": {
+                "cost": 4358.0,
+                "amount": 6
+            },
+            "Pike": {
+                "cost": 3042.0,
+                "amount": "3"
+            },
+            "Sickle": {
+                "cost": 4030.0,
+                "amount": "3"
+            },
+            "Shortsword +2": {
+                "cost": 18225.0,
+                "amount": 3
+            },
+            "Potion of Minor Healing": {
+                "cost": 2706.0,
+                "amount": 9
+            },
+            "Club": {
+                "cost": 2010.0,
+                "amount": 8
+            },
+            "Flail": {
+                "cost": 2923.0,
+                "amount": "1"
+            },
+            "Potion of Healing": {
+                "cost": 8386.0,
+                "amount": "1"
+            },
+            "Dagger": {
+                "cost": 543.0,
+                "amount": 20
+            },
+            "Shortsword +1": {
+                "cost": 7080.0,
+                "amount": "2"
+            },
+            "War Pick": {
+                "cost": 2162.0,
+                "amount": "2"
+            },
+            "Shortsword": {
+                "cost": 2033.0,
+                "amount": "3"
+            },
+            "Blowgun": {
+                "cost": 2173.0,
+                "amount": "3"
+            }
+        }
+    },
+    "Princess's Writing": {
+        "name": "Princess's Writing",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Herbalist",
+        "city": "",
+        "region": "Fechura",
+        "wealth": "Poor",
+        "gold_amount": "147915",
+        "sell_mult": "0.7672398259497067",
+        "items": {
+            "Lock": {
+                "cost": 356.0,
+                "amount": "2"
+            },
+            "Yellow Vine": {
+                "cost": 5.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Jackrabbit's Bike": {
+        "name": "Jackrabbit's Bike",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "South East Ozoa",
+        "wealth": "Middle Class",
+        "gold_amount": "235567",
+        "sell_mult": "0.1325865777170921",
+        "items": {
+            "Torch": {
+                "cost": 468.0,
+                "amount": "1"
+            }
+        }
+    },
+    "The Ten Nail": {
+        "name": "The Ten Nail",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Mage",
+        "city": "",
+        "region": "Crestus",
+        "wealth": "Poor",
+        "gold_amount": "34477",
+        "sell_mult": "0.21490744504999704",
+        "items": {}
+    },
+    "Silly Gilly's Stylish": {
+        "name": "Silly Gilly's Stylish",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "East Ozoa",
+        "wealth": "Middle Class",
+        "gold_amount": "33747",
+        "sell_mult": "0.81671695367045",
+        "items": {}
+    },
+    "Daffodil's": {
+        "name": "Daffodil's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "Unknown Lands",
+        "wealth": "Elite",
+        "gold_amount": "87891",
+        "sell_mult": "0.11396118895619028",
+        "items": {
+            "Dagger": {
+                "cost": 538.0,
+                "amount": 100
+            },
+            "Club": {
+                "cost": 1865.0,
+                "amount": 17
+            },
+            "Sledge Hammer": {
+                "cost": 3847.0,
+                "amount": 6
+            },
+            "Glaive": {
+                "cost": 5294.0,
+                "amount": 4
+            },
+            "Greataxe": {
+                "cost": 11982.0,
+                "amount": 5
+            },
+            "Shortsword": {
+                "cost": 2185.0,
+                "amount": 6
+            },
+            "Greatsword": {
+                "cost": 11905.0,
+                "amount": 5
+            },
+            "Potion of Flying": {
+                "cost": 7604.0,
+                "amount": 5
+            },
+            "Iron Sword (Rusty)": {
+                "cost": 1367.0,
+                "amount": 9
+            },
+            "Potion of Healing": {
+                "cost": 7777.0,
+                "amount": 3
+            },
+            "Shortsword +2": {
+                "cost": 19559.0,
+                "amount": "2"
+            },
+            "Shortbow": {
+                "cost": 2890.0,
+                "amount": 5
+            },
+            "Iron Sword (Good)": {
+                "cost": 3794.0,
+                "amount": 5
+            },
+            "War Pick": {
+                "cost": 2318.0,
+                "amount": 9
+            },
+            "Vicious Lance": {
+                "cost": 118266.0,
+                "amount": 3
+            },
+            "Flail": {
+                "cost": 2770.0,
+                "amount": 7
+            },
+            "Pike": {
+                "cost": 3485.0,
+                "amount": 5
+            },
+            "Blowgun": {
+                "cost": 2628.0,
+                "amount": 3
+            },
+            "Oathbow": {
+                "cost": 217305.0,
+                "amount": 3
+            },
+            "Glass Flask": {
+                "cost": 646.0,
+                "amount": 3
+            },
+            "Battle Axe": {
+                "cost": 4307.0,
+                "amount": 3
+            },
+            "Javelin of Lightning": {
+                "cost": 7679.0,
+                "amount": 3
+            },
+            "Sickle": {
+                "cost": 3808.0,
+                "amount": 5
+            },
+            "Vicious Club": {
+                "cost": 71623.0,
+                "amount": "2"
+            },
+            "Battle Axe +1": {
+                "cost": 11190.0,
+                "amount": 3
+            },
+            "Crossbow": {
+                "cost": 3733.0,
+                "amount": 5
+            },
+            "Potion of Minor Healing": {
+                "cost": 2549.0,
+                "amount": 4
+            },
+            "Potion of Major Healing": {
+                "cost": 15497.0,
+                "amount": 3
+            },
+            "Steel": {
+                "cost": 136.0,
+                "amount": "1"
+            },
+            "Beserker Axe": {
+                "cost": 96779.0,
+                "amount": 3
+            },
+            "Club +2": {
+                "cost": 17503.0,
+                "amount": 3
+            },
+            "Club +1": {
+                "cost": 4567.0,
+                "amount": 4
+            },
+            "Shortsword +1": {
+                "cost": 7436.0,
+                "amount": "1"
+            }
+        }
+    },
+    "Buddy's Elbow": {
+        "name": "Buddy's Elbow",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "Pitt",
+        "wealth": "Wealthy",
+        "gold_amount": "143836",
+        "sell_mult": "0.12596319614883209",
+        "items": {
+            "Sickle": {
+                "cost": 4424.0,
+                "amount": 6
+            },
+            "Sledge Hammer": {
+                "cost": 3583.0,
+                "amount": "2"
+            },
+            "Glaive": {
+                "cost": 4119.0,
+                "amount": "1"
+            },
+            "Shortsword": {
+                "cost": 1896.0,
+                "amount": 5
+            },
+            "Oathbow": {
+                "cost": 209292.0,
+                "amount": "2"
+            },
+            "Club +1": {
+                "cost": 4049.0,
+                "amount": "3"
+            },
+            "Flail": {
+                "cost": 2758.0,
+                "amount": "1"
+            },
+            "Greatsword": {
+                "cost": 11975.0,
+                "amount": 3
+            },
+            "War Pick": {
+                "cost": 2288.0,
+                "amount": 6
+            },
+            "Crossbow": {
+                "cost": 3128.0,
+                "amount": "1"
+            },
+            "Halberd": {
+                "cost": 10092.0,
+                "amount": 2
+            },
+            "Battle Axe": {
+                "cost": 4620.0,
+                "amount": "1"
+            },
+            "Potion of Minor Healing": {
+                "cost": 2570.0,
+                "amount": "2"
+            },
+            "Glass Flask": {
+                "cost": 682.0,
+                "amount": "3"
+            },
+            "Shortbow": {
+                "cost": 2668.0,
+                "amount": "3"
+            },
+            "Dagger": {
+                "cost": 548.0,
+                "amount": 20
+            },
+            "Vicious Club": {
+                "cost": 73310.0,
+                "amount": "2"
+            },
+            "Pike": {
+                "cost": 3140.0,
+                "amount": "1"
+            },
+            "Shortsword +1": {
+                "cost": 6144.0,
+                "amount": "2"
+            },
+            "Iron Sword (Rusty)": {
+                "cost": 1708.0,
+                "amount": "3"
+            },
+            "Greataxe": {
+                "cost": 9604.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Hot Pepper's": {
+        "name": "Hot Pepper's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "East Ozoa",
+        "wealth": "Middle Class",
+        "gold_amount": "80855",
+        "sell_mult": "0.6953864645878298",
+        "items": {
+            "Club": {
+                "cost": 2082.0,
+                "amount": "2"
+            },
+            "Pike": {
+                "cost": 2882.0,
+                "amount": "1"
+            },
+            "War Pick": {
+                "cost": 2513.0,
+                "amount": "1"
+            },
+            "Crossbow": {
+                "cost": 3084.0,
+                "amount": "3"
+            },
+            "Dagger": {
+                "cost": 425.0,
+                "amount": 9
+            },
+            "Sledge Hammer": {
+                "cost": 3495.0,
+                "amount": "2"
+            }
+        }
+    },
+    "The Curious Rounds": {
+        "name": "The Curious Rounds",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Blacksmith",
+        "city": "",
+        "region": "West Ozoa",
+        "wealth": "Middle Class",
+        "gold_amount": "75978",
+        "sell_mult": "0.7065358515082774",
+        "items": {
+            "Padded Armor": {
+                "cost": 2666.0,
+                "amount": "3"
+            },
+            "Nail": {
+                "cost": 21.0,
+                "amount": "9"
+            },
+            "Halberd": {
+                "cost": 10153.0,
+                "amount": "2"
+            },
+            "Smith's Tools": {
+                "cost": 1173.0,
+                "amount": "1"
+            },
+            "Dagger": {
+                "cost": 521.0,
+                "amount": "1"
+            },
+            "Diamond": {
+                "cost": 4739.0,
+                "amount": "2"
+            },
+            "Mason's Tools": {
+                "cost": 3579.0,
+                "amount": "3"
+            },
+            "Club": {
+                "cost": 2014.0,
+                "amount": "3"
+            },
+            "Blowgun": {
+                "cost": 2622.0,
+                "amount": "3"
+            },
+            "Dried Long Grass": {
+                "cost": 2.0,
+                "amount": "15"
+            },
+            "Shortsword": {
+                "cost": 2290.0,
+                "amount": "1"
+            }
+        }
+    },
+    "The Eight Qualify": {
+        "name": "The Eight Qualify",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "Crestus",
+        "wealth": "Elite",
+        "gold_amount": "222000",
+        "sell_mult": "0.10549871343513946",
+        "items": {
+            "Shortsword": {
+                "cost": 1997.0,
+                "amount": 6
+            },
+            "Shortbow": {
+                "cost": 2040.0,
+                "amount": 4
+            },
+            "Battle Axe": {
+                "cost": 3896.0,
+                "amount": 4
+            },
+            "Flail": {
+                "cost": 2945.0,
+                "amount": 3
+            },
+            "Halberd": {
+                "cost": 11786.0,
+                "amount": 3
+            },
+            "Sledge Hammer": {
+                "cost": 3940.0,
+                "amount": 9
+            },
+            "Potion of Flying": {
+                "cost": 6766.0,
+                "amount": 8
+            },
+            "War Pick": {
+                "cost": 2563.0,
+                "amount": 9
+            },
+            "Potion of Major Healing": {
+                "cost": 12884.0,
+                "amount": "1"
+            },
+            "Iron Sword (Rusty)": {
+                "cost": 1636.0,
+                "amount": "2"
+            },
+            "Battle Axe +1": {
+                "cost": 9509.0,
+                "amount": "1"
+            },
+            "Longbow": {
+                "cost": 2397.0,
+                "amount": 8
+            },
+            "Pike": {
+                "cost": 2708.0,
+                "amount": 5
+            },
+            "Club": {
+                "cost": 1859.0,
+                "amount": 7
+            },
+            "Dagger": {
+                "cost": 532.0,
+                "amount": 35
+            },
+            "Club +1": {
+                "cost": 3599.0,
+                "amount": 4
+            },
+            "Crossbow": {
+                "cost": 3344.0,
+                "amount": 5
+            },
+            "Javelin of Lightning": {
+                "cost": 8813.0,
+                "amount": "2"
+            },
+            "Iron Sword (Good)": {
+                "cost": 3757.0,
+                "amount": 4
+            },
+            "Club +2": {
+                "cost": 19412.0,
+                "amount": "1"
+            },
+            "Potion of Healing": {
+                "cost": 9116.0,
+                "amount": 5
+            },
+            "Blowgun": {
+                "cost": 2420.0,
+                "amount": 4
+            },
+            "Shortsword +1": {
+                "cost": 7051.0,
+                "amount": "2"
+            },
+            "Glaive": {
+                "cost": 4824.0,
+                "amount": "3"
+            },
+            "Greataxe": {
+                "cost": 9867.0,
+                "amount": "2"
+            },
+            "Oathbow": {
+                "cost": 220521.0,
+                "amount": "2"
+            },
+            "Glass Flask": {
+                "cost": 723.0,
+                "amount": "1"
+            },
+            "Sickle": {
+                "cost": 3339.0,
+                "amount": "1"
+            },
+            "Potion of Minor Healing": {
+                "cost": 2640.0,
+                "amount": "2"
+            }
+        }
+    },
+    "The Present Walked": {
+        "name": "The Present Walked",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "Magius",
+        "wealth": "Poor",
+        "gold_amount": "36776",
+        "sell_mult": "0.7481162895440098",
+        "items": {}
+    },
+    "The Hospitable Socket": {
+        "name": "The Hospitable Socket",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "Polar",
+        "wealth": "Poor",
+        "gold_amount": "210",
+        "sell_mult": "0.7041019666590339",
+        "items": {
+            "Pike": {
+                "cost": 3022.0,
+                "amount": "3"
+            }
+        }
+    },
+    "Senior's Particular": {
+        "name": "Senior's Particular",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "Oksandarr",
+        "wealth": "Poor",
+        "gold_amount": "8824",
+        "sell_mult": "0.3016262714428577",
+        "items": {}
+    },
+    "Chuckles's": {
+        "name": "Chuckles's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Herbalist",
+        "city": "",
+        "region": "East Ozoa",
+        "wealth": "Elite",
+        "gold_amount": "53192",
+        "sell_mult": "0.590654519572207",
+        "items": {
+            "Potion of Healing": {
+                "cost": 7917.0,
+                "amount": "2"
+            },
+            "Vial": {
+                "cost": 698.0,
+                "amount": 6
+            },
+            "Grass": {
+                "cost": 1.0,
+                "amount": 36
+            },
+            "Torch": {
+                "cost": 516.0,
+                "amount": 7
+            },
+            "Potion of Flying": {
+                "cost": 6173.0,
+                "amount": 2
+            },
+            "Yellow Vine": {
+                "cost": 6.0,
+                "amount": 10
+            },
+            "Long Grass": {
+                "cost": 1.0,
+                "amount": 16
+            },
+            "Cucumber": {
+                "cost": 52.0,
+                "amount": 3
+            },
+            "Lock": {
+                "cost": 347.0,
+                "amount": "2"
+            },
+            "Potion of Minor Healing": {
+                "cost": 1844.0,
+                "amount": 5
+            },
+            "Glass Flask": {
+                "cost": 698.0,
+                "amount": "3"
+            }
+        }
+    },
+    "Romeo's": {
+        "name": "Romeo's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "Pitt",
+        "wealth": "Wealthy",
+        "gold_amount": "370528",
+        "sell_mult": "0.3258543509957823",
+        "items": {
+            "Crossbow": {
+                "cost": 3975.0,
+                "amount": "3"
+            },
+            "Potion of Minor Healing": {
+                "cost": 2371.0,
+                "amount": 6
+            },
+            "Greataxe": {
+                "cost": 10543.0,
+                "amount": 3
+            },
+            "Greatsword": {
+                "cost": 10425.0,
+                "amount": "1"
+            },
+            "Battle Axe": {
+                "cost": 4658.0,
+                "amount": 5
+            },
+            "Club +1": {
+                "cost": 3952.0,
+                "amount": 3
+            },
+            "Battle Axe +1": {
+                "cost": 9139.0,
+                "amount": "2"
+            },
+            "Vicious Lance": {
+                "cost": 92499.0,
+                "amount": "1"
+            },
+            "Sledge Hammer": {
+                "cost": 4220.0,
+                "amount": 4
+            },
+            "War Pick": {
+                "cost": 2341.0,
+                "amount": 6
+            },
+            "Halberd": {
+                "cost": 11525.0,
+                "amount": "2"
+            },
+            "Club": {
+                "cost": 2363.0,
+                "amount": "1"
+            },
+            "Potion of Healing": {
+                "cost": 9559.0,
+                "amount": "1"
+            },
+            "Longbow": {
+                "cost": 2949.0,
+                "amount": "2"
+            },
+            "Vicious Club": {
+                "cost": 61648.0,
+                "amount": "1"
+            }
+        }
+    },
+    "Pintsize's Seeking": {
+        "name": "Pintsize's Seeking",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "Pitt",
+        "wealth": "Poor",
+        "gold_amount": "2375",
+        "sell_mult": "0.4605890414438518",
+        "items": {
+            "Battle Axe +1": {
+                "cost": 11141.0,
+                "amount": "2"
+            },
+            "Shortbow": {
+                "cost": 2350.0,
+                "amount": "2"
+            },
+            "Potion of Minor Healing": {
+                "cost": 2122.0,
+                "amount": "1"
+            }
+        }
+    },
+    "Buck's Owners": {
+        "name": "Buck's Owners",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "East Ozoa",
+        "wealth": "Poor",
+        "gold_amount": "9320",
+        "sell_mult": "0.7582458637545235",
+        "items": {
+            "Flail": {
+                "cost": 3308.0,
+                "amount": "1"
+            },
+            "War Pick": {
+                "cost": 2424.0,
+                "amount": "1"
+            },
+            "Battle Axe +1": {
+                "cost": 9695.0,
+                "amount": "2"
+            },
+            "Dagger": {
+                "cost": 447.0,
+                "amount": "7"
+            },
+            "Sledge Hammer": {
+                "cost": 3602.0,
+                "amount": "3"
+            }
+        }
+    },
+    "Bubblegum's Regulations": {
+        "name": "Bubblegum's Regulations",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Mage",
+        "city": "",
+        "region": "Crestus",
+        "wealth": "Poor",
+        "gold_amount": "16",
+        "sell_mult": "0.1518242082535931",
+        "items": {}
+    },
+    "Chili's Privacy": {
+        "name": "Chili's Privacy",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Alchemist",
+        "city": "",
+        "region": "South East Ozoa",
+        "wealth": "Poor",
+        "gold_amount": "1818",
+        "sell_mult": "0.8896733641342113",
+        "items": {}
+    },
+    "Rabbit's": {
+        "name": "Rabbit's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Blacksmith",
+        "city": "",
+        "region": "West Ozoa",
+        "wealth": "Poor",
+        "gold_amount": "11985",
+        "sell_mult": "0.43920386335129313",
+        "items": {
+            "Padded Armor": {
+                "cost": 2714.0,
+                "amount": "3"
+            },
+            "Paper": {
+                "cost": 30.0,
+                "amount": "1"
+            }
+        }
+    },
+    "Darling's Batteries": {
+        "name": "Darling's Batteries",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Mage",
+        "city": "",
+        "region": "East Ozoa",
+        "wealth": "Poor",
+        "gold_amount": "50792",
+        "sell_mult": "0.231272240962298",
+        "items": {
+            "Spell Scroll of Minor Illusion": {
+                "cost": 6942.0,
+                "amount": "1"
+            },
+            "Potion of Minor Healing": {
+                "cost": 2044.0,
+                "amount": "1"
+            },
+            "Spell Scroll of Resistance": {
+                "cost": 8889.0,
+                "amount": "1"
+            }
+        }
+    },
+    "Double Double's Capacity": {
+        "name": "Double Double's Capacity",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Alchemist",
+        "city": "",
+        "region": "Magius",
+        "wealth": "Wealthy",
+        "gold_amount": "288106",
+        "sell_mult": "0.6756140307618139",
+        "items": {
+            "Spell Scroll of Minor Illusion": {
+                "cost": 9964.0,
+                "amount": "2"
+            },
+            "Spell Scroll of Poison Spray": {
+                "cost": 9408.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Birdy's Durham": {
+        "name": "Birdy's Durham",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "East Ozoa",
+        "wealth": "Wealthy",
+        "gold_amount": "199833",
+        "sell_mult": "0.7597488483664724",
+        "items": {
+            "Lock": {
+                "cost": 379.0,
+                "amount": 6
+            },
+            "Torch": {
+                "cost": 450.0,
+                "amount": "2"
+            },
+            "Vine": {
+                "cost": 3.0,
+                "amount": "9"
+            },
+            "Amethyst": {
+                "cost": 952.0,
+                "amount": "1"
+            },
+            "Blue Sapphire": {
+                "cost": 16337.0,
+                "amount": "2"
+            }
+        }
+    },
+    "Highbeam's": {
+        "name": "Highbeam's",
+        "owner": "",
+        "notes": "",
+        "shop_type": "General Merchant",
+        "city": "",
+        "region": "South East Ozoa",
+        "wealth": "Poor",
+        "gold_amount": "19976",
+        "sell_mult": "0.6126829535392297",
+        "items": {}
+    },
+    "Tater Tot's Died": {
+        "name": "Tater Tot's Died",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "Unknown Lands",
+        "wealth": "Poor",
+        "gold_amount": "36176",
+        "sell_mult": "0.8722934185250993",
+        "items": {
+            "Glass Flask": {
+                "cost": 671.0,
+                "amount": "3"
+            },
+            "Club": {
+                "cost": 2396.0,
+                "amount": "1"
+            },
+            "War Pick": {
+                "cost": 2181.0,
+                "amount": "3"
+            }
+        }
+    },
+    "Dolly's Note": {
+        "name": "Dolly's Note",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Mage",
+        "city": "",
+        "region": "West Ozoa",
+        "wealth": "Poor",
+        "gold_amount": "20811",
+        "sell_mult": "0.3813758953188814",
+        "items": {}
+    },
+    "Bug's Graduated": {
+        "name": "Bug's Graduated",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Weapons Dealer",
+        "city": "",
+        "region": "Crestus",
+        "wealth": "Poor",
+        "gold_amount": "66994",
+        "sell_mult": "0.5018784698114943",
+        "items": {
+            "Club +2": {
+                "cost": 19357.0,
+                "amount": "2"
+            },
+            "Flail": {
+                "cost": 2771.0,
+                "amount": "2"
+            },
+            "Battle Axe +1": {
+                "cost": 9882.0,
+                "amount": "2"
+            },
+            "Dagger": {
+                "cost": 545.0,
+                "amount": "9"
+            }
+        }
+    },
+    "The Rural Bags": {
+        "name": "The Rural Bags",
+        "owner": "",
+        "notes": "",
+        "shop_type": "Alchemist",
+        "city": "",
+        "region": "Fechura",
+        "wealth": "Poor",
+        "gold_amount": "6090",
+        "sell_mult": "0.6671195128170073",
+        "items": {
+            "Dried Long Grass": {
+                "cost": 2.0,
+                "amount": "8"
+            },
+            "Potion of Flying": {
+                "cost": 7680.0,
+                "amount": "2"
+            }
+        }
     }
 }

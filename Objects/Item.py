@@ -62,25 +62,25 @@ class ItemManager:
 
     def getItemRegions(self) -> list:  # returns a list of all the regions in the item list
         for key in self.item_list:
-            if self.item_list[key]["Base Region"] not in self.itemRegions:
-                self.itemRegions.append(self.item_list[key]["Base Region"])
+            if self.item_list[key]["base_region"] not in self.itemRegions:
+                self.itemRegions.append(self.item_list[key]["base_region"])
         return self.itemRegions
 
     def getItemTypes(self) -> list:  # gets all the item types in the item list
         for key in self.item_list:
-            if self.item_list[key]["Type"] not in self.item_types:
-                self.item_types.append(self.item_list[key]["Type"])
+            if self.item_list[key]["item_type"] not in self.item_types:
+                self.item_types.append(self.item_list[key]["item_type"])
         return self.item_types
 
     def getItemIndex(self, index: int | str) -> Item:  # gets the index of an item in the item list
         item_name = list(self.item_list)[int(index)]
-        item = Item(item_name, self.item_list[item_name]["Base Region"], self.item_list[item_name]["Type"],
-                    self.item_list[item_name]["Value"], self.item_list[item_name]["Rarity"])
+        item = Item(item_name, self.item_list[item_name]["base_region"], self.item_list[item_name]["item_type"],
+                    self.item_list[item_name]["base_value"], self.item_list[item_name]["rarity"])
         return item
 
     def getItemName(self, name: str) -> Item:  # gets an item if given a name
-        item = Item(name, self.item_list[name]["Base Region"], self.item_list[name]["Type"], self.item_list[name]["Value"],
-                    self.item_list[name]["Rarity"])
+        item = Item(name, self.item_list[name]["base_region"], self.item_list[name]["item_type"], self.item_list[name]["base_value"],
+                    self.item_list[name]["rarity"])
         return item
 
     def saveItems(self):  # saves the items to the txt file

@@ -29,7 +29,7 @@ MAX_ITEM_COST = 1000000
 #-------------
 #----SET UP----
 shops = ShopManager()
-shop_names = list(shops.shopList.keys())
+shop_names = list(shops.shop_list.keys())
 items = ItemManager()
 types = TypeManager(shops, items)
 regions = RegionManager(shops, items)
@@ -135,7 +135,7 @@ def runCommands(argv: list):  # simple interface with if statements to run comma
 # ---------SHOP FUNCTIONS----------------
 def buyShopItem(arg: list, shop_name: str):  # buys an item in a shop
     try:
-        shop = shops.shopList[shop_name]
+        shop = shops.shop_list[shop_name]
     except KeyError:
         print("Shop does not exist")
         return
@@ -147,7 +147,7 @@ def buyShopItem(arg: list, shop_name: str):  # buys an item in a shop
 
     item_amount = int(shops.getItemAmount(shop_name, arg[0]))  # gets the amount of an item that the given shop has
     amount = 0
-    cost = int(shops.getShopByName(shop_name)["Items"][arg[0]]["Cost"])  # gets the cost of the item in the shop
+    cost = int(shops.getShopByName(shop_name)["items"][arg[0]]["cost"])  # gets the cost of the item in the shop
     if len(arg) == 1:  # determines if the user is buying 1 of them or multiple
         amount = 1
         shops.decreaseShopItemAmount(shop_name, arg[0])
@@ -175,7 +175,7 @@ def buyShopItem(arg: list, shop_name: str):  # buys an item in a shop
 def sellShopItem(arg: list, shop_name: str):  # sells an item to the shop
     # error handling for bad inputs
     try:
-        shop = shops.shopList[shop_name]
+        shop = shops.shop_list[shop_name]
     except KeyError:
         print("Shop does not exist")
         return
@@ -187,17 +187,17 @@ def sellShopItem(arg: list, shop_name: str):  # sells an item to the shop
 
     amount = 1  # sets both the amount and item amount for future use
     item_amount = 1
-    gold_amount = int(round(float(shop["GoldAmount"])))  # finds the gold amount of the shop given
-    item_value = int(round(float(item.baseValue) * float(shop["SellMult"])))  # gets the value of item being sold
+    gold_amount = int(round(float(shop["gold_amount"])))  # finds the gold amount of the shop given
+    item_value = int(round(float(item.base_value) * float(shop["sell_mult"])))  # gets the value of item being sold
 
-    if item.itemType not in types.typeManager[shop["Type"]]: # checks to see if the type is sold in the shop
+    if item.item_type not in types.typeManager[shop["shop_type"]]: # checks to see if the type is sold in the shop
         item_value /= TYPE_ITEM_VALUE
-    if item.baseRegion not in regions.regionManager[shop["Region"]]: # checks to see if the shop is in the item region
+    if item.base_region not in regions.regionManager[shop["region"]]: # checks to see if the shop is in the item region
         item_value *= REGION_ITEM_VALUE
 
     item_value = int(round(item_value))
 
-    if arg[0] in shop["Items"]: # sells the item to the shop if the shop has the item already
+    if arg[0] in shop["items"]: # sells the item to the shop if the shop has the item already
         if len(arg) > 2:
             print('Invalid command')
             return
@@ -239,6 +239,7 @@ def sellShopItem(arg: list, shop_name: str):  # sells an item to the shop
     else:
         cost = str(cost) + " cp"
     print("Sold %s %s(s) for %s" % (amount, arg[0], cost))
+    shops.saveShops()
 
 
 def runShopCommands(arg: list, shop_name: str): # for running shop commands
@@ -280,12 +281,12 @@ def makeShop(args: list): # makes a shop given a list of arguments
     shop_items = args[5].split(";")
     gold_amount = args[6]
     sell_mult = args[7]
-    temp_shop = Shop(shop_name, shop_type, city, region, wealth, {}, gold_amount, sell_mult)
+    temp_shop = Shop(shop_name,"","", shop_type, city, region, wealth, gold_amount,"",{})
 
     for i in range(len(shop_items)):
         shop_items[i] = shop_items[i].strip()
         temp_item = items.getItemName(shop_items[i])
-        temp_shop.addNewItem(temp_item, 1, temp_item.baseValue)
+        temp_shop.addNewItem(temp_item, str(1), float(temp_item.base_value))
     shops.addShop(temp_shop)
     shops.saveShops()
 
@@ -345,7 +346,7 @@ def makeShopRandom(type_shop: str, city: str, owner: str, region: str, wealth: s
         if type_shop not in type_list: # if the type given is not in the type list add it
             types.addNewShopType(type_shop)
 
-    name = generateName() # generate's the name of the shop and the key
+    name = generateName() # generates the name of the shop and the key
     size = wealth * random.randint(5, 15) # generates a shop of a random size influenced by the wealth
     gold_amount = random.randint(1, 500) * wealth ** 1.5 # makes the random gold amount influenced by wealth
 
@@ -366,10 +367,10 @@ def makeShopRandom(type_shop: str, city: str, owner: str, region: str, wealth: s
     sell_rate = random.uniform(MIN_SELL_MULT, MAX_SELL_MULT) # determines the sell multiplier of a shop
     item_list = {}
     # creates the shop with an empty item list
-    shop = Shop(name, owner, "", type_shop, city, region, str(wealth), item_list, str(int(gold_amount)), str(sell_rate))
+    shop = Shop(name, owner, "", type_shop, city, region, str(wealth), str(int(gold_amount)), str(sell_rate),item_list)
 
     for i in range(int(size)): ## this is how many times it tries to add items to the shop
-        item_index = random.randint(0, len(list(items.itemList.keys())))
+        item_index = random.randint(0, len(list(items.item_list.keys())))
         try:
             item = items.getItemIndex(int(item_index) - 1)  # picks a random item from the item list
         except IndexError:
@@ -380,8 +381,8 @@ def makeShopRandom(type_shop: str, city: str, owner: str, region: str, wealth: s
         if any(item.item_type in shop_type for shop_type in types.typeManager[shop.shop_type]):
             # checks if the item shop_type is found in the supported item types of the shop shop_type
             can_be_added /= 2
-            if (regions.regionList != "{}" and item.baseRegion in regions.regionManager[region]) \
-                    or item.baseRegion == shop.region or item.baseRegion == "Anywhere":  # can_be_added is divided
+            if (regions.regionList != "{}" and item.base_region in regions.regionManager[region]) \
+                    or item.base_region == shop.region or item.base_region == "Anywhere":  # can_be_added is divided
                 # according to the region and shop wealth to simulate the rarity being less in better and local shops
                 can_be_added /= 2
             if wealth == "Elite":
@@ -399,10 +400,10 @@ def makeShopRandom(type_shop: str, city: str, owner: str, region: str, wealth: s
                 shop.addItem(item.name, random.randint(1, int(float(can_be_added) + float(
                     item.rarity) + 2)))  # if the item is already in the shop then add more of it
             else:  # make the cost fluctuate around the base cost of the item
-                cost = random.uniform(float(item.baseValue) / min(1.0, float(item.rarity) ** 1 / 4),
-                                      float(item.baseValue) / min(.9, float(item.rarity) ** 1 / 3))
-                if ((regions.regionList != "{}" and item.baseRegion in regions.regionManager[region])
-                        or item.baseRegion == shop.region):  # if item is in the region divide the cost by 1.2
+                cost = random.uniform(float(item.base_value) / min(1.0, float(item.rarity) ** 1 / 4),
+                                      float(item.base_value) / min(.9, float(item.rarity) ** 1 / 3))
+                if ((regions.regionList != "{}" and item.base_region in regions.regionManager[region])
+                        or item.base_region == shop.region):  # if item is in the region divide the cost by 1.2
                     cost /= REGION_ITEM_VALUE
                 shop.addNewItem(item, str(random.randint(1, int(float(can_be_added) + float(item.rarity) + 2))),
                                 int(min(max(cost, 1), MAX_ITEM_COST)))
@@ -413,7 +414,7 @@ def makeShopRandom(type_shop: str, city: str, owner: str, region: str, wealth: s
 def generateName():
     if (len(shop_names) != 0):
         shop_name = shop_names[0]
-        while shop_name in shops.shopList:
+        while shop_name in shops.shop_list:
             shop_name = random.randint(0, 2)  # more randomness for the name selection
             pick_noun = random.randint(0, len(nouns) - 1)  # picks a random noun for the name
             if shop_name == 0:
@@ -479,8 +480,8 @@ def printShopsIn(area: str): # prints all the shops in a given area (city or reg
     count = 1
     for k in shops_in:
         shop = shops.getShopByName(k)
-        string_print = "| #" + str(count) + ", Shop : " + k + " | Region : " + shop["Region"] + " | City : " + shop[
-            "City"] + " |" + " | Wealth : " + shop["Wealth"] + " |"
+        string_print = "| #" + str(count) + ", Shop : " + k + " | Region : " + shop["region"] + " | City : " + shop[
+            "city"] + " |" + " | Wealth : " + shop["wealth"] + " |"
         string_sep = "-." * int((len(string_print) / 2))
         print(string_print)
         print(string_sep)
@@ -489,12 +490,12 @@ def printShopsIn(area: str): # prints all the shops in a given area (city or reg
 
 
 def printAllShops(): # prints all shops
-    shops_to_print = list(shops.shopList.keys())
+    shops_to_print = list(shops.shop_list.keys())
     count = 1
     for k in shops_to_print:
         shop = shops.getShopByName(k)
-        string_print = "| #" + str(count) + ", Shop : " + k + " | Region : " + shop["Region"] + " | City : " + shop[
-            "City"] + " | Wealth : " + shop["Wealth"] + " |"
+        string_print = "| #" + str(count) + ", Shop : " + k + " | Region : " + shop["region"] + " | City : " + shop[
+            "city"] + " | Wealth : " + shop["wealth"] + " |"
         string_sep = "-." * int((len(string_print) / 2))
         print(string_print)
         print(string_sep)

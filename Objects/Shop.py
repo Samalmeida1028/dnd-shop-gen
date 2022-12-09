@@ -28,26 +28,26 @@ class Shop:
 
     def addItems(self, items: dict):  # adds a list of items, given an item list, to the shop
         for key in items:
-            self.items[key] = {"Cost": "", "Amount": "0"}
-            if items[key]["Base Region"] == self.region:
-                self.items[key]["Cost"] = str((float(items[key]["Value"]) * 1 / float(items[key]["Rarity"])) // 2)
+            self.items[key] = {"cost": "", "amount": "0"}
+            if items[key]["base_region"] == self.region:
+                self.items[key]["cost"] = str((float(items[key]["base_value"]) * 1 / float(items[key]["Rarity"])) // 2)
             else:
-                self.items[key]["Cost"] = str((float(items[key]["Value"]) * 1 / float(items[key]["Rarity"])))
+                self.items[key]["cost"] = str((float(items[key]["base_value"]) * 1 / float(items[key]["Rarity"])))
 
     def addNewItem(self, item: Item, amount: str, cost: float):  # adds a new item to the shop
-        self.items[item.name] = {"Cost": float(cost), "Amount": amount}
+        self.items[item.name] = {"cost": float(cost), "amount": amount}
 
     def addItem(self, name: str, amount: float):  # adds a previous item to the shop, increasing the amount
         try:
-            temp = int(self.items[name]["Amount"])
+            temp = int(self.items[name]["amount"])
         except KeyError:
             print("Item is not in shop, please use 'addNewItem'")
             return
         temp += amount
-        self.items[name]["Amount"] = temp
+        self.items[name]["amount"] = temp
 
     def updateItemPrice(self, item_name: str, cost: float):  # updates the cost of an item
-        self.items[item_name]["Cost"] = cost
+        self.items[item_name]["cost"] = cost
 
 
 #
@@ -81,15 +81,15 @@ class ShopManager:
         regions = []
         for key in self.shop_list:
             if self.shop_list[key]["region"] not in regions:
-                regions.append(self.shop_list[key]["Region"])
+                regions.append(self.shop_list[key]["region"])
         return regions
 
     def getShopTypes(self) -> dict:  # returns all the different types of shops
         types = {}
         temp = []
         for key in self.shop_list:
-            if self.shop_list[key]["type"] not in temp:
-                temp.append(self.shop_list[key]["type"])
+            if self.shop_list[key]["shop_type"] not in temp:
+                temp.append(self.shop_list[key]["shop_type"])
         types.update({'Shop Types': temp})
         return types
 
@@ -132,7 +132,7 @@ class ShopManager:
 
     def addNewItem(self, shop_name: str, item_name: str):
         shop = self.shop_list[shop_name]
-        new_item = self.items.itemList[item_name]
+        new_item = self.items.item_list[item_name]
         cost = float(new_item["base_value"])
         cost /= (float(new_item["rarity"]) * random.uniform(.5, .9))
         if new_item["base_region"] == shop["region"]:

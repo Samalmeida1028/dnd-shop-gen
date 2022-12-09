@@ -5,7 +5,7 @@ import time
 
 from Objects.Shop import *
 from Objects.TypeAndRegionManager import *
-# ---GOLBALS---
+# ---GLOBALS---
 REGION_ITEM_VALUE = 1.2  # used to determine how an item's value fluctuates based on region
 TYPE_ITEM_VALUE = 2  # used to determine item's price when sold if it is in the shop that sells it
 ELITE_RARITY_MULT = 10  # this number dictates the rarity of item found in elite shops, higher means more rare items

@@ -1,35 +1,41 @@
 import json
+from typing import Iterable
+
 from Objects.Item import *
 import random
+from dataclasses import dataclass
 
 
 #
 # Class: Shop
 # Takes in the name, shop_type, city, region, wealth, gold amount, and sell multiplier of a shop
+@dataclass
 class Shop:
-    def __init__(self, name="", owner="", notes="", shop_type="", city="", region="", wealth="", items={}, gold_amount="",
-                 sell_mult=""):
-        self.name = name
-        self.owner = owner
-        self.shop_type = shop_type
-        self.notes = notes
-        self.city = city
-        self.region = region
-        self.wealth = wealth
-        self.items = {}
-        if type(items) != str:
-            self.addItems(items)
-        self.gold_amount = gold_amount
-        self.sell_mult = sell_mult
+    name: str = ""
+    owner: str = ""
+    notes: str = ""
+    shop_type: str = ""
+    city: str = ""
+    region: str = ""
+    wealth: str = ""
+    gold_amount: str = ""
+    sell_mult: str = ""
+    items: dict = None
 
     def __str__(self):  # this puts the shop items in JSON format for saving
         temp = json.dumps(self.items, indent=4)
         return '{"Name":"' + self.name + '","Owner":"' + self.owner + '","Notes":"' + self.notes + '","Type":"' \
-               + self.shop_type + '","City":"' + self.city + '","Region":"' + self.region + '","Wealth":"' + self.wealth \
-               + '","Items":' + temp + ',"GoldAmount":"' + self.gold_amount + '","SellMult":"' + self.sell_mult + '"}'
+            + self.shop_type + '","City":"' + self.city + '","Region":"' + self.region + '","Wealth":"' + self.wealth \
+            + '","Items":' + temp + ',"GoldAmount":"' + self.gold_amount + '","SellMult":"' + self.sell_mult + '"}'
 
-    def str(self):
-        return self.__str__()
+    def dir(self):
+        return self.__dir__
+
+    def __dir__(self):
+        return
+
+    def Serialize(self):
+        return vars(self)
 
     def addItems(self, items: dict):  # adds a list of items, given an item list, to the shop
         for key in items:
@@ -55,23 +61,11 @@ class Shop:
 # Class: ShopManager
 # Manages the save data of the list of shops, and loads shops from save data
 class ShopManager:
-    def __init__(self):
+    def __init__(self, filename='shops.txt'):
         self.items = ItemManager()
         temp = ""
         self.shopList = {}
-        try:
-            with open("../Resources/save_data/shops.txt",
-                      "x") as file:  # sees if the file already exists, if it doesn't create the file
-                file.write(temp)
-                file.close()
-        except FileExistsError:
-            try:
-                with open(  # if the file does exist then load the file contents to the shopList
-                        "../Resources/save_data/shops.txt") as file:
-                    self.shopList = json.load(file)
-            except json.decoder.JSONDecodeError as e:  # if the file is in incorrect json, then don't load it
-                print(e)
-                self.shopList = {}
+        self.Deserialize(filename)
 
     def addShop(self, name, owner, type, city, region, wealth, items, gold_amount,
                 sell_multiplier):  # adds a shop by the input values
@@ -80,7 +74,7 @@ class ShopManager:
 
     def addShop(self, shop):  # adds a shop if you made a shop already
         name = shop.name
-        self.shopList[name] = json.loads(shop.str())  # loads the shop to the json string
+        self.shopList[name] = shop.Serialize()  # loads the shop to the json string
 
     def saveShops(self):  # saves all the shops into a json file
         open('../Resources/save_data/shops.txt', 'w').close()
@@ -138,7 +132,7 @@ class ShopManager:
     def getItemAmount(self, shop_name: str, item: str) -> int:
         return int(self.shopList[shop_name]["Items"][item]["Amount"])
 
-    def removeItem(self, shop_name:str, item: str):
+    def removeItem(self, shop_name: str, item: str):
         self.shopList[shop_name]["Items"].pop(item)
 
     def addNewItem(self, shop_name: str, item_name: str):
@@ -179,7 +173,7 @@ class ShopManager:
     def getShopByName(self, name: str) -> dict:
         return self.shopList[name]
 
-    def printShopItems(self, shop: str  ):
+    def printShopItems(self, shop: str):
         printed_shop = self.shopList[shop]
         for k in printed_shop["Items"]:
             cost = float(self.shopList[shop]["Items"][k]["Cost"]) / 100
@@ -206,3 +200,19 @@ class ShopManager:
         print("||||||||||||||||||||||||||||||||||||||||||||||||")
         print("||||||||||||||||||||ITEMS|||||||||||||||||||||||")
         self.printShopItems(shop["Name"])
+
+    def Deserialize(self, filename):
+        temp = ""
+        try:
+            with open("../Resources/save_data/shops.txt",
+                      "x") as file:  # sees if the file already exists, if it doesn't create the file
+                file.write(temp)
+                file.close()
+        except FileExistsError:
+            try:
+                with open(  # if the file does exist then load the file contents to the shopList
+                        "../Resources/save_data/shops.txt") as file:
+                    self.shopList = json.load(file)
+            except json.decoder.JSONDecodeError as e:  # if the file is in incorrect json, then don't load it
+                print(e)
+                self.shopList = {}

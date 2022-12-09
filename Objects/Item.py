@@ -1,8 +1,13 @@
 import json
+from dataclasses import dataclass
 
-
+@dataclass
 class Item:
-
+    name: str
+    item_type: str
+    baseValue: str
+    rarity: float
+    baseRegion: str
     def __init__(self, name, baseRegion, item_type="misc", baseValue="1", rarity="1", arg=[]):
         if len(arg) == 0:
             self.name = name
@@ -17,12 +22,8 @@ class Item:
             self.rarity = arg[3]
             self.baseRegion = arg[4]
 
-    def __str__(self):
-        return '{"Name":"' + self.name + '","Type":"' + self.item_type + '","Value":"' + self.baseValue + '","Rarity":"'\
-               + self.rarity + '","Base Region":"' + self.baseRegion + '"}'
-
-    def str(self):
-        return self.__str__()
+    def Serialize(self):
+        return vars(self)
 
 
 class ItemManager:
@@ -45,11 +46,11 @@ class ItemManager:
 
     def addItem(self, name, item_type, baseValue, rarity, baseRegion):  # add item by property
         temp = Item(name, item_type, baseValue, rarity, baseRegion)
-        self.itemList[name] = json.loads(temp.str())
+        self.itemList[name] = temp.Serialize()
 
     def addItem(self, item_list):  # add new item by list
         temp = Item("", "", "", "", "", item_list)
-        self.itemList[item_list[0]] = json.loads(temp.str())
+        self.itemList[item_list[0]] = temp.Serialize()
 
     def getItemRegions(self) -> list:  # returns a list of all the regions in the item list
         for key in self.itemList:
@@ -63,13 +64,13 @@ class ItemManager:
                 self.item_types.append(self.itemList[key]["Type"])
         return self.item_types
 
-    def getItemIndex(self, index) -> Item:  # gets the index of an item in the item list
+    def getItemIndex(self, index: int | str) -> Item:  # gets the index of an item in the item list
         item_name = list(self.itemList)[int(index)]
         item = Item(item_name, self.itemList[item_name]["Base Region"], self.itemList[item_name]["Type"],
                     self.itemList[item_name]["Value"], self.itemList[item_name]["Rarity"])
         return item
 
-    def getItemName(self, name) -> Item:  # gets an item if given a name
+    def getItemName(self, name: str) -> Item:  # gets an item if given a name
         item = Item(name, self.itemList[name]["Base Region"], self.itemList[name]["Type"], self.itemList[name]["Value"],
                     self.itemList[name]["Rarity"])
         return item

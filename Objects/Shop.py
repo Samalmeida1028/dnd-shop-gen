@@ -30,9 +30,9 @@ class Shop:
         for key in items:
             self.items[key] = {"cost": "", "amount": "0"}
             if items[key]["base_region"] == self.region:
-                self.items[key]["cost"] = str((float(items[key]["base_value"]) * 1 / float(items[key]["Rarity"])) // 2)
+                self.items[key]["cost"] = str((float(items[key]["base_value"]) * 1 / float(items[key]["rarity"])) // 2)
             else:
-                self.items[key]["cost"] = str((float(items[key]["base_value"]) * 1 / float(items[key]["Rarity"])))
+                self.items[key]["cost"] = str((float(items[key]["base_value"]) * 1 / float(items[key]["rarity"])))
 
     def addNewItem(self, item: Item, amount: str, cost: float):  # adds a new item to the shop
         self.items[item.name] = {"cost": float(cost), "amount": amount}

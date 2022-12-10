@@ -26,8 +26,8 @@ TOTAL_THRESH = (POOR_CHANCE+MIDDLECLASS_CHANCE+WEALTHY_CHANCE+ELITE_CHANCE)
 
 MAX_ITEM_COST = 1000000
 
-#-------------
-#----SET UP----
+# -------------
+# ----SET UP----
 shops = ShopManager()
 shop_names = list(shops.shop_list.keys())
 items = ItemManager()
@@ -51,7 +51,7 @@ for line in nounFile:
 nounFile.close()
 for line in nicknameFile:
     nicknames = line.split(",")
-#----------------
+# ----------------
 
 # lists for the command to add the option for custom command input and shortcuts
 printShop = ['print', 'show']
@@ -124,7 +124,7 @@ def runCommands(argv: list):  # simple interface with if statements to run comma
             item_in = input(": ")
             args = item_in.split(",")
             if len(args) == 5:
-                items.addItem(args)
+                items.addItem(args[0],args[1],args[2],args[3],args[4])
                 items.saveItems()
             else:
                 print("invalid syntax for adding item")

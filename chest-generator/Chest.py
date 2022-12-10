@@ -2,7 +2,7 @@ from Objects.Item import *
 
 
 class RandomChest:
-    def __init__(self,chest_rarity : int) -> int:
+    def __init__(self,chest_rarity: int) -> int:
         if 0 > chest_rarity:
             self.rarity = 0
         elif chest_rarity > 1000:

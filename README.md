@@ -1,5 +1,5 @@
-# dnd-shop-gen (EXPERIMENTAL)
-## currently: BROKEN (will not work and will ruin files, do not use this branch)
+# dnd-shop-gen
+## currently: WORKING
 
 ### Currently, this is a project to generate simple shops with an inventory saved to a JSON object file
 

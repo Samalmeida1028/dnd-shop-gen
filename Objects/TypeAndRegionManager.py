@@ -87,18 +87,20 @@ class RegionManager:
             if key not in self.region_list:
                 self.region_list.update({key: []})  # updates all the keys with the regions in the save file
 
-    def addItemRegion(self, key, value):  # adds an item region to a given shop region
+    def addItemRegion(self, region, item):  # adds an item region to a given shop region
         temp = []
-        if self.region_list[key]:
-            temp += self.region_list[key]
-        if temp.count(value) == 0:
-            temp += [value]
+        if self.region_list[region]:
+            temp += self.region_list[region]
+        if temp.count(item) == 0:
+            temp += [item]
         if len(temp) != 0:
-            self.region_list.update({key: temp})
+            self.region_list.update({region: temp})
+        self.saveRegions()
 
     def addNewShopRegion(self, key):
         if key not in self.region_list:
             self.region_list.update({key: []})
+        self.saveRegions()
 
     def removeItemRegion(self, key, value):  # removes an item region from a given shop region
         temp = []
@@ -108,11 +110,13 @@ class RegionManager:
             temp.pop(value)
         if len(temp) != 0:
             self.region_list.update({key: temp})
+        self.saveRegions()
 
     def addNewShopItemRegion(self, key, value): # adds a new shop region and a new item region to the shop region
         if key not in self.region_list:
             self.region_list.update({key: []})
         self.addItemRegion(key, value)
+        self.saveRegions()
 
     def saveRegions(self):  # saves the regions for each shop to the save text file
         file = open("../Resources/save_data/" + self.filename, "r+")

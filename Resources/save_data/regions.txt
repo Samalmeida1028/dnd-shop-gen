@@ -28,5 +28,8 @@
     "Mines",
     "Plains"
   ],
-  "Pitt": []
+  "Pitt": [],
+  "Bozoland": [
+    "Bozos"
+  ]
 }

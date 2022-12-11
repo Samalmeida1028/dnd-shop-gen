@@ -12,6 +12,7 @@ from Objects.TypeAndRegionManager import *
 # DONE (ISH): Make shop regions and biome easier to interpret, as well as shop types and item types
 # TODO: Refactor code for ease of use and remove dependencies on hard coded values to support tweaking of parameters
 # TODO: Load those parameters into another json editable file so users can tweak program values without tweaking code
+# TODO: Add help commands into each manager and shorten commands for users, make commands less ambiguous
 
 # ---GLOBALS---
 REGION_ITEM_VALUE = 1.2  # used to determine how an item's value fluctuates based on region
@@ -110,8 +111,9 @@ def runCommands(argv: list):  # simple interface with if statements to run comma
     elif argv[0] in clearScreen:
         os.system('cls' if os.name == 'nt' else 'clear')  # clears screen
     elif argv[0] in addCommand:
-        if (len(argv[0]) != 2):
+        if (len(argv) != 2):
             print("Invalid structure for 'add'")
+            return
         if argv[1] == "shop":
             print(
                 "Enter shop fields separated by a comma ([name],[shop_type],[city],[region],[wealth],[items],"
@@ -531,9 +533,9 @@ def printHelp():
           "----------------------------------------------------------------------------------------------------------\n"
           "edit regions: opens the edit region\n"
           "----------------------------------------------------------------------------------------------------------\n"
-          "(in region manager) add shop region: adds a new region\n"
+          "(in region manager) add shop region,[Region]: adds a new shop region\n"
           "----------------------------------------------------------------------------------------------------------\n"
-          "(in region manager) add item to region: adds a new item to a region\n"
+          "(in region manager) add item to shop region,[Region],[Item Region]: adds a new item region to a region\n"
           "----------------------------------------------------------------------------------------------------------\n"
           "(in region manager) print regions: prints all regions\n"
           "----------------------------------------------------------------------------------------------------------\n"

@@ -1,30 +1,30 @@
 {
-    "Blacksmith": [
-        "Armor",
-        "Weapon",
-        "Material",
-        "Equipment"
-    ],
-    "Mage": [
-        "Magic",
-        "Potions"
-    ],
-    "Alchemist": [
-        "Potion",
-        "Magic",
-        "Misc"
-    ],
-    "Weapons Dealer": [
-        "Weapon",
-        "Potion"
-    ],
-    "General Merchant": [
-        "Gem",
-        "Misc"
-    ],
-    "Herbalist": [
-        "Plants",
-        "Misc",
-        "Potions"
-    ]
+  "Blacksmith": [
+    "Armor",
+    "Weapon",
+    "Material",
+    "Equipment"
+  ],
+  "Mage": [
+    "Magic",
+    "Potions"
+  ],
+  "Alchemist": [
+    "Potion",
+    "Magic",
+    "Misc"
+  ],
+  "Weapons Dealer": [
+    "Weapon",
+    "Potion"
+  ],
+  "General Merchant": [
+    "Gem",
+    "Misc"
+  ],
+  "Herbalist": [
+    "Plants",
+    "Misc",
+    "Potions"
+  ]
 }

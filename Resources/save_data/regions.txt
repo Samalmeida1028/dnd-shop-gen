@@ -1,12 +1,32 @@
 {
-    "East Ozoa": "['Mountains','Forest','Developed Area']",
-    "Unknown Lands": "[]",
-    "Magius": "['Magic Lands']",
-    "South East Ozoa": "['Plains','Mines]",
-    "West Ozoa": "['Plains']",
-    "Fechura": "['Jungle','Plains']",
-    "Polar": "[]",
-    "Oksandarr": "['Mines','Magic Lands']",
-    "Crestus": "['Mines','Plains']",
-    "Pitt": "[]"
+  "East Ozoa": [
+    "Mountains",
+    "Forest",
+    "Developed Area"
+  ],
+  "Unknown Lands": [],
+  "Magius": [
+    "Magic Lands"
+  ],
+  "South East Ozoa": [
+    "Plains",
+    "Mines"
+  ],
+  "West Ozoa": [
+    "Plains"
+  ],
+  "Fechura": [
+    "Jungle",
+    "Plains"
+  ],
+  "Polar": [],
+  "Oksandarr": [
+    "Mines",
+    "Magic Lands"
+  ],
+  "Crestus": [
+    "Mines",
+    "Plains"
+  ],
+  "Pitt": []
 }

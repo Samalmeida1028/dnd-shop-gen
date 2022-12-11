@@ -2,13 +2,6 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 
-
-# TODO: Fix serialization of Item and Shops, change all item and shop keys to match within the file,
-# TODO cont.. update keys on main terminal, refactor terminal into different programs to support adding new programs
-# TODO: add chest generation, add support for custom files to load shops and items, make it easier to update items
-# TODO: Make shop regions and biome easier to interpret, as well as shop types and item types
-# TODO: Refactor code for ease of use and remove dependencies on hard coded values to support tweaking of parameters
-# TODO: Load those parameters into another json editable file so users can tweak program values without tweaking code
 @dataclass
 class Item:
     name: str
@@ -34,11 +27,6 @@ class ItemManager:
     def addItem(self, name, item_type, base_value, rarity, base_region):  # add item by property
         temp = Item(name, item_type, base_value, rarity, base_region)
         self.item_list[name] = temp.Serialize()
-
-    def addItem(self, item_list):  # add new item by list
-        temp = Item("", "", "", "", "", item_list)
-        self.item_list[item_list[0]] = temp.Serialize()
-
     def getItemRegions(self) -> list:  # returns a list of all the regions in the item list
         for key in self.item_list:
             if self.item_list[key]["base_region"] not in self.itemRegions:
@@ -53,13 +41,13 @@ class ItemManager:
 
     def getItemIndex(self, index: int | str) -> Item:  # gets the index of an item in the item list
         item_name = list(self.item_list)[int(index)]
-        item = Item(item_name, self.item_list[item_name]["base_region"], self.item_list[item_name]["item_type"],
-                    self.item_list[item_name]["base_value"], self.item_list[item_name]["rarity"])
+        item = Item(item_name, self.item_list[item_name]["item_type"], self.item_list[item_name]["base_value"],
+                    self.item_list[item_name]["rarity"], self.item_list[item_name]["base_region"])
         return item
 
     def getItemName(self, name: str) -> Item:  # gets an item if given a name
-        item = Item(name, self.item_list[name]["base_region"], self.item_list[name]["item_type"],
-                    self.item_list[name]["base_value"], self.item_list[name]["rarity"])
+        item = Item(name, self.item_list[name]["item_type"], self.item_list[name]["base_value"],
+                    self.item_list[name]["rarity"], self.item_list[name]["base_region"])
         return item
 
     def saveItems(self):  # saves the items to the txt file

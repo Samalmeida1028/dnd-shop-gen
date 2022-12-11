@@ -85,12 +85,10 @@ class ShopManager:
         return regions
 
     def getShopTypes(self) -> dict:  # returns all the different types of shops
-        types = {}
-        temp = []
+        types = []
         for key in self.shop_list:
-            if self.shop_list[key]["shop_type"] not in temp:
-                temp.append(self.shop_list[key]["shop_type"])
-        types.update({'Shop Types': temp})
+            if self.shop_list[key]["shop_type"] not in types:
+                types.append(self.shop_list[key]["shop_type"])
         return types
 
     def getShopByRegion(self, region: str) -> dict:

@@ -321,14 +321,14 @@ def generateShops():  # prompts the user for shop generation
         thread.start()
         threadList.append(thread)
     for thread in threadList:
-        thread.join()
+        thread.join()g
     shops.saveShops()  # saves the shops to the text file
     types.saveTypes()
     regions.saveRegions()
     et = time.time()
     print("Total time was: %s." % (et - st))
 
-
+# TODO: Fix this pls :D
 def makeShopRandom(type_shop: str, city: str, owner: str, region: str, wealth: str):
     region_list = list(regions.region_list)  # gets a list of the regions from the text file
     type_list = list(types.type_list.keys())  # gets a list of the types of shops from the text file

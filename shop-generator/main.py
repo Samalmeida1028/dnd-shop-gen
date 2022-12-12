@@ -321,7 +321,7 @@ def generateShops():  # prompts the user for shop generation
         thread.start()
         threadList.append(thread)
     for thread in threadList:
-        thread.join()g
+        thread.join()
     shops.saveShops()  # saves the shops to the text file
     types.saveTypes()
     regions.saveRegions()
